@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Developer Experience Platform - Runway",
+    "date": "June 2020 - Present",
+    "problem": "Launching applications to the cloud is extremely difficult and time consuming for teams while requiring knowledge in multiple technology disciplies.",
+    "solution": "An InnerSourced developer platform along with an automated Kubernetes ecosystem was created for handling onboarding to our cloud environment with click to deploy reducing the time to deliver from months to minutes eliminating manual processes.",
+    "technology_utilized": [
+      "Kubernetes",
+      "Kubernetes Operators",
+      "Backstage.io",
+      "React",
+      "Typescript",
+      "GitHub Actions",
+      "Argo CD",
+      "Terraform",
+      "Helm",
+      "REST APIs",
+      "Postgres",
+      "Azure",
+      "Nginx",
+      "Kuma",
+      "Datadog",
+      "Artifactory"
+    ],
+    "description_bullets": [
+      "Planned, architected, implemented, and managed an InnerSourced developer platform",
+      "Planned, architected, implemented, automated, and managed a Kubernetes ecosystem being used by customer facing systems",
+      "Served as the technical lead to a team of developers",
+      "Mentored new software developers within the direct product group as well as InnerSource contributors",
+      "Followed and maintained agile best practices",
+      "Performed requirements analysis and solution architecture design",
+      "Abstracted complex designs and implementations through a simple developer portal using various backend services",
+      "Communicated with other stakeholders and end users in the software development lifecycle"
+    ]
+  },
+  {
+    "name": "Networking and Firewall Orchestration Platform",
+    "date": "April 2018 - June 2020",
+    "problem": "All requests for networking are recorded manually and then multiple administrators perform the required task hours or days later in multiple platforms creating a lag in the time to delivery.",
+    "solution": "An orchestration platform for networking requests was created that is secure with enterprise authentication, fully logged, provided an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
+    "technology_utilized": [
+      "Kubernetes",
+      "HTML",
+      "CSS",
+      "Python",
+      "REST APIs",
+      "Websockets",
+      "MySql",
+      "Linux",
+      "Jenkins CI/CD",
+      "Active Directory",
+      "Regular Expressions",
+      "SNMP",
+      "Redis",
+      "RabbitMQ",
+      "Cisco Plug-n-Play",
+      "Nginx"
+    ],
+    "description_bullets": [
+      "Defined, implemented, and managed the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
+      "Worked within a project management/agile delivery methodology in a leading role",
+      "Documented solutions though data models, configurations, and setup within enterprise code management platforms",
+      "Ensured that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner"
+    ]
+  },
+  {
+    "name": "H3C Firmware Upgrade Automation",
+    "skip_print": true,
+    "date": "February 2019",
+    "problem": "Engineers have to manually upgrade the firmware on H3C devices as they are unsupported by all enterprise tools.",
+    "solution": "Create Perl script inside of CA Spectrum to push firmware with the expect module for an interactive automated session.",
+    "technology_utilized": [
+      "CA Spectrum",
+      "Perl Scripting",
+      "Expect Scripting",
+      "Regular Expressions",
+      "Comware OS (H3C)"
+    ],
+    "description_bullets": [
+      "Set out the integration strategy",
+      "Defined technical designs",
+      "Communicated with other stakeholders/end users in the software development lifecycle",
+      "Requirements Analysis and Solution Architecture Design"
+    ]
+  },
+  {
+    "name": "Network Device insourcing Automation",
+    "date": "March 2016 - June 2016",
+    "problem": "Migrate thousands of devices from an outsourced vendor to insourced.",
+    "solution": "Created a plan of migrating devices via SNMP TRAP and using SNMP to rapidly rewrite device configurations in bulk.",
+    "technology_utilized": [
+      "CA Spectrum",
+      "Perl Scripting",
+      "SNMP",
+      "Comware OS (H3C)",
+      "SSH"
+    ],
+    "description_bullets": [
+      "Defined technical requirements",
+      "Automated migration workflow",
+      "Optimized communication by implementing SNMP over SSH to reduce time to configure and reduce implementation failures",
+      "Developed new capabilities in existing toolsets to communicate with newly acquired unsupported devices",
+      "Worked with platform administrators and engineering teams to implement and validate solutions"
+    ]
+  }
+]

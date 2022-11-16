@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Mentor",
+        "link": "https://www.northwested.org/career-tech/programs/engineering-academy/",
+        "date": "Oct 1, 2021 - Present",
+        "forum": "Engineering Academy"
+    },
+    {
+        "name": "Engineering Academy Guidance Board Member",
+        "link": "https://www.northwested.org/career-tech/programs/engineering-academy/",
+        "date": "Oct 1, 2021 - Present",
+        "forum": "Engineering Academy"
+    },
+    {
+        "name": "Batteries included: Developer Experience at American Airlines",
+        "link": "https://www.youtube.com/watch?v=MU5TbNGTBO4",
+        "date": "May 10, 2022",
+        "forum": "DevTools Porto: Backstage"
+    },
+    {
+        "name": "American Airlines - Developer Experience, part 2",
+        "link": "https://www.youtube.com/watch?app=desktop&v=I2uEhK0T8MY",
+        "date": "Feb 2, 2022",
+        "forum": "Canton Coders"
+    },
+    {
+        "name": "American Airlines Developer Experience Takes Off With Service Mesh",
+        "link": "https://konghq.com/blog/kuma-service-mesh-american-airlines/",
+        "date": "Jan 26, 2022",
+        "forum": "Kong Inc. Blog"
+    },
+    {
+        "name": "Runway - The Developer Experience Product @ American Airlines",
+        "link": "https://tech.aa.com/2021-12-21-runway-pt1/",
+        "date": "Dec 21, 2021",
+        "forum": "American Airlines Tech Blog"
+    },
+    {
+        "name": "Kuma Service Mesh and Backstage.io at American Airlines",
+        "link": "https://konghq.com/videos/kuma-and-backstage",
+        "date": "Sept 28, 2021",
+        "forum": "Kong Summit 2021"
+    },
+    {
+        "name": "The Developer Experience @ American Airlines driven by Spotify Backstage",
+        "link": "https://www.youtube.com/watch?app=desktop&v=kZFdHmM5-7M&feature=youtu.be",
+        "date": "Jun 2, 2021",
+        "forum": "Canton Coders"
+    }
+]
