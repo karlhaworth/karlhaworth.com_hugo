@@ -1,0 +1,59 @@
+
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+
+<div class="font-raleway">
+    <!-- CONTAINER -->
+    <div class="container  mx-auto">
+      <!-- EDUCATION -->
+      {{ partial "education.html" . }}
+      <!-- END EDUCATION -->
+      <hr/>
+      <!-- EXPERIENCE -->
+      {{ partial "experience.html" . }}
+      <!-- END EXPERIENCE -->
+      <hr/>
+      <!-- SKILLS -->
+      {{ partial "skills.html" . }}
+      <!-- END SKILLS -->
+      <hr/>
+    </div>
+    <!-- END CONTAINER -->
+    <!-- BOTTOM WRAP -->
+    <div id="bottom_wrap" class="bg-[#2c3e50] text-white">
+      <!-- CONTAINER -->
+      <div class="container mx-auto">
+        <!-- AWARDS -->
+        {{ partial "awards.html" . }}
+        <!-- END AWARDS -->
+        <hr/>
+        <!-- NOTABLE RECOGNITION -->
+        {{ partial "recognition.html" . }}
+        <!-- END NOTABLE RECOGNITION -->
+        <hr/>
+        <!-- PROJECTS -->
+        {{ partial "projects.html" . }}
+        <!-- END PROJECTS -->
+        <hr/>
+        <!-- COMMUNITY_ENGAGEMENTS -->
+        {{ partial "community_engagements.html" . }}
+        <!-- END COMMUNITY_ENGAGEMENTS -->
+      </div>
+      <!-- END CONTAINER -->
+    </div>
+    <!-- END BOTTOM WRAP -->
+    <!-- ABOUT WRAP -->
+    <div id="about_wrap" class="print:hidden bg-[#2f2f2f]">
+      <!-- CONTAINER -->
+      <div class="container  mx-auto">
+        <!-- ABOUT -->
+        {{ partial "about.html" . }}
+        <!-- END ABOUT -->
+      </div>
+      <!-- END CONTAINER -->
+    </div>
+    <!-- ABOUT WRAP -->
+  </div>
+
+{{ partial "footer.html" . }}

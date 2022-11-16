@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <title>Karl Haworth | {{ .Site.Title }}</title>
+
+        {{ $sass := resources.Get "lightbox2/dist/css/lightbox.css" }}
+        {{ $style := $sass | resources.ToCSS }}
+        {{/*  <link rel="stylesheet" href="{{ $style.RelPermalink }}">  */}}
+
+        {{ $sass := resources.Get "main.scss" }}
+        {{ $style := $sass | resources.ToCSS }}
+        {{/*  <link rel="stylesheet" href="{{ $style.RelPermalink }}">  */}}
+
+        {{ $style := resources.Get "style.css" }}    
+        <link rel="stylesheet" href="{{ $style.Permalink }}"> 
+        <link rel="stylesheet" href="/fonts.css"> 
+
+        <!-- generics -->
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon32.png" sizes="32x32">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon57.png" sizes="57x57">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon76.png" sizes="76x76">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon96.png" sizes="96x96">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon128.png" sizes="128x128">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon192.png" sizes="192x192">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon228.png" sizes="228x228">
+
+        <!-- Android -->
+        <link rel="shortcut icon" sizes="196x196" href="{{ .Site.BaseURL }}/favicon/favicon196.png">
+
+        <!-- iOS -->
+        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/favicon/favicon120.png" sizes="120x120">
+        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/favicon/favicon152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/favicon/favicon180.png" sizes="180x180">
+
+        <!-- Windows 8 IE 10-->
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}/favicon/favicon144.png">
+
+        <!-- Windows 8.1 + IE11 and above -->
+        <meta name="msapplication-config" content="{{ .Site.BaseURL }}/favicon/browserconfig.xml" />
+
+        <meta name="description" content="asdf">
+        <meta name="revisit-after" content="7 days">
+        <meta name="keywords" content="karl haworth,karl,haworth,automation,devops,arizona,az,orchestration,statistics,mta,manufacturing technology academy,michigan,mi,traverse city,albion,american airlines,us airways,timber ridge resort,technology,it,process automation,engineer">
+
+        <script type='application/ld+json'> 
+        {
+            "@context": "http://www.schema.org",
+            "@type": "person",
+            "name": "Karl Haworth",
+            "jobTitle": "Principal Engineer",
+            "url": "https://karlhaworth.com",
+            "image": "https://karlhaworth.com//karl_haworth_resized@3x.jpg",
+            "sameAs": "https://www.linkedin.com/in/karl-haworth/",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "American Airlines Inc."
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Chandler",
+                "addressRegion": "Arizona",
+                "postalCode": "85226"
+            }
+        }
+        </script>
+
+    </head>
+    <body class="mx-auto">
