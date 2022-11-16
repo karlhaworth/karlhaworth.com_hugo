@@ -1,0 +1,11 @@
+baseURL = 'https://karlhaworth.com'
+languageCode = 'en-us'
+title = 'Karl Haworth'
+theme = "karlhaworth-com"
+copyright = "test"
+description = "sadf"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
