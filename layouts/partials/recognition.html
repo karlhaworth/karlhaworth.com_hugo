@@ -1,0 +1,55 @@
+{{ $recognition := site.Data.notable_recognition }}
+
+<section class="grid grid-cols-6">
+    <div>
+        <h5 id="notableRecognition">Notable Recognition</h5>
+    </div>
+    <div class="col-span-5">
+        {{ range $index, $element := $recognition }}
+            {{ if eq (add $index 1) (4) }}
+                <div style="display: none;">
+            {{end}}
+                <div class="block">
+                    <div class="grid">
+                        <div class="col-md-12">
+                            {{ $element.comments }}
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-4 pb-2">
+                        <div class="col-span-3">
+                            <i>
+                                -
+                                {{ $element.role }}</i>
+                        </div>
+                        <div class="text-right">
+                            <span class="badge badge-secondary">{{ $element.date }}</span >
+                        </div>
+                    </div>
+                </div>
+            {{ if eq (add $index 1) (len $recognition) }}
+                </div>
+            {{ end }}
+        {{ end }}
+        <button type="button" class="collapsible print:hidden">Show More +</button>
+    </div>
+</section>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.previousElementSibling
+        console.log(content)
+        if (content.style.display === "block") {
+          content.style.display = "none";
+          coll[0].innerHTML = "Show More +"
+        } else {
+          content.style.display = "block";
+          coll[0].innerHTML = "Show Less -"
+        }
+      });
+    }
+    </script>

@@ -1,0 +1,31 @@
+{{ $awards := site.Data.awards }}
+
+<section class="grid grid-cols-6">
+    <div>
+        <h5 id="awards">Awards</h5>
+    </div>
+    <div class="col-span-5">
+        {{ range $awards }}
+            <div class="grid {{ if .hide }} print:hidden {{ end }}">
+                <div class="grid grid-cols-1">
+                    <div>
+                        <strong>{{ .awardName }}</strong>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1">
+                    <div>
+                        {{ .description }}
+                    </div>
+                </div>
+                <div class="grid grid-cols-4">
+                    <div class="col-span-3">
+                        <i>- {{ .presentedBy }}</i>
+                    </div>
+                    <div class="text-right">
+                        <span class="badge badge-secondary">{{ .date }}</span>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</section>

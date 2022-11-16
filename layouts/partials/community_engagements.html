@@ -1,0 +1,19 @@
+{{ $communityEngagements := site.Data.community_engagements }}
+
+<section class="grid grid-cols-6">
+    <div>
+        <h5 id="communityEngagements">Community Engagements</h5>
+    </div>
+    <div class="col-span-5">
+        {{ range $communityEngagements }}
+            <div class="grid grid-cols-4">
+                <div class="col-span-3">
+                    <strong><a target="_blank" href="{{ .link }}">{{ .name }}</a> - {{ .forum }}</strong>
+                </div>
+                <div class="text-right">
+                    <span class="badge badge-secondary">{{ .date }}</span >
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</section>

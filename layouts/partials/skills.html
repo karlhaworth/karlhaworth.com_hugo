@@ -1,0 +1,12 @@
+{{ $skills := site.Data.technical_skills }}
+
+<section class="grid grid-cols-6">
+    <div>
+        <h5 id="skills">Technical Skills</h5>
+    </div>
+    <div class="col-span-5 technical_skills_bullets">
+        {{ range $skills }}
+            <span class="text-white p-1 rounded-md bg-[#28a745]">{{ . }}</span>
+        {{ end }}
+    </div>
+</section>
