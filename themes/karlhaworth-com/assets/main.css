@@ -2,16 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --green-color: #1abc9c;
+}
 
 @layer base {
   h1 {
-    @apply text-4xl;
+    @apply text-5xl;
   }
   h2 {
     @apply text-3xl;
   }
   h5 {
     @apply uppercase;
+    @apply text-lg;
+    @apply font-medium;
   }
 }
 
@@ -27,4 +32,8 @@
     max-height: 99em;
     transition: max-height .5s ease-in-out;
   }
+}
+
+a {
+  color: var(--green-color);
 }

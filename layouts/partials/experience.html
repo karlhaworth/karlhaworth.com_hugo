@@ -12,10 +12,10 @@
                         <strong itemprop="jobTitle">{{ .title }}</strong>
                     </div>
                     <div>
-                        <span class="bg-[#007bff] text-white p-1 rounded-md" itemprop="name">{{ .company }}<span class="icon-{{.icon}} pl-2 print:hidden"></span></span>
+                        <span class="bg-[#007bff] text-white p-0.5 rounded-md" itemprop="name">{{ .company }}<span class="icon-{{.icon}} pl-2 print:hidden"></span></span>
                     </div>
                     <div class="col-span-2 text-right">
-                        <span class="bg-[#6c757d] text-white p-1 rounded-md">{{ .employment_date }}</span >
+                        <span class="bg-[#6c757d] text-white p-0.5 rounded-md">{{ .employment_date }}</span >
                     </div>
                 </div>
                 <div class="grid grid-cols-1  {{ if .oneliner }} print:hidden {{ end }}">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="grid grid-cols-1 {{ if .oneliner }} print:hidden {{ end }}">
                     <div>
-                        <ul class="m-0">
+                        <ul class="list-disc ml-5">
                             {{ range .bullets }}
                                 <li>{{ . }}</li>
                             {{ end }}
