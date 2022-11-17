@@ -5,23 +5,23 @@
 #### Serve
 
 ```bash
-hugo serve
+make serve
 ```
 
 #### Build
 
 ```bash
-hugo build
+make build
 ```
 
 #### Tailwind Updates
 
 ```bash
-cd themes/karlhaworth-com && npm run build-tw
+make tailwind
 ```
 
 ### CloudFlare Build
 
 ```bash
-cd themes/karlhaworth-com && npm install && npm run build-tw && cd ../../ && hugo -b $CF_PAGES_URL
+make build-cloudflare
 ```
