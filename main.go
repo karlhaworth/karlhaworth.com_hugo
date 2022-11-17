@@ -7,6 +7,9 @@ import (
 	"os"
 
 	"github.com/go-rod/rod"
+	"github.com/go-rod/rod/lib/proto"
+	"github.com/go-rod/rod/lib/utils"
+	"github.com/ysmood/gson"
 )
 
 func main() {
@@ -18,6 +21,17 @@ func main() {
 
 	filepath := path + "/public/index.html"
 
-	rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad().MustPDF("./public/karl_haworth_resume.pdf")
+	page := rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad()
+	page.MustPDF("./public/karl_haworth_resume.pdf")
+	// customized version
+	pdf, _ := page.PDF(&proto.PagePrintToPDF{
+		PaperWidth:   gson.Num(8.5),
+		PaperHeight:  gson.Num(11),
+		MarginTop:    gson.Num(0.25),
+		MarginBottom: gson.Num(0.25),
+		MarginRight:  gson.Num(0.25),
+		MarginLeft:   gson.Num(0.25),
+	})
+	_ = utils.OutputFile("./public/karl_haworth_resume.pdf", pdf)
 	fmt.Println("wrote ./public/karl_haworth_resume.pdf")
 }
