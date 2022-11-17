@@ -5,6 +5,8 @@ theme = "karlhaworth-com"
 copyright = "test"
 description = "sadf"
 
+disableKinds = ["taxonomy", "term"]
+
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'
