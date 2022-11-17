@@ -6,10 +6,8 @@ serve:
 build:
 	hugo build
 
-build-cloudflare: tailwind-install tailwind-build
+build-cloudflare: tailwind-install tailwind-build make-pdf
 	hugo --minify -b ${CF_PAGES_URL}
-	go install
-	go run main.go
 
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
@@ -22,3 +20,6 @@ tailwind-build:
 make-pdf:
 	go install
 	go run main.go
+	pwd
+	cat ./public/index.html
+	hugo --minify
