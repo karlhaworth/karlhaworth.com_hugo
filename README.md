@@ -25,3 +25,10 @@ make tailwind
 ```bash
 make build-cloudflare
 ```
+
+#### ENV Vars for CloudFlare
+
+|Name|Value|
+|---|--|
+|GO_VERSION|1.19.2|
+|NODE_VERSION|16.15.1|
