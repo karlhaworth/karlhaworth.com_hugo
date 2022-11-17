@@ -9,7 +9,7 @@
 @layer base {
   h1 {
     @apply text-5xl;
-    @apply print:text-sm;
+    @apply print:text-base;
   }
   h2 {
     @apply text-3xl;
