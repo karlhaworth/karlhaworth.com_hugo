@@ -19,13 +19,9 @@ func main() {
 		log.Println(err)
 	}
 
-	filepath := path + "/public/index.html"
+	filepath := path + "/pdf_public/index.html"
 
 	outfilePath := "./public/karl_haworth_resume.pdf"
-	err1 := os.MkdirAll("public/", os.ModePerm)
-	if err1 != nil {
-		log.Println(err)
-	}
 
 	page := rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad()
 	page.MustPDF(outfilePath)
