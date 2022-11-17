@@ -3,7 +3,11 @@
         "commands": [
             {
                 "match": "themes/karlhaworth-com/assets/main.css",
-                "cmd": "cd themes/karlhaworth-com && npm run build-tw"
+                "cmd": "make tailwind"
+            },
+            {
+                "match": "\\.html$",
+                "cmd": "make tailwind"
             },
         ]
     }
