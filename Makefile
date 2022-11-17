@@ -20,6 +20,6 @@ tailwind-build:
 	npm run build-tw
 
 make-pdf:
-	hugo --minify --destination pdf_public -b /opt/buildhome/repo/pdf_public
+	hugo --minify --destination pdf_public -b $(pwd)/pdf_public
 	go install
 	go run main.go
