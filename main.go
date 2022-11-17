@@ -21,6 +21,12 @@ func main() {
 
 	filepath := path + "/public/index.html"
 
+	outfilePath := "./public/karl_haworth_resume.pdf"
+	err1 := os.MkdirAll(outfilePath, os.ModePerm)
+	if err1 != nil {
+		log.Println(err)
+	}
+
 	page := rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad()
 	page.MustPDF("./public/karl_haworth_resume.pdf")
 	// customized version
@@ -32,6 +38,6 @@ func main() {
 		MarginRight:  gson.Num(0.25),
 		MarginLeft:   gson.Num(0.25),
 	})
-	_ = utils.OutputFile("./public/karl_haworth_resume.pdf", pdf)
-	fmt.Println("wrote ./public/karl_haworth_resume.pdf")
+	_ = utils.OutputFile(outfilePath, pdf)
+	fmt.Println("wrote " + outfilePath)
 }
