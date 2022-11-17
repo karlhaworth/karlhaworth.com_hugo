@@ -12,31 +12,31 @@
 
         {{ $style := resources.Get "style.css" }}    
         <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
-        <link rel="stylesheet" href="/fonts.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/fonts.css"> 
 
         <!-- generics -->
-        <link rel="icon" href="/favicon/favicon32.png" sizes="32x32">
-        <link rel="icon" href="/favicon/favicon57.png" sizes="57x57">
-        <link rel="icon" href="/favicon/favicon76.png" sizes="76x76">
-        <link rel="icon" href="/favicon/favicon96.png" sizes="96x96">
-        <link rel="icon" href="/favicon/favicon128.png" sizes="128x128">
-        <link rel="icon" href="/favicon/favicon192.png" sizes="192x192">
-        <link rel="icon" href="/favicon/favicon228.png" sizes="228x228">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon32.png" sizes="32x32">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon57.png" sizes="57x57">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon76.png" sizes="76x76">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon96.png" sizes="96x96">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon128.png" sizes="128x128">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon192.png" sizes="192x192">
+        <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon228.png" sizes="228x228">
 
         <!-- Android -->
-        <link rel="shortcut icon" sizes="196x196" href="/favicon/favicon196.png">
+        <link rel="shortcut icon" sizes="196x196" href="{{ .Site.BaseURL }}/favicon/favicon196.png">
 
         <!-- iOS -->
-        <link rel="apple-touch-icon" href="/favicon/favicon120.png" sizes="120x120">
-        <link rel="apple-touch-icon" href="/favicon/favicon152.png" sizes="152x152">
-        <link rel="apple-touch-icon" href="/favicon/favicon180.png" sizes="180x180">
+        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/favicon/favicon120.png" sizes="120x120">
+        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/favicon/favicon152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/favicon/favicon180.png" sizes="180x180">
 
         <!-- Windows 8 IE 10-->
         <meta name="msapplication-TileColor" content="#FFFFFF">
-        <meta name="msapplication-TileImage" content="/favicon/favicon144.png">
+        <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}/favicon/favicon144.png">
 
         <!-- Windows 8.1 + IE11 and above -->
-        <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+        <meta name="msapplication-config" content="{{ .Site.BaseURL }}/favicon/browserconfig.xml" />
 
         <meta name="description" content="asdf">
         <meta name="revisit-after" content="7 days">
