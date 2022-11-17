@@ -8,7 +8,7 @@ build:
 
 build-cloudflare: tailwind-install tailwind-build
 	hugo --minify -b ${CF_PAGES_URL}
-	hugo --minify --destination pdf_public -b /opt/buildhome/repo
+	hugo --minify --destination pdf_public -b /opt/buildhome/repo/pdf_public
 	pwd
 	cat ./pdf_public/index.html
 	go install
