@@ -3,11 +3,11 @@
         "commands": [
             {
                 "match": "themes/karlhaworth-com/assets/main.css",
-                "cmd": "make tailwind"
+                "cmd": "make tailwind-build"
             },
             {
                 "match": "\\.html$",
-                "cmd": "make tailwind"
+                "cmd": "make tailwind-build"
             },
         ]
     }

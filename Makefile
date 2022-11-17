@@ -6,10 +6,14 @@ serve:
 build:
 	hugo build
 
-build-cloudflare: tailwind
+build-cloudflare: tailwind-install
+	tailwind-build
 	hugo
 
-tailwind:
+tailwind-install:
 	cd ./themes/karlhaworth-com && \
-	npm install && \
+	npm install
+
+tailwind-build:
+	cd ./themes/karlhaworth-com && \
 	npm run build-tw
