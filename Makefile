@@ -8,8 +8,6 @@ build:
 
 build-cloudflare: tailwind-install tailwind-build
 	hugo --minify
-	go install
-	go run main.go
 
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
