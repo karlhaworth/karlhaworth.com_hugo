@@ -12,6 +12,8 @@ build-cloudflare: tailwind-install tailwind-build
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
 	npm install
+	go install
+	go run main.go
 
 tailwind-build:
 	cd ./themes/karlhaworth-com && \
