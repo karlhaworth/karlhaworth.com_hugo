@@ -22,13 +22,13 @@ func main() {
 	filepath := path + "/public/index.html"
 
 	outfilePath := "./public/karl_haworth_resume.pdf"
-	err1 := os.MkdirAll(outfilePath, os.ModePerm)
+	err1 := os.MkdirAll("public/", os.ModePerm)
 	if err1 != nil {
 		log.Println(err)
 	}
 
 	page := rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad()
-	page.MustPDF("./public/karl_haworth_resume.pdf")
+	page.MustPDF(outfilePath)
 	// customized version
 	pdf, _ := page.PDF(&proto.PagePrintToPDF{
 		PaperWidth:   gson.Num(8.5),
