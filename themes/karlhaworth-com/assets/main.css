@@ -34,6 +34,10 @@
   }
 }
 
+.container {
+  @apply px-2;
+}
+
 a {
   color: var(--green-color);
 }
