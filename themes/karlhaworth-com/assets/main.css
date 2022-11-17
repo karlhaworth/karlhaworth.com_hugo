@@ -9,6 +9,7 @@
 @layer base {
   h1 {
     @apply text-5xl;
+    @apply print:text-sm;
   }
   h2 {
     @apply text-3xl;
@@ -17,6 +18,7 @@
     @apply uppercase;
     @apply text-lg;
     @apply font-medium;
+    @apply print:text-sm;
   }
 }
 
@@ -38,6 +40,8 @@
 
 .container {
   @apply px-2;
+  @apply print:px-0;
+  @apply print:text-xs;
 }
 
 a {
