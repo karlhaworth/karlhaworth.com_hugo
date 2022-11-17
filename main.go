@@ -33,6 +33,7 @@ func main() {
 		MarginBottom: gson.Num(0.15),
 		MarginRight:  gson.Num(0.15),
 		MarginLeft:   gson.Num(0.15),
+		Scale:        gson.Num(0.95),
 	})
 	_ = utils.OutputFile(outfilePath, pdf)
 	fmt.Println("wrote " + outfilePath)
