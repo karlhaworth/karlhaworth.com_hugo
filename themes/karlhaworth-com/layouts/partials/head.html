@@ -10,10 +10,6 @@
         {{ $style := $sass | resources.ToCSS }}
         {{/*  <link rel="stylesheet" href="{{ $style.RelPermalink }}">  */}}
 
-        {{ $sass := resources.Get "main.scss" }}
-        {{ $style := $sass | resources.ToCSS }}
-        {{/*  <link rel="stylesheet" href="{{ $style.RelPermalink }}">  */}}
-
         {{ $style := resources.Get "style.css" }}    
         <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
         <link rel="stylesheet" href="/fonts.css"> 
