@@ -18,6 +18,6 @@ func main() {
 
 	filepath := path + "/public/index.html"
 
-	rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad().MustPDF("./public/karl_haworth-resume.pdf")
-	fmt.Println("wrote ./public/karl_haworth-resume.pdf")
+	rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad().MustPDF("./public/karl_haworth_resume.pdf")
+	fmt.Println("wrote ./public/karl_haworth_resume.pdf")
 }
