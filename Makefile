@@ -7,7 +7,7 @@ build:
 	hugo build
 
 build-cloudflare: tailwind-install tailwind-build
-	hugo --minify -b $CF_PAGES_URL
+	hugo --minify -b ${CF_PAGES_URL}
 
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
