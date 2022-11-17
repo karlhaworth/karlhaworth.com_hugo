@@ -1,12 +1,12 @@
 <footer class="print:hidden bg-[#222]">
     <div class="text-right text-white container  mx-auto">
-        <div class="grid sm:grid-cols-6 print:grid-cols-6 grid-cols-1">
+        <div class="grid sm:grid-cols-7 print:grid-cols-7 grid-cols-1">
             <div class="made_with">
                 <svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                 </svg>
             </div>
-            <div>
+            <div class="align-middle inline-block ">
                 {{ $image := resources.Get "technologies/11ty.png" }}
                 {{ $image1x := $image.Resize "x20" }}
                 {{ $image2x := $image.Resize "x40" }}
@@ -34,7 +34,7 @@
                 {{ $image3x := $image.Resize "x80" }}
                 <img srcset="{{ $image2x.RelPermalink }} 2x {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="cloudflare"/>
             </div>
-            <div id="copyright">
+            <div id="copyright" class="col-span-2">
                 Created by KARLHAWORTH<br/>
                 Copyright © {{ now.Year }}
             </div>
