@@ -6,8 +6,7 @@ serve:
 build:
 	hugo build
 
-build-cloudflare: tailwind-install
-	tailwind-build
+build-cloudflare: tailwind-install tailwind-build
 	hugo
 
 tailwind-install:
