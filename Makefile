@@ -8,7 +8,8 @@ build:
 
 build-cloudflare: tailwind-install tailwind-build
 	hugo --minify
-	npm install -g puppeteer
+	npm install --location=global puppeteer
+	node puppeteer.js
 
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
