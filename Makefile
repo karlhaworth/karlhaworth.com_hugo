@@ -7,7 +7,7 @@ build:
 	hugo build
 
 build-cloudflare: tailwind
-	hugo -b $CF_PAGES_URL
+	hugo
 
 tailwind:
 	cd ./themes/karlhaworth-com && \
