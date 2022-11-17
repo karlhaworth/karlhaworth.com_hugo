@@ -1,13 +1,13 @@
 {{ $projects := site.Data.work_projects }}
 
-<section class="grid grid-cols-6" id="projects">
+<section class="grid sm:grid-cols-6 grid-cols-1" id="projects">
     <div>
         <h5 id="projects">Projects</h5>
     </div>
     <div class="col-span-5">
         {{ range $projects }}
             <div class="{{ if .skip_print }} print:hidden {{end}}">
-                <div class="grid grid-cols-4">
+                <div class="grid sm:grid-cols-4 grid-cols-1">
                     <div class="col-span-3">
                         <strong>{{ .name }}</strong>
                     </div>
@@ -15,7 +15,7 @@
                         <span class="bg-[#6c757d] text-white p-0.5 rounded-md">{{ .date }}</span>
                     </div>
                 </div>
-                <div class="grid grid-cols-12">
+                <div class="grid sm:grid-cols-12 grid-cols-1">
                     <div class="col-span-5">
                         <div class="uppercase">Problem</div>
                         <div class="ml-3">{{ .problem }}</div>
