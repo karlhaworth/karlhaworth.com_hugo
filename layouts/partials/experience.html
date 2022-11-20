@@ -8,13 +8,13 @@
         {{ range $experience }}
             <div itemscope itemtype="http://schema.org/Organization" class="{{ .class }}">
                 <div class="grid sm:grid-cols-6 print:grid-cols-6 grid-cols-1">
-                    <div class="col-span-3">
+                    <div class="sm:col-span-3">
                         <strong itemprop="jobTitle">{{ .title }}</strong>
                     </div>
                     <div>
                         <span class="bg-[#007bff] text-white p-0.5 rounded-md whitespace-nowrap" itemprop="name">{{ .company }}<span class="icon-{{.icon}} pl-2 print:hidden"></span></span>
                     </div>
-                    <div class="col-span-2 text-right">
+                    <div class="sm:col-span-2 text-right">
                         <span class="bg-[#6c757d] text-white p-0.5 rounded-md whitespace-nowrap">{{ .employment_date }}</span >
                     </div>
                 </div>
