@@ -7,7 +7,7 @@
 - [Tailwind](http://tailwindcss.com)
 - [Sass](https://sass-lang.com)
 - [Hugo](http://gohugo.io)
-- [Chrome Headless](https://github.com/go-rod/rod)
+- [Cloudflare](https://cloudflare.com)
 
 ### Local
 
