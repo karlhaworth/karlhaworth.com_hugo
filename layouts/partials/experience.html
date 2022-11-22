@@ -1,9 +1,7 @@
 {{ $experience := site.Data.experience }}
 
 <section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1">
-    <div>
-        <h5 id="experience">Experience</h5>
-    </div>
+    <h5 id="experience">Experience</h5>
     <div class="col-span-5">
         {{ range $experience }}
             <div itemscope itemtype="http://schema.org/Organization" class="{{ .class }}">
@@ -24,13 +22,11 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-1 {{ if .oneliner }} print:hidden {{ end }}">
-                    <div>
-                        <ul class="list-disc ml-5">
-                            {{ range .bullets }}
-                                <li>{{ . }}</li>
-                            {{ end }}
-                        </ul>
-                    </div>
+                    <ul class="list-disc ml-5">
+                        {{ range .bullets }}
+                            <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
                 </div>
             </div>
         {{ end }}

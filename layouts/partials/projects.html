@@ -1,9 +1,7 @@
 {{ $projects := site.Data.work_projects }}
 
 <section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1" id="projects">
-    <div>
-        <h5 id="projects">Projects</h5>
-    </div>
+    <h5 id="projects">Projects</h5>
     <div class="col-span-5">
         {{ range $projects }}
             <div class="{{ if .skip_print }} print:hidden {{end}}">
