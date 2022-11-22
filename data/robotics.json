@@ -1,78 +1,78 @@
 {
   "main_img": {
     "title": "Solid Works CAD Drawing",
-    "img": "Drawing.png"
+    "img": "robotics/pictures/Drawing.png"
   },
   "imgs": [
     {
       "title": "Preliminary Inside View",
-      "img": "robotics-1.jpg",
-      "thumbnail": "robotics-1.jpg"
+      "img": "robotics/pictures/robotics-1.jpg",
+      "thumbnail": "robotics/pictures/robotics-1.jpg"
     },
     {
       "title": "Before Competition",
-      "img": "robotics-2.jpg",
-      "thumbnail": "robotics-2.jpg"
+      "img": "robotics/pictures/robotics-2.jpg",
+      "thumbnail": "robotics/pictures/robotics-2.jpg"
     },
     {
       "title": "Final Internal View",
-      "img": "robotics-4.jpg",
-      "thumbnail": "robotics-4.jpg"
+      "img": "robotics/pictures/robotics-4.jpg",
+      "thumbnail": "robotics/pictures/robotics-4.jpg"
     },
     {
       "title": "Setting the Sumo Robot on the competition floor",
-      "img": "robotics-5.jpg",
-      "thumbnail": "robotics-5.jpg"
+      "img": "robotics/pictures/robotics-5.jpg",
+      "thumbnail": "robotics/pictures/robotics-5.jpg"
     },
     {
       "title": "Robot at the Haggerty Center's NASA exhibit",
-      "img": "robotics-6.jpg",
-      "thumbnail": "robotics-6.jpg"
+      "img": "robotics/pictures/robotics-6.jpg",
+      "thumbnail": "robotics/pictures/robotics-6.jpg"
     },
     {
       "title": "Robot at the Haggerty Center's NASA exhibit",
-      "img": "robotics-7.jpg",
-      "thumbnail": "robotics-7.jpg"
+      "img": "robotics/pictures/robotics-7.jpg",
+      "thumbnail": "robotics/pictures/robotics-7.jpg"
     },
     {
       "title": "Robot at the Haggerty Center's NASA exhibit",
-      "img": "robotics-8.jpg",
-      "thumbnail": "robotics-8.jpg"
+      "img": "robotics/pictures/robotics-8.jpg",
+      "thumbnail": "robotics/pictures/robotics-8.jpg"
     },
     {
       "title": "Electrical Components Top View",
-      "img": "robotics-9.jpg",
-      "thumbnail": "robotics-9.jpg"
+      "img": "robotics/pictures/robotics-9.jpg",
+      "thumbnail": "robotics/pictures/robotics-9.jpg"
     },
     {
       "title": "Treads and Motors",
-      "img": "robotics-10.jpg",
-      "thumbnail": "robotics-10.jpg"
+      "img": "robotics/pictures/robotics-10.jpg",
+      "thumbnail": "robotics/pictures/robotics-10.jpg"
     },
     {
       "title": "The team with sponsor Bill Marsh Jr.",
-      "img": "robotics-11.jpg",
-      "thumbnail": "robotics-11.jpg"
+      "img": "robotics/pictures/robotics-11.jpg",
+      "thumbnail": "robotics/pictures/robotics-11.jpg"
     },
     {
       "title": "The team with sponsor and electrical engineer Mark Perry",
-      "img": "robotics-12.jpg",
-      "thumbnail": "robotics-12.jpg"
+      "img": "robotics/pictures/robotics-12.jpg",
+      "thumbnail": "robotics/pictures/robotics-12.jpg"
     },
     {
       "title": "The team with both of our main sponsors",
-      "img": "robotics-13.jpg",
-      "thumbnail": "robotics-13.jpg"
+      "img": "robotics/pictures/robotics-13.jpg",
+      "thumbnail": "robotics/pictures/robotics-13.jpg"
     },
     {
       "title": "The Team | Karl Haworth & Jack Kerby-Miller",
-      "img": "robotics-3.jpg",
-      "thumbnail": "robotics-3.jpg"
+      "img": "robotics/pictures/robotics-3.jpg",
+      "thumbnail": "robotics/pictures/robotics-3.jpg"
     },
     {
       "title": "Electronics Assembly",
-      "img": "robotics-14.jpg",
-      "thumbnail": "robotics-14.jpg"
+      "img": "robotics/pictures/robotics-14.jpg",
+      "thumbnail": "robotics/pictures/robotics-14.jpg"
     }
   ]
 }

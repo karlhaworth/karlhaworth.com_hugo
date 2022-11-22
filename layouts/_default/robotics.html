@@ -9,7 +9,7 @@
   <div class="grid grid-cols-1">
     <div>
       <h5 class="text-right">
-        <a class="btn btn-primary" href="/" role="button">
+        <a href="/" role="button">
           <svg
             width="1em"
             height="1em"
@@ -42,14 +42,13 @@
       2010<br />
     </div>
     <div style="line-height: 1.5">
+      {{ $image := resources.Get "robotics/pictures/robot-main.png" }}
+      {{ $image3x := $image.Resize "240x" }}
       <img
-        class="alignleft size-full float-left m-4"
-        style="border: 0px none"
-        title="Robot"
-        alt=""
-        src="{{ .Site.BaseURL }}/robotics/pictures/robot-main.png"
-        width="240"
-        height="228"
+        class="float-left m-4"
+        title="Sumo Robot"
+        alt="Sumo Robot"
+        src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
       />
       <p>
         As part of their senior project at the Manufacturing Technology Academy,
@@ -96,24 +95,23 @@
   </div>
   <div class="grid grid-cols-3">
     {{ range $robotics.imgs }}
-    <div class="p-2" style="text-align: center">
+    {{ $image := resources.Get .img }}
+    <div class="p-2">
       <a
         title="{{ .title }}"
-        href="{{ .Site.BaseURL }}/robotics/pictures/{{ .img }}"
+        href="{{ $image.RelPermalink }}"
         data-lightbox="robotics_slideshow"
-        ><br />
-        <img
-          alt=""
-          src="{{ .Site.BaseURL }}/robotics/pictures/{{ .thumbnail }}"
-        /><br />
+        >
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
       </a>
     </div>
     {{ end }}
   </div>
   <div class="row" style="padding-top: 20px">
     <div class="col-md-12 text-center">
+      {{ $pdf := resources.Get "robotics/heavy-weight.pdf" }}
       <embed
-        src="{{ .Site.BaseURL }}/robotics/heavy-weight.pdf"
+        src="{{ $pdf.RelPermalink }}"
         type="application/pdf"
         width="60%"
         height="700px"
@@ -122,7 +120,7 @@
   </div>
   <div>
     <h5 class="text-right">
-      <a class="btn btn-primary" href="/" role="button">
+      <a href="/" role="button">
         <svg
           width="1em"
           height="1em"
