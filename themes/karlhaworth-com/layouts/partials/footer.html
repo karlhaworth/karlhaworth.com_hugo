@@ -11,28 +11,28 @@
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="11ty"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="11ty"/>
             </div>
             <div>
                 {{ $image := resources.Get "technologies/github.png" }}
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="bootstrap"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="bootstrap"/>
             </div>
             <div>
                 {{ $image := resources.Get "technologies/hugo.png" }}
                 {{ $image1x := $image.Resize "x25" }}
-                {{ $image2x := $image.Resize "x60" }}
+                {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="github"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="github"/>
             </div>
             <div>
                 {{ $image := resources.Get "technologies/tailwind.png" }}
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="cloudflare"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" class="img-responsive" alt="cloudflare"/>
             </div>
             <div id="copyright" class="col-span-2 text-xs">
                 Created by KARLHAWORTH<br/>
