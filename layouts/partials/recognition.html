@@ -5,7 +5,7 @@
     <div class="col-span-5">
         {{ range $index, $element := $recognition }}
             {{ if eq (add $index 1) (4) }}
-                <div style="display: none;">
+                <div class="hidden">
             {{end}}
                 <div class="block">
                     <div class="grid">
