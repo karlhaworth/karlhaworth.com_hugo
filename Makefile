@@ -22,7 +22,6 @@ tailwind-build:
 
 make-pdf:
 	PWD=$(pwd)
-	echo ${PWD}
 	hugo --minify --destination pdf_public -b ${PWD}/pdf_public
 	go install
 	go run main.go
