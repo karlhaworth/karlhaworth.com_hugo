@@ -2,9 +2,9 @@
 
 Resume website for Karl Haworth using [Hugo](http://gohugo.io) as a static site generator (SSG) with [Tailwind](http://tailwindcss.com) and [Sass](https://sass-lang.com) for styling. [Go-Rod](http://go-rod.github.io) is used to create a PDF from the generated content which serves as a resume using print media styling. A makefile is used to simplify the commands needed to generate the content.
 
-Using GitHub as a code repository and [CloudFlare Pages](https://pages.cloudflare.com) Pages to build and host this website. ($0)
+Using GitHub as a code repository and [CloudFlare Pages](https://pages.cloudflare.com) to build and host this website. ($0)
 Using [CloudFlare DNS](https://www.cloudflare.com/dns/). ($0)
-Using [CloudFlare](https://www.cloudflare.com/products/registrar/) as a domain name registrar to purchase domain at cost. (~$8/yr)
+Using [CloudFlare Domains](https://www.cloudflare.com/products/registrar/) to purchase domain at cost. (~$8/yr)
 
 ### Intent
 
