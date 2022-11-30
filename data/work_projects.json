@@ -1,5 +1,30 @@
 [
   {
+    "name": "Kubernetes Operator for Automation and Abstraction",
+    "date": "July 2021 - Present",
+    "problem": "Kubernetes can be extremely difficult for application teams to utilize and the number of required resource manifests can be overwhelming",
+    "solution": "A Kubneretes operator was developed to abstract away the complexities of the native Kuberentes manifests while bringing along the company's best practices. Through templates in the developer experience portal, the reduced yaml spec is easily setup for users and deployed to the clusters using a GitOps approach.",
+    "technology_utilized": [
+      "Kubernetes",
+      "Kubernetes Operators",
+      "GitHub Actions",
+      "Argo CD",
+      "Terraform",
+      "Helm",
+      "Azure",
+      "Nginx",
+      "Kuma",
+      "KOPF framework",
+      "Python"
+    ],
+    "description_bullets": [
+      "Planned, architected, implemented, automated, and managed a Kubernetes Operator being used by customer facing systems",
+      "Performed requirements analysis and solution architecture design",
+      "Communicated with other stakeholders and end users in the software development lifecycle",
+      "Worked with squad members to mentor and develop skillsets to run a successful operator supporting vital business functions"
+    ]
+  },
+  {
     "name": "Developer Experience Platform - Runway",
     "date": "June 2020 - Present",
     "problem": "Launching applications to the cloud is extremely difficult and time consuming for teams while requiring knowledge in multiple technology disciplies.",
@@ -45,13 +70,15 @@
       "Nginx",
       "Kuma",
       "Datadog",
-      "Artifactory"
+      "Artifactory",
+      "Certificates"
     ],
     "description_bullets": [
       "Planned, architected, implemented, automated, and managed a Kubernetes ecosystem being used by customer facing systems",
       "Performed requirements analysis and solution architecture design",
-      "Communicated with other stakeholders and end users in the software development lifecycle",
-      "Worked with Enterprise to consolidate clusters and create standards"
+      "Communicated with other stakeholders and end users in the platform development lifecycle",
+      "Worked with Enterprise to consolidate clusters and create standards",
+      "Worked with customers to troubleshoot problems within their application deployment"
     ]
   },
   {
