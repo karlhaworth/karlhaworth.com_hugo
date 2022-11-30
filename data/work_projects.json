@@ -17,20 +17,41 @@
       "REST APIs",
       "Postgres",
       "Azure",
-      "Nginx",
-      "Kuma",
-      "Datadog",
       "Artifactory"
     ],
     "description_bullets": [
       "Planned, architected, implemented, and managed an InnerSourced developer platform",
-      "Planned, architected, implemented, automated, and managed a Kubernetes ecosystem being used by customer facing systems",
       "Served as the technical lead to a team of developers",
       "Mentored new software developers within the direct product group as well as InnerSource contributors",
       "Followed and maintained agile best practices",
       "Performed requirements analysis and solution architecture design",
       "Abstracted complex designs and implementations through a simple developer portal using various backend services",
       "Communicated with other stakeholders and end users in the software development lifecycle"
+    ]
+  },
+  {
+    "name": "Enterprise Kubernetes Strategy",
+    "date": "April 2021 - March 2022",
+    "problem": "Many teams operate their own clusters which poses security and maintainability problems along with a duplication of efforts.",
+    "solution": "GitHub Actions was selected to run Terraform to standup new clusters along with full bootstrapping of all cluster components. Reduced the time to standup clusters from months to 40 minutes. Handed off to the work to the newly created Enterprise Kubernetes team to continue.",
+    "technology_utilized": [
+      "Kubernetes",
+      "Kubernetes Operators",
+      "GitHub Actions",
+      "Argo CD",
+      "Terraform",
+      "Helm",
+      "Azure",
+      "Nginx",
+      "Kuma",
+      "Datadog",
+      "Artifactory"
+    ],
+    "description_bullets": [
+      "Planned, architected, implemented, automated, and managed a Kubernetes ecosystem being used by customer facing systems",
+      "Performed requirements analysis and solution architecture design",
+      "Communicated with other stakeholders and end users in the software development lifecycle",
+      "Worked with Enterprise to consolidate clusters and create standards"
     ]
   },
   {
@@ -85,6 +106,7 @@
   },
   {
     "name": "Network Device insourcing Automation",
+    "skip_print": true,
     "date": "March 2016 - June 2016",
     "problem": "Migrate thousands of devices from an outsourced vendor to insourced.",
     "solution": "Created a plan of migrating devices via SNMP TRAP and using SNMP to rapidly rewrite device configurations in bulk.",
