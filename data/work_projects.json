@@ -83,6 +83,7 @@
   },
   {
     "name": "Networking and Firewall Orchestration Platform",
+    "skip_print": true,
     "date": "April 2018 - June 2020",
     "problem": "All requests for networking are recorded manually and then multiple administrators perform the required task hours or days later in multiple platforms creating a lag in the time to delivery.",
     "solution": "An orchestration platform for networking requests was created that is secure with enterprise authentication, fully logged, provided an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
