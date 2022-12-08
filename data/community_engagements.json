@@ -39,7 +39,8 @@
         "name": "Kuma Service Mesh and Backstage.io at American Airlines",
         "link": "https://konghq.com/videos/kuma-and-backstage",
         "date": "Sept 28, 2021",
-        "forum": "Kong Summit 2021"
+        "forum": "Kong Summit 2021",
+        "skip_print": true
     },
     {
         "name": "The Developer Experience @ American Airlines driven by Spotify Backstage",
