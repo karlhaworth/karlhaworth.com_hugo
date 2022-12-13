@@ -10,7 +10,7 @@
                         <strong>{{ .name }}</strong>
                     </div>
                     <div class="text-right">
-                        <span class="bg-[#6c757d] text-white py-0.5 px-1 rounded-md whitespace-nowrap">{{ .date }}</span>
+                        <span class="bg-[#6c757d] text-white p-0.5 rounded-md whitespace-nowrap">{{ .date }}</span>
                     </div>
                 </div>
                 <div class="grid sm:grid-cols-12 print:grid-cols-12 grid-cols-1">
@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-md-12 technology_bullets">
                         {{ range .technology_utilized }}
-                            <span class="bg-[#fff] print:border-black print:border-solid print:border text-[#2c3e50] rounded-md whitespace-nowrap p-0.5 print:p-0 leading-5">{{ . }}</span>
+                            <span class="bg-[#fff] print:border-black print:border-solid print:border text-[#2c3e50] rounded-md whitespace-nowrap py-0.5 px-1 leading-5">{{ . }}</span>
                         {{ end }}
                     </div>
                 </div>
