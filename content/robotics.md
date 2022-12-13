@@ -1,7 +1,4 @@
 ---
-title: "Contact Me"
+title: "Robotics"
 layout: robotics
 ---
-
-
-asdfasdfsf
