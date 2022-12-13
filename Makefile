@@ -3,13 +3,16 @@
 serve:
 	hugo serve
 
-build:
-	hugo
+publish-cloudflare: tailwind-install tailwind-build build-cloudflare build-pdf
 
 build-cloudflare:
 	hugo --minify -b ${CF_PAGES_URL}
 
-publish-cloudflare: tailwind-install tailwind-build build-cloudflare pdf
+build-pdf:
+	PWD=$(pwd)
+	hugo --minify --destination pdf_public -b ${PWD}/pdf_public
+	go install
+	go run main.go
 
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
@@ -18,9 +21,3 @@ tailwind-install:
 tailwind-build:
 	cd ./themes/karlhaworth-com && \
 	npm run build-tw
-
-pdf:
-	PWD=$(pwd)
-	hugo --minify --destination pdf_public -b ${PWD}/pdf_public
-	go install
-	go run main.go

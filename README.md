@@ -35,10 +35,16 @@ Bootstrap was used however many hacks were needed to make it appear the way I wa
 make serve
 ```
 
-#### Build
+#### Build Local
 
 ```bash
-make build
+hugo
+```
+
+#### Build PDF
+
+```bash
+make build-pdf
 ```
 
 #### Tailwind Updates
@@ -47,7 +53,7 @@ make build
 make tailwind
 ```
 
-### CloudFlare Publish
+### CloudFlare Publish added to CloudFlare pages config
 
 ```bash
 make CF_PAGES_URL="${CF_PAGES_URL}" publish-cloudflare
