@@ -25,6 +25,10 @@
     @apply my-3;
     @apply print:my-0.5;
   }
+  ul {
+    @apply list-disc;
+    @apply ml-5;
+  }
 }
 
 *,
