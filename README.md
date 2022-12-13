@@ -55,7 +55,8 @@ make CF_PAGES_URL="${CF_PAGES_URL}" publish-cloudflare
 
 #### ENV Vars for CloudFlare
 
-|Name|Value|
-|---|--|
-|GO_VERSION|1.19.2|
-|NODE_VERSION|16.15.1|
+|Name|Value|Env|
+|---|---|---|
+|GO_VERSION|1.19.2|ALL|
+|NODE_VERSION|16.15.1|ALL|
+|CF_PAGES_URL|https://karlhaworth.com|PROD|
