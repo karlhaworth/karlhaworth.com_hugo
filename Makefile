@@ -9,7 +9,7 @@ build:
 build-cloudflare:
 	hugo --minify -b ${CF_PAGES_URL}
 
-publish-cloudflare: tailwind-install tailwind-build build-cloudflare make-pdf
+publish-cloudflare: tailwind-install tailwind-build build-cloudflare pdf
 
 tailwind-install:
 	cd ./themes/karlhaworth-com && \
@@ -19,7 +19,7 @@ tailwind-build:
 	cd ./themes/karlhaworth-com && \
 	npm run build-tw
 
-make-pdf:
+pdf:
 	PWD=$(pwd)
 	hugo --minify --destination pdf_public -b ${PWD}/pdf_public
 	go install
