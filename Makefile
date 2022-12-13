@@ -7,8 +7,7 @@ build:
 	hugo
 
 build-cloudflare:
-	hugo --minify
-	# hugo --minify -b ${CF_PAGES_URL}
+	hugo --minify -b ${CF_PAGES_URL}
 
 publish-cloudflare: tailwind-install tailwind-build build-cloudflare make-pdf
 
