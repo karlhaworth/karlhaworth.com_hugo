@@ -19,6 +19,11 @@
     @apply text-lg;
     @apply font-medium;
     @apply print:text-sm;
+    @apply px-1.5;
+  }
+  hr {
+    @apply my-3;
+    @apply print:my-0.5;
   }
 }
 
