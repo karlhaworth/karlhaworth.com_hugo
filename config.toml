@@ -12,5 +12,5 @@ disableKinds = ["taxonomy", "term"]
 
 [module]
 [[module.mounts]]
-  source = 'themes/karlhaworth-com/node_modules/lightbox2/dist'
+  source = './themes/karlhaworth-com/node_modules/lightbox2/dist'
   target = 'static/lightbox2'
