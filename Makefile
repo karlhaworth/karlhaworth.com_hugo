@@ -3,7 +3,7 @@
 serve:
 	hugo serve
 
-publish-cloudflare: tailwind-install tailwind-build build-cloudflare build-pdf
+publish-cloudflare: npm-modules-install tailwind-build build-cloudflare build-pdf
 
 build-cloudflare:
 	hugo --minify -b ${CF_PAGES_URL}
@@ -14,7 +14,8 @@ build-pdf:
 	go install
 	go run main.go
 
-tailwind-install:
+# Tailwind and Lightbox2
+npm-modules-install:
 	cd ./themes/karlhaworth-com && \
 	npm install
 
