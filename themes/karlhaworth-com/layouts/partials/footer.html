@@ -44,7 +44,7 @@
 
 {{ $jquery := resources.Get "jquery/jquery.min.js" }}
 {{ $lightbox := resources.Get "lightbox2/js/lightbox.js" }}
-{{ $js := slice $jquery $lightbox | resources.Concat "js/bundle.js" }}  */}}
+{{ $js := slice $jquery $lightbox | resources.Concat "js/bundle.js" }}
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 </body>
