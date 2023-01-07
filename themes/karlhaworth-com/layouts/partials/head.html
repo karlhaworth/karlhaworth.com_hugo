@@ -9,8 +9,13 @@
         {{ $mainStyle := resources.Get "style.css" }}
         {{ $fontsStyle := resources.Get "fonts.css" }}
         {{ $lightboxStyle := resources.Get "lightbox2/css/lightbox.min.css" }}
-        {{ $css := slice $mainStyle $fontsStyle $lightboxStyle | resources.Concat "css/bundle.css" | resources.Minify }}
-        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+        {{ $cssLightbox := slice $mainStyle $fontsStyle $lightboxStyle | resources.Concat "css/bundle.css" | resources.Minify }}
+        {{ $cssMain := slice $mainStyle $fontsStyle | resources.Concat "css/bundle.css" | resources.Minify }}
+        {{ if eq .RelPermalink "/robotics/" }}
+            <link rel="stylesheet" href="{{ $cssLightbox.RelPermalink }}">
+        {{ else }}
+            <link rel="stylesheet" href="{{ $cssMain.RelPermalink }}">
+        {{ end }}
 
         <!-- generics -->
         <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon32.png" sizes="32x32">
