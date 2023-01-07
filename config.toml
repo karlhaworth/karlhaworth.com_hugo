@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Karl Haworth'
 theme = "karlhaworth-com"
 
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy", "term", "taxonomyTerm"]
 
 [sitemap]
   changefreq = 'monthly'
