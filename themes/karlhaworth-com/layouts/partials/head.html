@@ -6,10 +6,11 @@
 
         <title>{{ .Site.Title }}</title>
 
-        {{ $style := resources.Get "style.css" }}    
-        <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/fonts.css"> 
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/lightbox2/css/lightbox.min.css">
+        {{ $mainStyle := resources.Get "style.css" }}
+        {{ $fontsStyle := resources.Get "fonts.css" }}
+        {{ $lightboxStyle := resources.Get "lightbox2/css/lightbox.min.css" }}
+        {{ $css := slice $mainStyle $fontsStyle $lightboxStyle | resources.Concat "css/bundle.css" | resources.Minify }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
         <!-- generics -->
         <link rel="icon" href="{{ .Site.BaseURL }}/favicon/favicon32.png" sizes="32x32">

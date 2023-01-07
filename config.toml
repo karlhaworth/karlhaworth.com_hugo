@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Karl Haworth'
 theme = "karlhaworth-com"
 
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy", "term", "taxonomyTerm"]
 
 [sitemap]
   changefreq = 'monthly'
@@ -11,6 +11,15 @@ disableKinds = ["taxonomy", "term"]
   priority = 0.5
 
 [module]
-[[module.mounts]]
-  source = './themes/karlhaworth-com/node_modules/lightbox2/dist'
-  target = 'static/lightbox2'
+  [[module.mounts]]
+    source = 'themes/karlhaworth-com/node_modules/lightbox2/dist'
+    target = 'assets/lightbox2'
+  [[module.mounts]]
+    source = 'themes/karlhaworth-com/node_modules/jquery/dist'
+    target = 'assets/jquery'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
