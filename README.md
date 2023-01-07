@@ -27,7 +27,7 @@ Bootstrap was used however many hacks were needed to make it appear the way I wa
 - GO_VERSION >= 1.19.2
 - NODE_VERSION >= 16.15.1
 - CHROME_VERSION >= 103.0
-- HUGO_VERSION >= 0.54.0
+- HUGO_VERSION >= 0.109.0
 
 #### Serve
 
@@ -66,3 +66,4 @@ make CF_PAGES_URL="${CF_PAGES_URL}" publish-cloudflare
 |GO_VERSION|1.19.2|ALL|
 |NODE_VERSION|16.15.1|ALL|
 |CF_PAGES_URL|https://karlhaworth.com|PROD|
+|HUGO_VERSION|0.109.0|ALL|
