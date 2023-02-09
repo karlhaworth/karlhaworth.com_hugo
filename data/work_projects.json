@@ -21,7 +21,9 @@
       "Planned, architected, implemented, automated, and managed a Kubernetes Operator being used by customer facing systems",
       "Performed requirements analysis and solution architecture design",
       "Communicated with other stakeholders and end users in the software development lifecycle",
-      "Worked with squad members to mentor and develop skillsets to run a successful operator supporting vital business functions"
+      "Worked with squad members to mentor and develop skillsets to run a successful operator supporting vital business functions",
+      "Architected and implemented a method for automatically updating production deployment using the operator based on GitHub releases",
+      "Architected and implemented a method for automatically creating ephemeral environments based on GitHub Pull Requests with full CRUD"
     ]
   },
   {
