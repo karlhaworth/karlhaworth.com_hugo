@@ -48,6 +48,7 @@
     "icon": "american-airlines",
     "title": "Principal Engineer, IT DevOps",
     "employment_date": "June 2020 - January 2021",
+    "oneliner": true,
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
     "bullets": [
       "Created architecture proposals based on identified solution gaps",
