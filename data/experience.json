@@ -2,8 +2,22 @@
   {
     "company": "American Airlines",
     "icon": "american-airlines",
+    "title": "Architect - Developer Accelerator Product Group, Product Agility",
+    "employment_date": "March 2023 - Present",
+    "description": "Worked in the Product Agility organization supporting the solutioning, strategy, and planning of technical implementations",
+    "bullets": [
+      "Responsible for strategy and technical direction for Developer Accelerator working with other Archigeers in Technology and Transformation",
+      "Works closely with Product Technical Leads and Technical Delivery Managers to determine technical strategy, direction and technical skills needed to the strategies",
+      "Aligns product group strategies to enterprise strategies and principals",
+      "Supports Product Technical Leads and engineers to select solutions meeting our business needs and long-term strategies",
+      "Supports Product Technical Leads to ensure backlog reflects the right technical solutions to meet product objectives"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "icon": "american-airlines",
     "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, Product Agility",
-    "employment_date": "June 2022 - Present",
+    "employment_date": "June 2022 - March 2023",
     "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for shared Kubernetes clusters for enterprise use",
