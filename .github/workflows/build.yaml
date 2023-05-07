@@ -2,6 +2,9 @@ name: Build for Cloudflare
 
 on:
     push:
+    pull_request:
+      types:
+        - closed
 
 jobs:
     build:
@@ -13,9 +16,6 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
 
-            - uses: browser-actions/setup-chrome@v1
-            - run: chrome --version
-
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
@@ -24,8 +24,9 @@ jobs:
             - name: build
               run: make CF_PAGES_URL="https://karlhaworth.com" publish-cloudflare
 
-            - name: Publish
+            - name: Publish to Preview Env
               uses: cloudflare/pages-action@1
+              if: !github.event.pull_request.merged
               with:
                 apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                 accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -33,3 +34,13 @@ jobs:
                 directory: 'public'
                 gitHubToken: ${{ secrets.GITHUB_TOKEN }}
                 branch: ${GITHUB_REF#refs/heads/}
+
+            - name: Publish to Prod
+              uses: cloudflare/pages-action@1
+              if: github.event.pull_request.merged
+              with:
+                apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                projectName: 'karlhaworth-com-hugo'
+                directory: 'public'
+                gitHubToken: ${{ secrets.GITHUB_TOKEN }}
