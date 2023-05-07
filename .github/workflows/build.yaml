@@ -23,7 +23,7 @@ jobs:
 
             - name: Publish to Preview Env
               uses: cloudflare/pages-action@1
-              if: !github.event.pull_request.merged
+              if: github.event.pull_request.merged == false
               with:
                 apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                 accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -34,7 +34,7 @@ jobs:
 
             - name: Publish to Prod
               uses: cloudflare/pages-action@1
-              if: github.event.pull_request.merged
+              if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
               with:
                 apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                 accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
