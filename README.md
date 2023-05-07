@@ -67,3 +67,9 @@ make CF_PAGES_URL="${CF_PAGES_URL}" publish-cloudflare
 |NODE_VERSION|16.15.1|ALL|
 |CF_PAGES_URL|https://karlhaworth.com|PROD|
 |HUGO_VERSION|0.109.0|ALL|
+
+### GitHub Actions
+
+```
+act -v --container-architecture linux/amd64 build.yml -j build -P ubuntu-latest=ghcr.io/catthehacker/ubuntu:full-latest
+```
