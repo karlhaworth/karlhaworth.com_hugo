@@ -1,10 +1,7 @@
 name: Build for Cloudflare
 
 on:
-    push:
     pull_request:
-      types:
-        - closed
 
 jobs:
     build:
