@@ -1,5 +1,25 @@
 [
   {
+    "name": "Kubernetes Admission Controller Validating Webhook",
+    "date": "April 2023 - Present",
+    "problem": "Ensuring deployments are safe and up to company standards for things like labels can be challenging",
+    "solution": "A Kubernetes Validating Webook was created which resulted in an admission controller which used logic to deny deployments from being created.",
+    "technology_utilized": [
+      "Kubernetes",
+      "GitHub Actions",
+      "Terraform",
+      "Redis",
+      "FastAPI",
+      "Python"
+    ],
+    "description_bullets": [
+      "Planned, architected, implemented, automated, and managed a Kubernetes Validating Webhook",
+      "Performed requirements analysis and solution architecture design",
+      "Communicated with other stakeholders and end users in the software development lifecycle",
+      "Worked with squad members to mentor and develop skillsets to run a successful operator supporting vital business functions"
+    ]
+  },
+  {
     "name": "Kubernetes Operator for Automation and Abstraction",
     "date": "July 2021 - Present",
     "problem": "Kubernetes can be extremely difficult for application teams to utilize and the number of required resource manifests can be overwhelming",
@@ -86,7 +106,6 @@
   },
   {
     "name": "Networking and Firewall Orchestration Platform",
-    "skip_print": true,
     "date": "April 2018 - June 2020",
     "problem": "All requests for networking are recorded manually and then multiple administrators perform the required task hours or days later in multiple platforms creating a lag in the time to delivery.",
     "solution": "An orchestration platform for networking requests was created that is secure with enterprise authentication, fully logged, provided an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
@@ -117,7 +136,6 @@
   },
   {
     "name": "H3C Firmware Upgrade Automation",
-    "skip_print": true,
     "date": "February 2019",
     "problem": "Engineers have to manually upgrade the firmware on H3C devices as they are unsupported by all enterprise tools.",
     "solution": "Create Perl script inside of CA Spectrum to push firmware with the expect module for an interactive automated session.",
@@ -137,7 +155,6 @@
   },
   {
     "name": "Network Device insourcing Automation",
-    "skip_print": true,
     "date": "March 2016 - June 2016",
     "problem": "Migrate thousands of devices from an outsourced vendor to insourced.",
     "solution": "Created a plan of migrating devices via SNMP TRAP and using SNMP to rapidly rewrite device configurations in bulk.",
