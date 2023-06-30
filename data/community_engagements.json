@@ -1,5 +1,11 @@
 [
     {
+        "name": "Ephemeral Environments from GitHub Pull Requests",
+        "link": "https://devopsdays.org/events/2023-phoenix/program/karl-haworth",
+        "date": "May 25, 2023",
+        "forum": "DevOpsDays - Phoenix"
+    },
+    {
         "name": "Implementing a developer portal",
         "link": "https://getdx.com/podcast/developer-portal",
         "date": "Apr 5, 2023",
