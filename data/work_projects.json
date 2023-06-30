@@ -1,27 +1,28 @@
 [
   {
-    "name": "Kubernetes Admission Controller Validating Webhook",
-    "date": "April 2023 - Present",
-    "problem": "Ensuring deployments are safe and up to company standards for things like labels can be challenging",
-    "solution": "A Kubernetes Validating Webook was created which resulted in an admission controller which used logic to deny deployments from being created.",
+    "name": "Global Traffic Manager (GTM) for PCI workloads",
+    "date": "March 2023 - July 2023",
+    "problem": "Our current GTM solutions is for external workloads however certain sensitive workloads need internal traffic resolutiojn and routing",
+    "solution": "A collaborative effort between the Networking organizations and the Developer Accelerator group to deliver a working solution for internal Global Traffic Management self-service services",
     "technology_utilized": [
       "Kubernetes",
       "GitHub Actions",
-      "Terraform",
-      "Redis",
       "FastAPI",
-      "Python"
+      "Python",
+      "Operator",
+      "Infoblox",
+      "LBDN"
     ],
     "description_bullets": [
-      "Planned, architected, implemented, automated, and managed a Kubernetes Validating Webhook",
+      "Planned, architected, and managed a team developing internal Global Traffic Management self-service solutions",
       "Performed requirements analysis and solution architecture design",
       "Communicated with other stakeholders and end users in the software development lifecycle",
-      "Worked with squad members to mentor and develop skillsets to run a successful operator supporting vital business functions"
+      "Worked with squad members to mentor and develop skillsets towards DNS and GTM resolution along with network routing"
     ]
   },
   {
     "name": "Kubernetes Operator for Automation and Abstraction",
-    "date": "July 2021 - Present",
+    "date": "July 2021 - March 2023",
     "problem": "Kubernetes can be extremely difficult for application teams to utilize and the number of required resource manifests can be overwhelming",
     "solution": "A Kubneretes operator was developed to abstract away the complexities of the native Kuberentes manifests while bringing along the company's best practices. Through templates in the developer experience portal, the reduced yaml spec is easily setup for users and deployed to the clusters using a GitOps approach.",
     "technology_utilized": [
