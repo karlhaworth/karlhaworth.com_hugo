@@ -2,7 +2,7 @@
   {
     "name": "Global Traffic Manager (GTM) for PCI workloads",
     "date": "March 2023 - July 2023",
-    "problem": "Our current GTM solutions is for external workloads however certain sensitive workloads need internal traffic resolutiojn and routing",
+    "problem": "Our current GTM solutions is for external workloads however certain sensitive workloads need internal traffic resolution and routing",
     "solution": "A collaborative effort between the Networking organizations and the Developer Accelerator group to deliver a working solution for internal Global Traffic Management self-service services",
     "technology_utilized": [
       "Kubernetes",
