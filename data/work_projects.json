@@ -17,7 +17,7 @@
       "Planned, architected, and managed a team developing internal Global Traffic Management self-service solutions",
       "Performed requirements analysis and solution architecture design",
       "Communicated with other stakeholders and end users in the software development lifecycle",
-      "Lead team in parallel programming and design strategies to accomplish task in half the time",
+      "Lead team in parallel programming and design strategies to accomplish task in a reduced timeframe",
       "Worked with squad members to mentor and develop skillsets towards DNS and GTM resolution along with network routing"
     ]
   },
@@ -34,18 +34,16 @@
       "Terraform",
       "Helm",
       "Azure",
-      "Nginx",
-      "Kuma",
-      "KOPF framework",
+      "Ingress Controller",
+      "Service Mesh",
       "Python"
     ],
     "description_bullets": [
       "Planned, architected, implemented, automated, and managed a Kubernetes Operator being used by customer facing systems",
-      "Performed requirements analysis and solution architecture design",
       "Communicated with other stakeholders and end users in the software development lifecycle",
       "Worked with squad members to mentor and develop skillsets to run a successful operator supporting vital business functions",
-      "Architected and implemented a method for automatically updating production deployment using the operator based on GitHub releases",
-      "Architected and implemented a method for automatically creating ephemeral environments based on GitHub Pull Requests with full CRUD"
+      "Architected and implemented a method for automatically updating production deployment based on GitHub releases",
+      "Architected and implemented a method for automatically creating ephemeral environments based on GitHub Pull Requests"
     ]
   },
   {
@@ -55,7 +53,6 @@
     "solution": "An InnerSourced developer platform along with an automated Kubernetes ecosystem was created for handling onboarding to our cloud environment with click to deploy reducing the time to deliver from months to minutes eliminating manual processes.",
     "technology_utilized": [
       "Kubernetes",
-      "Kubernetes Operators",
       "Backstage.io",
       "React",
       "Typescript",
@@ -72,9 +69,7 @@
     "description_bullets": [
       "Planned, architected, implemented, and managed an InnerSourced developer platform",
       "Served as the technical lead to a team of developers",
-      "Mentored new software developers within the direct product group as well as InnerSource contributors",
       "Followed and maintained agile best practices",
-      "Performed requirements analysis and solution architecture design",
       "Abstracted complex designs and implementations through a simple developer portal using various backend services",
       "Communicated with other stakeholders and end users in the software development lifecycle"
     ]
@@ -100,7 +95,6 @@
     ],
     "description_bullets": [
       "Planned, architected, implemented, automated, and managed a Kubernetes ecosystem being used by customer facing systems",
-      "Performed requirements analysis and solution architecture design",
       "Communicated with other stakeholders and end users in the platform development lifecycle",
       "Worked with Enterprise to consolidate clusters and create standards",
       "Worked with customers to troubleshoot problems within their application deployment"
