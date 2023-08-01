@@ -111,6 +111,7 @@
     "date": "April 2018 - June 2020",
     "problem": "All requests for networking are recorded manually and then multiple administrators perform the required task hours or days later in multiple platforms creating a lag in the time to delivery.",
     "solution": "An orchestration platform for networking requests was created that is secure with enterprise authentication, fully logged, provided an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
+    "skip_print": true,
     "technology_utilized": [
       "Kubernetes",
       "HTML",
@@ -141,6 +142,7 @@
     "date": "February 2019",
     "problem": "Engineers have to manually upgrade the firmware on H3C devices as they are unsupported by all enterprise tools.",
     "solution": "Create Perl script inside of CA Spectrum to push firmware with the expect module for an interactive automated session.",
+    "skip_print": true,
     "technology_utilized": [
       "CA Spectrum",
       "Perl Scripting",
@@ -160,6 +162,7 @@
     "date": "March 2016 - June 2016",
     "problem": "Migrate thousands of devices from an outsourced vendor to insourced.",
     "solution": "Created a plan of migrating devices via SNMP TRAP and using SNMP to rapidly rewrite device configurations in bulk.",
+    "skip_print": true,
     "technology_utilized": [
       "CA Spectrum",
       "Perl Scripting",
