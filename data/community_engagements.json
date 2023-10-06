@@ -1,5 +1,11 @@
 [
     {
+        "name": "Backstage at the world's largest airline",
+        "link": "https://cvent.autodesk.com/event/34e0aba4-29f7-403c-8b0e-b6ca25ce0186",
+        "date": "Oct 4, 2023",
+        "forum": "The Journey to the Internal Developer Portal"
+    },
+    {
         "name": "Ephemeral Environments from GitHub Pull Requests",
         "link": "https://devopsdays.org/events/2023-phoenix/program/karl-haworth",
         "date": "May 25, 2023",
