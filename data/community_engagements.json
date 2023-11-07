@@ -1,5 +1,11 @@
 [
     {
+        "name": "Ecosystem Panel - Analyst Event",
+        "link": "https://www.cncf.io/",
+        "date": "Nov 7, 2023",
+        "forum": "KubeCon - CloudNativeCon"
+    },
+    {
         "name": "Hitting the Runway with Argo at American Airlines",
         "link": "https://colocatedeventsna2023.sched.com/event/1Rj4a",
         "date": "Nov 6, 2023",
