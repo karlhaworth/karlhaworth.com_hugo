@@ -6,6 +6,8 @@ The resume PDF rebuilds each time there is a change and can used on a wide array
 
 This project shifted from using provider runners for build to github actions as the software stack is a little more reliable and predictable. Using headless Chromium for resume pdf generation seemed to cause issues with CloudFlare runners. 
 
+There was a decision to keep the website as light as possible, therefore frameworks such as React were not utilized. Lightbox and jQuery only load on the pages they are utilized. 
+
 ## Resume Website for Karl Haworth using Hugo
 
 Resume website for Karl Haworth using [Hugo](http://gohugo.io) as a static site generator (SSG) with [Tailwind](http://tailwindcss.com) and [Sass](https://sass-lang.com) for styling. [Go-Rod](http://go-rod.github.io) is used to create a PDF from the generated content which serves as a resume using print media styling. A makefile is used to simplify the commands needed to generate the content.
