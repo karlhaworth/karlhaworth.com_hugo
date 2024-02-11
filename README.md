@@ -1,8 +1,10 @@
 # Project Overview
 
 This project allows a user to generate/build a resume (CV) PDF from website content and host a resume website put together from json files using Hugo. This reduces the duplication needed to keep a separate resume from website content updated. Sections can be hidden using certain key-value pairs. 
+
 The resume PDF rebuilds each time there is a change and can used on a wide array of free static hosting providers such as GitHub Pages, CloudFlare Pages, Netlify, and more!
-This project shifted from using provider runners for build to github actions as the software stack is a little more reliable and predictable. 
+
+This project shifted from using provider runners for build to github actions as the software stack is a little more reliable and predictable. Using headless Chromium for resume pdf generation seemed to cause issues with CloudFlare runners. 
 
 ## Resume Website for Karl Haworth using Hugo
 
