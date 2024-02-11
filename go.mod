@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/go-rod/rod v0.112.0
-	github.com/ysmood/gson v0.7.1
+	github.com/ysmood/gson v0.7.3
 )
 
 require (
