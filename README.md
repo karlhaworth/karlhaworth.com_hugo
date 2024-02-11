@@ -1,3 +1,9 @@
+# Project Overview
+
+This project allows a user to generate/build a resume (CV) PDF from website content and host a resume website put together from json files using Hugo. This reduces the duplication needed to keep a separate resume from website content updated. Sections can be hidden using certain key-value pairs. 
+The resume PDF rebuilds each time there is a change and can used on a wide array of free static hosting providers such as GitHub Pages, CloudFlare Pages, Netlify, and more!
+This project shifted from using provider runners for build to github actions as the software stack is a little more reliable and predictable. 
+
 ## Resume Website for Karl Haworth using Hugo
 
 Resume website for Karl Haworth using [Hugo](http://gohugo.io) as a static site generator (SSG) with [Tailwind](http://tailwindcss.com) and [Sass](https://sass-lang.com) for styling. [Go-Rod](http://go-rod.github.io) is used to create a PDF from the generated content which serves as a resume using print media styling. A makefile is used to simplify the commands needed to generate the content.
