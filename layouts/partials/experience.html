@@ -16,12 +16,12 @@
                         <span class="bg-[#6c757d] text-white p-0.5 rounded-md whitespace-nowrap leading-5">{{ .employment_date }}</span >
                     </div>
                 </div>
-                <div class="grid grid-cols-1  {{ if .oneliner }} print:hidden {{ end }}">
+                <div class="grid grid-cols-1  {{ if .single_line }} print:hidden {{ end }}">
                     <div itemprop="description">
                         {{ .description }}
                     </div>
                 </div>
-                <div class="grid grid-cols-1 {{ if .oneliner }} print:hidden {{ end }}">
+                <div class="grid grid-cols-1 {{ if .single_line }} print:hidden {{ end }}">
                     <ul>
                         {{ range .bullets }}
                             <li>{{ . }}</li>

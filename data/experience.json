@@ -45,7 +45,7 @@
     "icon": "american-airlines",
     "title": "Principal Engineer, IT DevOps",
     "employment_date": "June 2020 - January 2021",
-    "oneliner": true,
+    "single_line": true,
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
     "bullets": [
       "Created architecture proposals based on identified solution gaps",
@@ -58,7 +58,7 @@
     "icon": "american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 - June 2020",
-    "oneliner": true,
+    "single_line": true,
     "description": "Worked in the Enterprise Network automation organization architecting solutions for automation using devops methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture proposals related to a networking automation portal",
@@ -71,7 +71,7 @@
     "icon": "american-airlines",
     "title": "Senior IT Infrastructure Engineer",
     "employment_date": "January 2018 - June 2019",
-    "oneliner": true,
+    "single_line": true,
     "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets",
     "bullets": [
       "Planned, created, and documented processes for new platforms",
@@ -85,7 +85,7 @@
     "icon": "american-airlines",
     "title": "IT Infrastructure Engineer",
     "employment_date": "June 2016 - January 2018",
-    "oneliner": true,
+    "single_line": true,
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
     "bullets": [
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
@@ -99,7 +99,7 @@
     "icon": "american-airlines",
     "title": "Associate IT Infrastructure Engineer (ADEPT)",
     "employment_date": "June 2014 - June 2016",
-    "oneliner": true,
+    "single_line": true,
     "description": "The American Airlines Development Program for Technology (ADEPT) is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
     "bullets": [
       "Configured, installed, and deployed various network devices and services for functional networks",
@@ -112,7 +112,7 @@
     "company": "US Airways",
     "icon": "us-airways",
     "title": "Statistical Analyst Intern",
-    "oneliner": true,
+    "single_line": true,
     "employment_date": "July 2012 - June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
