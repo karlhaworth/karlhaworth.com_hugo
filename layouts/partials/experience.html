@@ -24,7 +24,7 @@
                 <div class="grid grid-cols-1 {{ if .single_line }} print:hidden {{ end }}">
                     <ul>
                         {{ range .bullets }}
-                            <li>{{ . }}</li>
+                            <li>{{ . | markdownify }}</li>
                         {{ end }}
                     </ul>
                 </div>
