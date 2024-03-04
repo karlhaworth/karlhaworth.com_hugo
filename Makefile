@@ -14,7 +14,6 @@ build-pdf:
 	go install
 	go run main.go
 
-# Tailwind and Lightbox2
 npm-modules-install:
 	cd ./themes/karlhaworth-com && \
 	npm install
