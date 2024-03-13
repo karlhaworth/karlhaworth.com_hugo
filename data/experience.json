@@ -18,7 +18,7 @@
       "Identified need, worked with vulnerability management team, and idenfitied proper mechanisms to implement **secure base images** for the enterprise",
       "Strived towards improvements in CI/CD pipelines and worked with outside teams to ensure success while **reducing time to complete**",
       "**Contributed to open source** through helm chart updates, Backstage plugins capability enhancements, security fixes, and Dockerfile security improvements",
-      "Launched and Supported multiple **proof of concepts (POC)** as well as beta programs for the launch of various services and products",
+      "Launched and Supported multiple **proof of concepts (POC)** as well as beta programs to introduce various services and products to the enterprise",
       "Implemented **Sigstore** to attest to artifacts produced in CI/CD processes along with **SLSA** provenece and signing"
     ]
   },
