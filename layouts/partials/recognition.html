@@ -2,14 +2,14 @@
 
 <section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1">
     <h5 id="notableRecognition">Notable Recognition</h5>
-    <div class="col-span-5">
+    <div class="col-span-5 print:text-[9px]">
         {{ range $index, $element := $recognition }}
             {{ if eq (add $index 1) (4) }}
                 <div class="hidden">
             {{end}}
                 <div class="block">
                     <div class="grid">
-                        <div class="col-md-12 print:text-[9px]">
+                        <div class="col-md-12">
                             {{ $element.comments }}
                         </div>
                     </div>
