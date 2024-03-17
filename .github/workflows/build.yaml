@@ -22,7 +22,7 @@ jobs:
           hugo-version: "0.110.0"
 
       - name: build
-        run: make CF_PAGES_URL="https://karlhaworth.com" publish-cloudflare
+        run: make publish-cloudflare
 
       - name: Publish to Preview Env
         uses: cloudflare/pages-action@1
