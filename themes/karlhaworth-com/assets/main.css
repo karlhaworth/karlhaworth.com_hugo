@@ -50,7 +50,7 @@
 .container {
   @apply px-2;
   @apply print:px-0;
-  @apply print:text-xs;
+  @apply print:text-[10px];
 }
 
 a {
