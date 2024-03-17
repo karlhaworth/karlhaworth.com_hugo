@@ -1,7 +1,7 @@
 {{ $recognition := site.Data.notable_recognition }}
 
 <section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1">
-    <h5 id="notableRecognition">Notable Recognition</h5>
+    <h5 id="notableRecognition">Recognition</h5>
     <div class="col-span-5">
         {{ range $index, $element := $recognition }}
             {{ if eq (add $index 1) (4) }}
