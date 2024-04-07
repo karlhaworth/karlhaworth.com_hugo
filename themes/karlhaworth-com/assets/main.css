@@ -60,3 +60,11 @@ a {
 svg {
   display: inline-block;
 }
+
+.rounded_print {
+  @apply p-0.5;
+  @apply print:p-0;
+  @apply print:m-0;
+  @apply print:mx-1;
+  @apply print:px-1;
+}
