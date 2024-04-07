@@ -65,6 +65,6 @@ svg {
   @apply p-0.5;
   @apply print:p-0;
   @apply print:m-0;
-  @apply print:mx-0.25;
+  @apply print:mx-0.5;
   @apply print:px-0.5;
 }
