@@ -83,7 +83,7 @@
     "print_description_only": true,
     "description": "Worked in the Enterprise Network automation organization creating architectural solutions for automation using devops methodologies",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture proposals related to a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, **RabbitMQ**, and **Websockets**",
+      "Developed overall strategic technical plans and created architecture proposals related to a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, Redis, **RabbitMQ**, and **Websockets**",
       "Contributed to the overall strategy and managed complex issues within **Networking Automation**",
       "Served as a subject matter expert in Network Automation architecture",
       "Implemented local development using tools such as **docker-compose** and **Skaffold** to ensure local development matched higher environments",
