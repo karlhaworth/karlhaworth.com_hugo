@@ -16,11 +16,13 @@
       "Responsible for **finops** practices within an organization where financial savings were found and improvements to budgets were made",
       "Architected solution for **layered security** with **secrets management** team and platform to ensure security in dynamic environments",
       "Identified need, worked with vulnerability management team, and identified proper mechanisms to implement **secure base images** for the enterprise",
-      "Strived towards improvements in CI/CD pipelines and worked with outside teams to ensure success while **reducing time to complete**",
+      "Strived towards improvements in Enterprise CI/CD pipelines/actions and worked with outside teams to ensure success while **reducing time to complete**",
       "**Contributed to open source** through helm chart updates, Backstage plugins capability enhancements, security fixes, and Dockerfile security improvements",
       "Launched and Supported multiple **proof of concepts (POC)** as well as beta programs to introduce various services and products to the enterprise",
-      "Implemented **Sigstore** to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
-      "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies"
+      "Implemented **Automated Delivery Governance** utilizing the Sigstore framework to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
+      "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies",
+      "Worked to identify areas of technical debt along with ways to reduce technical debt",
+      "Participated in many sessions and trainings around **Diversity, Inclusion, and Equity (DEI)** to support diversity of thought ensuring that all voices are heard"
     ]
   },
   {
@@ -37,7 +39,9 @@
       "Architected and worked with team to implement additional Global Traffic Management (GTM) automation capabilities for **Payment Card Industry (PCI)** workloads",
       "Worked with team on Network **knowledge transfer** regarding Routing, Domain Name System (DNS), and Global Traffic Management (GTM) to support Kubernetes automation",
       "Lead team in parallel programming and design strategies to deliver outcome in a **reduced timeframe**",
-      "Supported binary and artifact management team through skill improvement to better manage vendor based infrastructure implementations resulting in **improved reliability and recoverability**"
+      "Supported binary and artifact management team through skill improvement to better manage vendor based infrastructure implementations resulting in **improved reliability and recoverability**",
+      "Supported and Contributed to product group strategy and roadmaps",
+      "Supported, ran, and continue to oversee knowledge transfer sessions in order to allow transparent knowledge sharing"
     ]
   },
   {
