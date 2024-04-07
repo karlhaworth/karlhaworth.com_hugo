@@ -7,7 +7,7 @@
     "description": "Worked in the Product Agility organization supporting the solution, strategy, and planning of technical implementations",
     "bullets": [
       "Responsible for strategy and technical direction for Developer Accelerator working with other Architects in Technology and Transformation",
-      "Worked closely with Product Technical Leads and Technical Delivery Managers to determine technical strategy, direction and technical skills needed to fulfill the strategies",
+      "Worked closely with Product Technical Leads and Technical Delivery Managers to determine technical strategy, direction, and technical skills needed to fulfill the strategies",
       "Aligned product group strategies to enterprise strategies and principals",
       "Supported Product Technical Leads and engineers to select solutions meeting our business needs and long-term strategies",
       "Supported neighboring organizations with **networking design** considerations",
@@ -18,11 +18,11 @@
       "Identified need, worked with vulnerability management team, and identified proper mechanisms to implement **secure base images** for the enterprise along with implementation of **image scanning** using GitHub Actions",
       "Strived towards improvements in Enterprise CI/CD pipelines/actions and worked with outside teams to ensure success while **reducing time to complete**",
       "**Contributed to open source** through helm chart updates, Backstage plugins capability enhancements, security fixes, and Dockerfile security improvements",
-      "Launched and Supported multiple **proof of concepts (POC)** as well as beta programs to introduce various services and products to the enterprise",
+      "Launched and supported multiple **proof of concepts (POC)** as well as beta programs to introduce various services and products to the enterprise",
       "Implemented **Automated Delivery Governance** utilizing the Sigstore framework to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
       "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies",
       "Worked to identify and resolve areas of technical debt",
-      "Participated in many sessions and trainings around **Diversity, Inclusion, and Equity (DEI)** to support diversity of thought ensuring that all voices are heard",
+      "Participated in many sessions and trainings regarding **Diversity, Inclusion, and Equity (DEI)** to support diversity of thought ensuring that all voices are heard",
       "Supported hiring panels, description creation, and candidate selection at multiple job levels",
       "Contributed and worked on logging strategies utilizing **FluentBit** with structured logging"
     ]
@@ -56,8 +56,8 @@
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
       "Mentored numerous developers in their journey from infrastructure engineering to software development",
-      "Architected, Built, and Operated an **Enterprise Shared Kubernetes platform** which was purpose built for **GitOps** using ArgoCD and spun off to another team reducing distributed knowledge and strengthening platform engineering",
-      "Architected, Built, and Operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
+      "Architected, built, and operated an **Enterprise Shared Kubernetes platform** which was purpose built for **GitOps** using ArgoCD and spun off to another team reducing distributed knowledge and strengthening platform engineering",
+      "Architected, built, and operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
       "Worked with teams to **troubleshoot application migrations** to Kubernetes as well as ongoing support for teams",
       "Reduced overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
       "Served as a subject matter expert in automation architecture"
