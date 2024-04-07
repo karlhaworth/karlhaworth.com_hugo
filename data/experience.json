@@ -4,7 +4,7 @@
     "icon": "american-airlines",
     "title": "Architect - Developer Accelerator Product Group (DevOps/DevEx), Product Agility",
     "employment_date": "March 2023 - Present",
-    "description": "Worked in the Product Agility organization supporting the solutioning, strategy, and planning of technical implementations",
+    "description": "Worked in the Product Agility organization supporting the solution, strategy, and planning of technical implementations",
     "bullets": [
       "Responsible for strategy and technical direction for Developer Accelerator working with other Archigeers in Technology and Transformation",
       "Worked closely with Product Technical Leads and Technical Delivery Managers to determine technical strategy, direction and technical skills needed to the strategies",
@@ -15,11 +15,12 @@
       "Supports Product Technical Leads to ensure backlog reflects the right technical solutions to meet product objectives and priorities",
       "Responsible for **finops** practices within an organization where financial savings were found and improvements to budgets were made",
       "Architected solution for **layered security** with **secrets management** team and platform to ensure security in dynamic environments",
-      "Identified need, worked with vulnerability management team, and idenfitied proper mechanisms to implement **secure base images** for the enterprise",
+      "Identified need, worked with vulnerability management team, and identified proper mechanisms to implement **secure base images** for the enterprise",
       "Strived towards improvements in CI/CD pipelines and worked with outside teams to ensure success while **reducing time to complete**",
       "**Contributed to open source** through helm chart updates, Backstage plugins capability enhancements, security fixes, and Dockerfile security improvements",
       "Launched and Supported multiple **proof of concepts (POC)** as well as beta programs to introduce various services and products to the enterprise",
-      "Implemented **Sigstore** to attest to artifacts produced in CI/CD processes along with **SLSA** provenece and signing"
+      "Implemented **Sigstore** to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
+      "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies"
     ]
   },
   {
@@ -32,7 +33,11 @@
       "Developed overall strategic technical plans and created architecture strategy for shared Kubernetes clusters for enterprise use",
       "Mentored, guided, and supported developers across American Airlines IT",
       "Developed the overall automation strategy and managed complex integrations between multiple teams",
-      "Served as a subject matter expert in automation architecture"
+      "Served as a subject matter expert in automation architecture",
+      "Architected and worked with team to implement additional Global Traffic Management (GTM) automation capabilities for **Payment Card Industry (PCI)** workloads",
+      "Worked with team on Network **knowledge transfer** regarding Routing, Domain Name System (DNS), and Global Traffic Management (GTM) to support Kubernetes automation",
+      "Lead team in parallel programming and design strategies to deliver outcome in a **reduced timeframe**",
+      "Supported binary and artifact management team through upskilling to better manage vendor based infrastructure implementations resulting in **improved reliability and recoverability**"
     ]
   },
   {
@@ -44,6 +49,10 @@
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
       "Mentored numerous developers in their journey from infrastructure engineering to software development",
+      "Architected, Built, and Operated an **Enterprise Shared Kubernetes platform** which was purpose built for **GitOps** and spun off to another team",
+      "Architected, Built, and Operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers, and create ephemeral environments based on Pull Requests",
+      "Worked with teams to **troubleshoot application migrations** to Kubernetes as well as ongoing support for teams",
+      "Reduced overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
       "Served as a subject matter expert in automation architecture"
     ]
   },
@@ -52,12 +61,18 @@
     "icon": "american-airlines",
     "title": "Principal Engineer, IT DevOps",
     "employment_date": "June 2020 - January 2021",
-    "single_line": true,
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
     "bullets": [
       "Created architecture proposals based on identified solution gaps",
       "Contributed to the overall strategy and managed complex issues within functional area of expertise",
-      "Worked with developers across the company to implement their solutions into an InnerSourced framework"
+      "Planned, architected, implemented, and managed an InnerSourced **Internal Developer Portal** (IDP)",
+      "Utilized multiple Azure Services such as App Services, Functions, Redis, Postgres, Storage Accounts, and Azure Kubernetes Service (AKS) though **Infrastructure as Code** (IAC) mainly using Terraform",
+      "Served as the technical lead to a team of developers",
+      "Followed and maintained **Agile** best practices",
+      "**Abstracted** complex designs and implementations through a simple developer portal using various backend services",
+      "Communicated with other stakeholders and end users in the software development lifecycle",
+      "Worked with developers across the company to implement their solutions into an **InnerSource** framework",
+      "Developed functionality using **Backstage.io**, **React**, **Typescript**, and **GitHub Actions**"
     ]
   },
   {
@@ -65,12 +80,18 @@
     "icon": "american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 - June 2020",
-    "single_line": true,
+    "print_description_only": true,
     "description": "Worked in the Enterprise Network automation organization architecting solutions for automation using devops methodologies",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture proposals related to a networking automation portal",
-      "Contributed to the overall strategy and managed complex issues within networking automation",
-      "Served as a subject matter expert in network automation architecture"
+      "Developed overall strategic technical plans and created architecture proposals related to a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, **RabbitMQ**, and **Websockets**",
+      "Contributed to the overall strategy and managed complex issues within **Networking Automation**",
+      "Served as a subject matter expert in Network Automation architecture",
+      "Implemented local development using tools such as **docker-compose** and **Skaffold** to ensure local development matched higher environments",
+      "Developed custom implementation for **Cisco Plug-n-Play** to configure network devices upon being plugged into the network",
+      "Worked within a project management/agile delivery methodology in a leading role",
+      "Automated network device onboarding through self-service portal into network monitoring platforms to improve **proactive response** to network related issues, reducing reactive responses and improving network device communication success",
+      "Documented solutions though data models, configurations, and setup within enterprise code management platforms",
+      "Ensured that platforms and data solutions can be deployed and operated in a **highly repeatable and predictable manner**"
     ]
   },
   {
@@ -78,13 +99,15 @@
     "icon": "american-airlines",
     "title": "Senior IT Infrastructure Engineer",
     "employment_date": "January 2018 - June 2019",
-    "single_line": true,
+    "print_description_only": true,
     "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets",
     "bullets": [
       "Planned, created, and documented processes for new platforms",
       "Evaluated and corrected the integrity of existing systems",
       "Maintained and administered multiple platforms including products from Riverbed, CA Technologies, Infoblox, and Gigamon",
-      "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect"
+      "Managed complex **network data mapping** through Gigamon appliances to duplicate data to network capture and security appliances",
+      "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
+      "Created new network device collection scripts using **Perl** for H3C, an unsupported vendor, within **CA Spectrum**"
     ]
   },
   {
@@ -92,13 +115,16 @@
     "icon": "american-airlines",
     "title": "IT Infrastructure Engineer",
     "employment_date": "June 2016 - January 2018",
-    "single_line": true,
+    "print_description_only": true,
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
     "bullets": [
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
       "Planned, created, and documented processes for existing platforms",
       "Maintained and administered multiple platforms including products from Riverbed and CA Technologies",
-      "Troubleshot common network and network device issues with routing and administration"
+      "Troubleshot common network and network device issues with routing and administration",
+      "Planned extensive solution for device insourcing using **SSH**, while later iterating to **SNMP** resulting in increased **reliability**",
+      "Developed new capabilities in existing toolsets to communicate with newly acquired unsupported devices",
+      "Worked with platform administrators and engineering teams to implement and validate solutions"
     ]
   },
   {
@@ -106,27 +132,30 @@
     "icon": "american-airlines",
     "title": "Associate IT Infrastructure Engineer (ADEPT)",
     "employment_date": "June 2014 - June 2016",
-    "single_line": true,
-    "description": "The American Airlines Development Program for Technology (ADEPT) is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
+    "print_description_only": true,
+    "description": "The **American Airlines Development Program for Technology (ADEPT)** is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
     "bullets": [
-      "Configured, installed, and deployed various network devices and services for functional networks",
+      "Configured, installed, and deployed various network related devices and services for functional networks",
       "Maintained complete technical documentation",
-      "Resolved issues that tiers of support have escalated",
-      "Performed network maintenance and system upgrades"
+      "Resolved networking escalated issues",
+      "Performed network maintenance and system upgrades",
+      "Planned and joined legacy carrier networks",
+      "Obtained Cisco Certified Network Associate (CCNA) from Cisco Bootcamp"
     ]
   },
   {
     "company": "US Airways",
     "icon": "us-airways",
     "title": "Statistical Analyst Intern",
-    "single_line": true,
+    "print_description_only": true,
     "employment_date": "July 2012 - June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
-      "Created of performance metrics",
+      "Created of performance metric reports using **SQL Server Reporting Services** (SSRS) and **SQL Server Integration Services** (SSIS) for executive staff",
       "System performance and capacity planning analysis",
       "System troubleshooting and documentation of complex processes",
-      "Engagement of software vendors and internal development staff to resolve problems as necessary"
+      "Engagement of software vendors and internal development staff to resolve problems as necessary",
+      "Completed analysis of Mainframe Systems to calculate ceilings to reduce costs and categorize usage by organization"
     ]
   }
 ]

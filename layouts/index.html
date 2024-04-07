@@ -4,10 +4,6 @@
 <div class="font-raleway">
   <!-- CONTAINER -->
   <div class="container mx-auto print:mx-0">
-    <!-- EDUCATION -->
-    {{ partial "education.html" . }}
-    <!-- END EDUCATION -->
-    <hr />
     <!-- EXPERIENCE -->
     {{ partial "experience.html" . }}
     <!-- END EXPERIENCE -->
@@ -25,9 +21,9 @@
       <!-- NOTABLE RECOGNITION -->
       {{ partial "recognition.html" . }}
       <!-- END NOTABLE RECOGNITION -->
-      <hr />
+      {{/*  <hr />  */}}
       <!-- PROJECTS -->
-      {{ partial "projects.html" . }}
+      {{/*  {{ partial "projects.html" . }}  */}}
       <!-- END PROJECTS -->
       <hr />
       <!-- VOLUNTEERING -->
@@ -36,6 +32,10 @@
       <!-- COMMUNITY_ENGAGEMENTS -->
       {{ partial "community_engagements.html" . }}
       <!-- END COMMUNITY_ENGAGEMENTS -->
+      <hr />
+      <!-- EDUCATION -->
+      {{ partial "education.html" . }}
+      <!-- END EDUCATION -->
     </div>
     <!-- END CONTAINER -->
   </div>
