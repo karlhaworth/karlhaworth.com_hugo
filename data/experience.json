@@ -6,7 +6,7 @@
     "employment_date": "March 2023 - Present",
     "description": "Worked in the Product Agility organization supporting the solution, strategy, and planning of technical implementations",
     "bullets": [
-      "Responsible for strategy and technical direction for Developer Accelerator working with other Archigeers in Technology and Transformation",
+      "Responsible for strategy and technical direction for Developer Accelerator working with other Architects in Technology and Transformation",
       "Worked closely with Product Technical Leads and Technical Delivery Managers to determine technical strategy, direction and technical skills needed to fulfill the strategies",
       "Aligned product group strategies to enterprise strategies and principals",
       "Supported Product Technical Leads and engineers to select solutions meeting our business needs and long-term strategies",
@@ -28,7 +28,7 @@
     "icon": "american-airlines",
     "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, Product Agility",
     "employment_date": "June 2022 - March 2023",
-    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
+    "description": "Worked in the Delivery Transformation organization creating architectural solutions for automation using DevOps methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for shared Kubernetes clusters for enterprise use",
       "Mentored, guided, and supported developers across American Airlines IT",
@@ -37,7 +37,7 @@
       "Architected and worked with team to implement additional Global Traffic Management (GTM) automation capabilities for **Payment Card Industry (PCI)** workloads",
       "Worked with team on Network **knowledge transfer** regarding Routing, Domain Name System (DNS), and Global Traffic Management (GTM) to support Kubernetes automation",
       "Lead team in parallel programming and design strategies to deliver outcome in a **reduced timeframe**",
-      "Supported binary and artifact management team through upskilling to better manage vendor based infrastructure implementations resulting in **improved reliability and recoverability**"
+      "Supported binary and artifact management team through skill improvement to better manage vendor based infrastructure implementations resulting in **improved reliability and recoverability**"
     ]
   },
   {
@@ -45,7 +45,7 @@
     "icon": "american-airlines",
     "title": "Principal Programmer, Product Technical Lead - Developer Experience, IT DevOps/Applications",
     "employment_date": "January 2021 - June 2022",
-    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
+    "description": "Worked in the Delivery Transformation organization supporting architectural solutions for automation using DevOps methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
       "Mentored numerous developers in their journey from infrastructure engineering to software development",
@@ -63,16 +63,16 @@
     "employment_date": "June 2020 - January 2021",
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
     "bullets": [
+      "Planned, architected, implemented, and managed an InnerSourced **Internal Developer Portal** (IDP) utilizing **Backstage.io**",
       "Created architecture proposals based on identified solution gaps",
       "Contributed to the overall strategy and managed complex issues within functional area of expertise",
-      "Planned, architected, implemented, and managed an InnerSourced **Internal Developer Portal** (IDP)",
       "Utilized multiple Azure Services such as App Services, Functions, Redis, Postgres, Storage Accounts, and Azure Kubernetes Service (AKS) though **Infrastructure as Code** (IAC) mainly using Terraform",
       "Served as the technical lead to a team of developers",
       "Followed and maintained **Agile** best practices",
       "**Abstracted** complex designs and implementations through a simple developer portal using various backend services",
       "Communicated with other stakeholders and end users in the software development lifecycle",
       "Worked with developers across the company to implement their solutions into an **InnerSource** framework",
-      "Developed functionality using **Backstage.io**, **React**, **Typescript**, and **GitHub Actions**"
+      "Developed functionality using **React**, **Typescript**, and **GitHub Actions**"
     ]
   },
   {
@@ -81,7 +81,7 @@
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 - June 2020",
     "print_description_only": true,
-    "description": "Worked in the Enterprise Network automation organization architecting solutions for automation using devops methodologies",
+    "description": "Worked in the Enterprise Network automation organization creating architectural solutions for automation using devops methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture proposals related to a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, **RabbitMQ**, and **Websockets**",
       "Contributed to the overall strategy and managed complex issues within **Networking Automation**",
@@ -91,7 +91,8 @@
       "Worked within a project management/agile delivery methodology in a leading role",
       "Automated network device onboarding through self-service portal into network monitoring platforms to improve **proactive response** to network related issues, reducing reactive responses and improving network device communication success",
       "Documented solutions though data models, configurations, and setup within enterprise code management platforms",
-      "Ensured that platforms and data solutions can be deployed and operated in a **highly repeatable and predictable manner**"
+      "Ensured that platforms and data solutions can be deployed and operated in a **highly repeatable and predictable manner**",
+      "Supported other engineers and developers on contributing to Networking portal"
     ]
   },
   {
@@ -121,9 +122,10 @@
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
       "Planned, created, and documented processes for existing platforms",
       "Maintained and administered multiple platforms including products from Riverbed and CA Technologies",
+      "Collected and automated at scale the categorization and **summarization** of various **network routes and subnets** to support Network troubleshooting solutions",
       "Troubleshot common network and network device issues with routing and administration",
-      "Planned extensive solution for device insourcing using **SSH**, while later iterating to **SNMP** resulting in increased **reliability**",
-      "Developed new capabilities in existing toolsets to communicate with newly acquired unsupported devices",
+      "Planned extensive solution for device in-sourcing using **SSH**, while later iterating to **SNMP** resulting in increased **reliability**",
+      "Developed new capabilities in existing tooling to communicate with newly acquired unsupported Comware H3C devices",
       "Worked with platform administrators and engineering teams to implement and validate solutions"
     ]
   },
