@@ -4,7 +4,7 @@
     <h5 id="communityEngagements">Community Engagements</h5>
     <div class="col-span-5">
         {{ range $index, $element :=  $communityEngagements }}
-            <div class="grid sm:grid-cols-4 print:grid-cols-4 grid-cols-1 {{ if .skip_print }} print:hidden {{end}} {{ if gt $index 7 }} print:hidden {{ end }}">
+            <div class="grid sm:grid-cols-4 print:grid-cols-4 grid-cols-1 {{ if .skip_print }} print:hidden {{end}} {{ if gt $index 4 }} print:hidden {{ end }}">
                 <div class="col-span-3">
                     <strong><a target="_blank" href="{{ .link }}">{{ .name }}</a> - {{ .forum }}</strong>
                 </div>
