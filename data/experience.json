@@ -49,7 +49,7 @@
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
       "Mentored numerous developers in their journey from infrastructure engineering to software development",
-      "Architected, Built, and Operated an **Enterprise Shared Kubernetes platform** which was purpose built for **GitOps** and spun off to another team",
+      "Architected, Built, and Operated an **Enterprise Shared Kubernetes platform** which was purpose built for **GitOps** using ArgoCD and spun off to another team reducing distributed knowledge and strengthening platform engineering",
       "Architected, Built, and Operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
       "Worked with teams to **troubleshoot application migrations** to Kubernetes as well as ongoing support for teams",
       "Reduced overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
