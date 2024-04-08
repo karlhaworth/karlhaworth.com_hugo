@@ -52,15 +52,15 @@
     "icon": "american-airlines",
     "title": "Principal Programmer, Product Technical Lead, Developer Experience",
     "employment_date": "January 2021 - June 2022",
-    "description": "Worked in the Delivery Transformation organization supporting architectural solutions for automation using DevOps methodologies",
+    "description": "Led architectural solutions for automation using DevOps methodologies within the Delivery Transformation organization",
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
-      "Mentored numerous developers in their journey from infrastructure engineering to software development",
-      "Architected, built, and operated an **Enterprise Shared Kubernetes platform** which was purpose built for **GitOps** using ArgoCD and spun off to another team reducing distributed knowledge and strengthening platform engineering",
+      "Mentored, guided, and supported developers across American Airlines IT department",
+      "Developed and executed strategic technical plans and architecture strategy for **shared Kubernetes clusters** for enterprise use",
       "Architected, built, and operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
       "Worked with teams to **troubleshoot application migrations** to Kubernetes as well as ongoing support for teams",
       "Reduced overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
-      "Served as a subject matter expert in automation architecture"
+      "Showcased expertise in automation architecture as a subject matter expert"
     ]
   },
   {
