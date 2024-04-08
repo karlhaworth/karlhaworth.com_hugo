@@ -6,22 +6,22 @@
     "employment_date": "March 2023 - Present",
     "description": "Worked in the Product Agility organization supporting the solution, strategy, and planning of technical implementations",
     "bullets": [
-      "Responsible for strategy and technical direction for Developer Accelerator working with other Architects in Technology and Transformation",
-      "Worked closely with Product Technical Leads and Technical Delivery Managers to determine technical strategy, direction, and technical skills needed to fulfill the strategies",
-      "Aligned product group strategies to enterprise strategies and principals",
-      "Supported Product Technical Leads and engineers to select solutions meeting our business needs and long-term strategies",
+      "Collaborated with other Architects in Technology and Transformation to provide direction for Developer Accelerator",
+      "Led discussions with Product Technical Leads and Technical Delivery Managers to determine technical strategy and skills required",
+      "Aligned product group strategies with enterprise initiatives and principals",
+      "Assisted engineers in selecting solutions that met business requirements and long-term goals",
       "Collaborated with neighboring organizations to incorporate **networking design** considerations",
       "Partnered with Engineering team to streamline redeployment and configuration of major infrastructure, resulting in a **300% increase** in efficiency and enhanced SLAs and KPIs",
-      "Supported Product Technical Leads to ensure backlog reflects the right technical solutions to meet product objectives and priorities",
+      "Ensured backlog reflected appropriate technical solutions to achieve product objectives and priorities",
       "Responsible for **finops** practices within an organization where financial savings were established and improvements to budget forecasting were made",
-      "Designed **layered security** solution in partnerehip with **secrets management** team and platform to ensure security in dynamic environments, including Kubernetes and GitHub actions",
-      "Identified and implemented with vulnerability management team proper mechanisms to implement **secure base images** for the enterprise along with implementation of **image scanning** using GitHub Actions",
+      "Designed **layered security** solution in partnership with **secrets management** team and platform to ensure security in dynamic environments, including Kubernetes and GitHub actions",
+      "Implemented secure base images and image scanning protocols for enterprise utilizing **GitHub Actions**, **enhancing security** measures",
       "Improved Enterprise CI/CD pipelines and actions through collaboration with external teams to ensure success while **reducing time to complete**",
-      "**Contributed to open source** through helm chart updates, Backstage plugins capability enhancements, security fixes, and Dockerfile security improvements",
+      "**Contributed to open source** initiatives through updates, capability enhancements, security fixes, and improvements in Dockerfile security in helm charts and Backstage plugins",
       "Led multiple **proof of concepts (POC)** and beta programs to introduce various services and products to the enterprise",
       "Implemented **Automated Delivery Governance** utilizing the Sigstore framework to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
       "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies",
-      "Worked to identify and resolve areas of technical debt",
+      "Identified and resolved areas of technical debt",
       "Actively participated in **Diversity, Inclusion, and Equity (DEI)** sessions and trainings to promote diverse perspectives",
       "Supported hiring processes, description creation, and candidate selection at various job levels",
       "Contributed and worked on logging strategies utilizing **FluentBit** with structured logging"
@@ -34,16 +34,16 @@
     "employment_date": "June 2022 - March 2023",
     "description": "Worked in the Delivery Transformation organization creating architectural solutions for automation using DevOps methodologies",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture strategy for shared Kubernetes clusters for enterprise use",
+      "Developed overall strategic technical plans and crafted architecture strategy for shared Kubernetes clusters for enterprise use",
       "Mentored, guided, and supported developers across American Airlines IT",
       "Developed the overall automation strategy and managed complex integrations between multiple teams",
-      "Served as a subject matter expert in automation architecture",
+      "Acted as a subject matter expert in automation architecture",
       "Architected and worked with team to implement additional Global Traffic Management (GTM) automation capabilities for **Payment Card Industry (PCI)** workloads",
       "Facilitated knowledge transfer sessions on Network Routing, Domain Name System (DNS), and Global Traffic Management (GTM) to support Kubernetes automation",
       "Led team in parallel programming and design strategies to **expedite** project completion",
-      "Improved **reliability and recoverability** of vendor-based infrastructure implementations through skill enhancement in binary and artifact management team",
+      "Enhanced **reliability and recoverability** of vendor-based infrastructure implementations through skill enhancement in binary and artifact management team",
       "Contributed to product group strategy and roadmaps",
-      "Oversaw knowledge transfer sessions to promote transparent knowledge sharing",
+      "Directed knowledge transfer sessions to foster transparent knowledge sharing",
       "Supported hiring panels, description creation, and candidate selection at multiple job levels"
     ]
   },
@@ -58,8 +58,8 @@
       "Mentored, guided, and supported developers across American Airlines IT department",
       "Developed and executed strategic technical plans and architecture strategy for **shared Kubernetes clusters** for enterprise use",
       "Architected, built, and operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
-      "Worked with teams to **troubleshoot application migrations** to Kubernetes as well as ongoing support for teams",
-      "Reduced overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
+      "Worked with teams to **troubleshoot application migrations** to Kubernetes and provide ongoing support",
+      "Decreased overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
       "Showcased expertise in automation architecture as a subject matter expert"
     ]
   },
@@ -70,14 +70,13 @@
     "employment_date": "June 2020 - January 2021",
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
     "bullets": [
-      "Led the planning, architecture, implementation, and management of an InnerSourced **Internal Developer Portal** (IDP) utilizing **Backstage.io**",
-      "Created architecture proposals based on identified solution gaps",
-      "Contributed to the overall strategy and managed complex issues within functional area of expertise",
-      "Utilized multiple Azure Services such as App Services, Functions, Redis, Postgres, Storage Accounts, and Azure Kubernetes Service (AKS) though **Infrastructure as Code** (IAC) mainly using Terraform",
-      "Served as the technical lead to a team of developers",
-      "Followed and maintained **Agile** best practices",
-      "**Abstracted** complex designs and implementations through a simple developer portal using various backend services",
-      "Communicated with other stakeholders and end users in the software development lifecycle",
+      "Orchestrated the planning, architecture, implementation, and management of an InnerSourced **Internal Developer Portal** (IDP) utilizing **Backstage.io**",
+      "Formulated architecture proposals based on identified solution gaps",
+      "Managed complex issues within functional area of expertise and contributed to overall strategic direction",
+      "Leveraged multiple Azure Services such as App Services, Functions, Redis, Postgres, Storage Accounts, and Azure Kubernetes Service (AKS) though **Infrastructure as Code** (IAC) mainly using Terraform",
+      "Directed a team of developers as the technical lead, ensuring adherence to **Agile** best practices",
+      "**Simplified** complex designs and implementations through a user-friendly developer portal supported by various backend services",
+      "Collaborated with stakeholders and end users throughout the software development lifecycle",
       "Worked with developers across the company to implement their solutions into an **InnerSource** framework",
       "Developed functionality using **React**, **Typescript**, and **GitHub Actions**"
     ]
@@ -90,16 +89,16 @@
     "print_description_only": true,
     "description": "Worked in the Enterprise Network automation organization creating architectural solutions for automation using devops methodologies",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture proposals related to a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, Redis, **RabbitMQ**, and **Websockets**",
-      "Contributed to the overall strategy and managed complex issues within **Networking Automation**",
-      "Served as a subject matter expert in Network Automation architecture",
+      "Created strategic technical plans and proposed architecture for a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, Redis, **RabbitMQ**, and **Websockets**",
+      "Led complex issue management and contributed to overall strategy in **Networking Automation**",
+      "Positioned as a subject matter expert in Network Automation architecture",
       "Implemented local development using tools such as **docker-compose** and **Skaffold** to ensure local development matched higher environments",
-      "Developed custom implementation for **Cisco Plug-n-Play** to configure network devices upon being plugged into the network",
-      "Worked within a project management/agile delivery methodology in a leading role",
-      "Automated network device onboarding through self-service portal into network monitoring platforms to improve **proactive response** to network related issues, reducing reactive responses and improving network device communication success",
-      "Documented solutions though data models, configurations, and setup within enterprise code management platforms",
-      "Ensured that platforms and data solutions can be deployed and operated in a **highly repeatable and predictable manner**",
-      "Supported other engineers and developers on contributing to Networking portal"
+      "Developed custom solutions for **Cisco Plug-n-Play** to streamline network device configuration",
+      "Executed project management and agile delivery methodologies in a leadership capacity",
+      "Automated network device onboarding through a self-service portal to enhance **proactive response** to network issues and improve communication success",
+      "Documented solutions through data models, configurations, and setup in enterprise code management platforms",
+      "Ensured deployability and operability of platforms and data solutions in a **highly repeatable and predictable** manner",
+      "Provided support to engineers and developers contributing to the Networking portal"
     ]
   },
   {
@@ -108,12 +107,12 @@
     "title": "Senior IT Infrastructure Engineer, Networking",
     "employment_date": "January 2018 - June 2019",
     "print_description_only": true,
-    "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets",
+    "description": "Deployed, optimized, and developed engineering toolsets in the Enterprise Network Services department",
     "bullets": [
       "Planned, created, and documented processes for new platforms",
-      "Evaluated and corrected the integrity of existing systems",
+      "Evaluated and rectified the integrity of existing systems",
       "Maintained and administered multiple platforms including products from Riverbed, CA Technologies, Infoblox, and Gigamon",
-      "Managed complex **network data mapping** through Gigamon appliances to duplicate data to network capture and security appliances",
+      "Managed intricate **network data mapping** through Gigamon appliances to duplicate data to network capture and security appliances",
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
       "Created new network device collection scripts using **Perl** for H3C, an unsupported vendor, within **CA Spectrum**"
     ]
@@ -126,14 +125,14 @@
     "print_description_only": true,
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
     "bullets": [
-      "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
-      "Planned, created, and documented processes for existing platforms",
-      "Maintained and administered multiple platforms including products from Riverbed and CA Technologies",
-      "Collected and automated at scale the categorization and **summarization** of various **network routes and subnets** to support Network troubleshooting solutions",
-      "Troubleshot common network and network device issues with routing and administration",
-      "Planned extensive solution for device in-sourcing using **SSH**, while later iterating to **SNMP** resulting in increased **reliability**",
-      "Developed new capabilities in existing tooling to communicate with newly acquired unsupported Comware H3C devices",
-      "Worked with platform administrators and engineering teams to implement and validate solutions"
+      "Installed data monitoring and collection equipment according to diagrams and run-books provided by architect",
+      "Developed and documented processes for existing platforms",
+      "Managed and oversaw multiple platforms, including Riverbed and CA Technologies products",
+      "Automated categorization and summarization of **network routes and subnets** for troubleshooting solutions",
+      "Resolved network and network device issues related to routing and administration",
+      "Designed and implemented an extensive solution for device in-sourcing using SSH and later transitioned to **SNMP for increased reliability**",
+      "Enhanced existing tooling to communicate with unsupported Comware H3C devices",
+      "Collaborated with platform administrators and engineering teams to implement and validate solutions."
     ]
   },
   {
@@ -144,12 +143,12 @@
     "print_description_only": true,
     "description": "The **American Airlines Development Program for Technology (ADEPT)** is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
     "bullets": [
-      "Configured, installed, and deployed various network related devices and services for functional networks",
-      "Maintained complete technical documentation",
-      "Resolved networking escalated issues",
-      "Performed network maintenance and system upgrades",
-      "Planned and joined legacy carrier networks",
-      "Obtained Cisco Certified Network Associate (CCNA) from Cisco Bootcamp"
+      "Configured, installed, and deployed a variety of network devices and services to ensure optimal network functionality",
+      "Maintained comprehensive technical documentation to track network configurations and changes",
+      "Resolved escalated networking issues in a timely and efficient manner",
+      "Conducted regular network maintenance and performed system upgrades as needed",
+      "Led the planning and integration of legacy carrier networks",
+      "Achieved Cisco Certified Network Associate (CCNA) certification through participation in Cisco Bootcamp training"
     ]
   },
   {
@@ -160,11 +159,11 @@
     "employment_date": "July 2012 - June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
-      "Created of performance metric reports using **SQL Server Reporting Services** (SSRS) and **SQL Server Integration Services** (SSIS) for executive staff",
-      "System performance and capacity planning analysis",
-      "System troubleshooting and documentation of complex processes",
-      "Engagement of software vendors and internal development staff to resolve problems as necessary",
-      "Completed analysis of Mainframe Systems to calculate ceilings to reduce costs and categorize usage by organization"
+      "Crafted of performance metric reports using **SQL Server Reporting Services** (SSRS) and **SQL Server Integration Services** (SSIS) for executive staff",
+      "Conducted system performance and capacity planning analysis",
+      "Documented and troubleshooted complex processes within the system",
+      "Collaborated with software vendors and internal development staff to address and resolve issues",
+      "Analyzed Mainframe Systems to calculate ceilings, reduce costs, and categorize usage by organization"
     ]
   }
 ]
