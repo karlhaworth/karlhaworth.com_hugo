@@ -70,7 +70,7 @@
     "employment_date": "June 2020 - January 2021",
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
     "bullets": [
-      "Planned, architected, implemented, and managed an InnerSourced **Internal Developer Portal** (IDP) utilizing **Backstage.io**",
+      "Led the planning, architecture, implementation, and management of an InnerSourced **Internal Developer Portal** (IDP) utilizing **Backstage.io**",
       "Created architecture proposals based on identified solution gaps",
       "Contributed to the overall strategy and managed complex issues within functional area of expertise",
       "Utilized multiple Azure Services such as App Services, Functions, Redis, Postgres, Storage Accounts, and Azure Kubernetes Service (AKS) though **Infrastructure as Code** (IAC) mainly using Terraform",
