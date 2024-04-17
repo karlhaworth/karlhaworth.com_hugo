@@ -3,7 +3,7 @@ module karlhaworth.com/m
 go 1.19
 
 require (
-	github.com/go-rod/rod v0.114.8
+	github.com/go-rod/rod v0.115.0
 	github.com/ysmood/gson v0.7.3
 )
 
