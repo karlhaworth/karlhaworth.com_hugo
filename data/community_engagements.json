@@ -1,5 +1,11 @@
 [
     {
+        "name": "Reducing vulnerabilities in Backstage with Chainguard’s Wolfi",
+        "link": "https://www.chainguard.dev/unchained/reducing-vulnerabilities-in-backstage-with-chainguards-wolfi",
+        "date": "May 16, 2024",
+        "forum": "Unchained by Chainguard - software supply chain and open source security updates from our experts"
+    },
+    {
         "name": "Backstage Secure Base Image",
         "link": "https://www.youtube.com/watch?v=b0KAvaPQLnc&t=228s&pp=2AHkAZACAQ%3D%3D",
         "date": "Apr 17, 2024",
