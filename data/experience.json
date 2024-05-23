@@ -14,7 +14,7 @@
       "Partnered with Engineering team to streamline redeployment and configuration of major infrastructure, resulting in a **300% increase** in efficiency and enhanced SLAs and KPIs",
       "Ensured backlog reflected appropriate technical solutions to achieve product objectives and priorities",
       "Responsible for **finops** practices within an organization where financial savings were established and improvements to budget forecasting were made",
-      "Designed **layered security** solution in partnership with **secrets management** team and platform to ensure security in dynamic environments, including Kubernetes and GitHub actions",
+      "Designed **layered security** solution in partnership with **secrets management** team and platform to ensure security in dynamic environments, including Kubernetes and GitHub actions utilizing **OpenID Connect (OIDC)**",
       "Implemented secure base images and image scanning protocols for enterprise utilizing **GitHub Actions**, **enhancing security** measures",
       "Improved Enterprise CI/CD pipelines and actions through collaboration with external teams to ensure success while **reducing time to complete**",
       "**Contributed to open source** initiatives through updates, capability enhancements, security fixes, and improvements in Dockerfile security in helm charts and Backstage plugins",
