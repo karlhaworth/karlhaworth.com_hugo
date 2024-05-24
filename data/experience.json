@@ -24,7 +24,8 @@
       "Identified and resolved areas of technical debt",
       "Actively participated in **Diversity, Inclusion, and Equity (DEI)** sessions and trainings to promote diverse perspectives",
       "Supported hiring processes, description creation, and candidate selection at various job levels",
-      "Contributed and worked on logging strategies utilizing **FluentBit** with structured logging"
+      "Contributed and worked on logging strategies utilizing **FluentBit** with structured logging",
+      "Created solution for distribution of pull secrets using Azure Kubernetes Service (AKS) with OpenID Connect (OIDC) to **remove all long lived tokens** related to internal registries"
     ]
   },
   {
