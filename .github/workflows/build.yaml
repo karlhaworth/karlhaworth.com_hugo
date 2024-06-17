@@ -24,6 +24,26 @@ jobs:
       - name: build
         run: make publish-cloudflare
 
+      - uses: actions/github-script@v7
+        id: my-script
+        with:
+          script: |
+            fs.readFile("./data/experience.json", "utf8", (error, data) => {
+              if (error) {
+                console.log(error);
+                return;
+              }
+              const experience = JSON.parse(data)
+              console.log(experience)
+              experiences.forEach(experience => {
+                console.log(experience.description)
+                experience.bullets.forEach(bullet => {
+                  console.log("- " + bullet)
+                })
+              })
+              
+            }
+
       - name: Publish to Preview Env
         uses: cloudflare/pages-action@1
         if: github.event_name == 'pull_request' && github.event.pull_request.merged == false
