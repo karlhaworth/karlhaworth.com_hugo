@@ -34,7 +34,7 @@ jobs:
                 console.log(error);
                 return;
               }
-              const experience = JSON.parse(data)
+              const experiences = JSON.parse(data)
               console.log(experience)
               experiences.forEach(experience => {
                 console.log(experience.description)
