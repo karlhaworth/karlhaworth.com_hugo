@@ -35,7 +35,7 @@ jobs:
                 return;
               }
               const experiences = JSON.parse(data)
-              console.log(experience)
+              
               experiences.forEach(experience => {
                 console.log(experience.description)
                 experience.bullets.forEach(bullet => {
