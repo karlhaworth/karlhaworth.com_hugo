@@ -42,7 +42,7 @@ jobs:
                 console.log("")
                 console.log(experience.description)
                 experience.bullets.forEach(bullet => {
-                  console.log("- " + bullet.replace("**",""))
+                  console.log("- " + bullet.replace(/\*\*/g,""))
                 })
                 console.log("")
               })
