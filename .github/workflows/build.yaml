@@ -42,7 +42,7 @@ jobs:
                 })
               })
               
-            }
+            })
 
       - name: Publish to Preview Env
         uses: cloudflare/pages-action@1
