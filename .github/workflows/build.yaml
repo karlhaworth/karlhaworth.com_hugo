@@ -40,7 +40,7 @@ jobs:
               content += `${experience.title}\n\n`
               content += `${experience.description}\n`
               experience.bullets.forEach(bullet => {
-                content += `- ${bullet}\n`
+                content += `- ${bullet.replace(/\*\*/g, "")}\n`
               })
               content += `\n\n`
             })
