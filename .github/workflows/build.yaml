@@ -29,13 +29,14 @@ jobs:
         with:
           script: |
             const fs = require('fs')
+
+            var content = ""
+            
             fs.readFile("./data/experience.json", "utf8", (error, data) => {
               if (error) {
                 console.log(error);
                 return;
               }
-
-              var content = ""
 
               const experiences = JSON.parse(data)
               
