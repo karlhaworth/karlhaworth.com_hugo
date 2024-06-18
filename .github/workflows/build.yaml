@@ -31,7 +31,7 @@ jobs:
             const fs = require('fs')
 
             var content = ""
-            
+
             fs.readFile("./data/experience.json", "utf8", (error, data) => {
               if (error) {
                 console.log(error);
@@ -41,21 +41,18 @@ jobs:
               const experiences = JSON.parse(data)
               
               experiences.forEach(experience => {
-                console.log("")
-                console.log(experience.title)
                 content += `${experience.title}\n\n`
-                console.log("")
-                console.log(experience.description)
                 content += `${experience.description}\n`
                 experience.bullets.forEach(bullet => {
-                  console.log("- " + bullet.replace(/\*\*/g,""))
-                  content += `${bullet}\n`
+                  content += `- ${bullet}\n`
                 })
-                console.log("")
                 content += `\n\n`
               })
               
             })
+
+            console.log(content)
+
             fs.writeFile('./public/experience.txt', content, err => {
               if (err) {
                 console.error(err);
