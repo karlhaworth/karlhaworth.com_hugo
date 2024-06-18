@@ -41,6 +41,8 @@ jobs:
               const experiences = JSON.parse(data)
               
               experiences.forEach(experience => {
+                console.log(content)
+                console.log(experience.title)
                 content += `${experience.title}\n\n`
                 content += `${experience.description}\n`
                 experience.bullets.forEach(bullet => {
