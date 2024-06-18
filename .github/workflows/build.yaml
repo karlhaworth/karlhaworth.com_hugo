@@ -34,20 +34,32 @@ jobs:
                 console.log(error);
                 return;
               }
+
+              var content = ""
+
               const experiences = JSON.parse(data)
               
               experiences.forEach(experience => {
                 console.log("")
                 console.log(experience.title)
+                content += `${experience.title}\n\n`
                 console.log("")
                 console.log(experience.description)
+                content += `${experience.description}\n`
                 experience.bullets.forEach(bullet => {
                   console.log("- " + bullet.replace(/\*\*/g,""))
+                  content += `${bullet}\n`
                 })
                 console.log("")
+                content += `\n\n`
               })
               
             })
+            fs.writeFile('./public/experience.txt', content, err => {
+              if (err) {
+                console.error(err);
+              }
+            });
 
       - name: Publish to Preview Env
         uses: cloudflare/pages-action@1
