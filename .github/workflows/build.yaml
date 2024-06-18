@@ -29,25 +29,23 @@ jobs:
         with:
           script: |
             const fs = require('fs')
-            fs.readFile("./data/experience.json", "utf8", (error, data) => {
-              if (error) {
-                console.log(error);
-                return;
-              }
-              const experiences = JSON.parse(data)
+
+            var content = ""
+            
+            const data = fs.readFileSync("./data/experience.json", "utf8")
+            
+            const experiences = JSON.parse(data)
               
-              experiences.forEach(experience => {
-                console.log("")
-                console.log(experience.title)
-                console.log("")
-                console.log(experience.description)
-                experience.bullets.forEach(bullet => {
-                  console.log("- " + bullet.replace(/\*\*/g,""))
-                })
-                console.log("")
+            experiences.forEach(experience => {
+              content += `${experience.title}\n\n`
+              content += `${experience.description}\n`
+              experience.bullets.forEach(bullet => {
+                content += `- ${bullet}\n`
               })
-              
+              content += `\n\n`
             })
+            
+            fs.writeFileSync('./public/experience.txt', content)
 
       - name: Publish to Preview Env
         uses: cloudflare/pages-action@1
