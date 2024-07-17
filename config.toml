@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Karl Haworth'
 theme = "karlhaworth-com"
 
+enableRobotsTXT = true
+
 disableKinds = ["taxonomy", "term"]
 
 [sitemap]
