@@ -6,7 +6,7 @@ serve:
 publish-cloudflare: npm-modules-install tailwind-build build-cloudflare build-pdf
 
 build-cloudflare:
-	hugo --minify -b "${CF_PAGES_URL}"
+	hugo --minify
 
 build-pdf:
 	PWD=$(pwd)
