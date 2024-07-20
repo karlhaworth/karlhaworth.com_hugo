@@ -22,7 +22,7 @@ jobs:
           hugo-version: "0.110.0"
 
       - name: build
-        run: make publish-cloudflare
+        run: make build-all
 
       - uses: actions/github-script@v7
         id: my-script
