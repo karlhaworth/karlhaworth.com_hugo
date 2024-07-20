@@ -57,16 +57,16 @@ hugo
 make build-pdf
 ```
 
-#### Tailwind Updates
+#### Build Tailwind
 
 ```bash
-make tailwind
+make build-tailwind
 ```
 
-### CloudFlare Publish
+### Build for Publish
 
 ```bash
-make publish-cloudflare
+make build-all
 ```
 
 #### ENV Vars for CloudFlare
