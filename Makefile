@@ -3,10 +3,14 @@
 serve:
 	hugo serve
 
-publish-cloudflare: npm-modules-install tailwind-build build-cloudflare build-pdf
+install:
+	cd ./themes/karlhaworth-com && \
+	npm install
 
-build-cloudflare:
-	hugo --minify -b "${CF_PAGES_URL}"
+build-all: install build-tailwind build-site build-pdf
+
+build-site:
+	hugo --minify
 
 build-pdf:
 	PWD=$(pwd)
@@ -14,10 +18,6 @@ build-pdf:
 	go install
 	go run main.go
 
-npm-modules-install:
-	cd ./themes/karlhaworth-com && \
-	npm install
-
-tailwind-build:
+build-tailwind:
 	cd ./themes/karlhaworth-com && \
 	npm run build-tw
