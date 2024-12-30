@@ -48,22 +48,19 @@ jobs:
             fs.writeFileSync('./public/experience.txt', content)
 
       - name: Publish to Preview Env
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@v3
         if: github.event_name == 'pull_request' && github.event.pull_request.merged == false
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "karlhaworth-com-hugo"
-          directory: "public"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${GITHUB_REF#refs/heads/}
+          command: pages deploy public --project-name="karlhaworth-com-hugo" --branch=${GITHUB_REF#refs/heads/}
 
       - name: Publish to Prod
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@v3
         if: github.event_name != 'pull_request'
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "karlhaworth-com-hugo"
-          directory: "public"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: pages deploy public --project-name="karlhaworth-com-hugo"
