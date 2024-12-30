@@ -48,8 +48,8 @@ jobs:
               experience.bullets.forEach(bullet => {
                 content += `- ${bullet.replace(/\*\*/g, "")}\n`
               })
-              if (idx === array.length - 1){ 
-                content += `\n`
+              if (idx !== array.length - 1){ 
+                content += `\n\n`
               }
             })
             
