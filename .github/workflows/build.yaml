@@ -7,7 +7,8 @@ on:
       - main
 
 env:
-  PROJECT_NAME: "karlhaworth-com-hugo"
+  PROJECT_NAME: karlhaworth-com-hugo
+  HUGO_VERSION: 0.140.2
 
 jobs:
   build:
@@ -15,6 +16,8 @@ jobs:
     permissions:
       contents: read
       deployments: write
+      statuses: write
+      actions: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,7 +25,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.110.0"
+          hugo-version: ${{ env.HUGO_VERSION }}
 
       - name: build
         run: make build-all
@@ -39,13 +42,15 @@ jobs:
             
             const experiences = JSON.parse(data)
               
-            experiences.forEach(experience => {
+            experiences.forEach(function(experience, idx, array) {
               content += `${experience.title}\n\n`
-              content += `${experience.description}\n`
+              content += `${experience.description.replace(/\*\*/g, "")}\n`
               experience.bullets.forEach(bullet => {
                 content += `- ${bullet.replace(/\*\*/g, "")}\n`
               })
-              content += `\n\n`
+              if (idx !== array.length - 1){ 
+                content += `\n\n`
+              }
             })
             
             fs.writeFileSync('./public/experience.txt', content)
