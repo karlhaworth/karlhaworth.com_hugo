@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+env:
+  PROJECT_NAME: "karlhaworth-com-hugo"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -48,22 +51,9 @@ jobs:
             fs.writeFileSync('./public/experience.txt', content)
 
       - name: Publish to Preview Env
-        uses: cloudflare/pages-action@1
-        if: github.event_name == 'pull_request' && github.event.pull_request.merged == false
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "karlhaworth-com-hugo"
-          directory: "public"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${GITHUB_REF#refs/heads/}
-
-      - name: Publish to Prod
-        uses: cloudflare/pages-action@1
-        if: github.event_name != 'pull_request'
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "karlhaworth-com-hugo"
-          directory: "public"
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: pages deploy public --project-name="${{ env.PROJECT_NAME }}"
