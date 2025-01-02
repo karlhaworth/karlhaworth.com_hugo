@@ -12,9 +12,9 @@
         {{ $cssLightbox := slice $mainStyle $fontsStyle $lightboxStyle | resources.Concat "css/bundle.css" | resources.Minify }}
         {{ $cssMain := slice $mainStyle $fontsStyle | resources.Concat "css/bundle.css" | resources.Minify }}
         {{ if eq .RelPermalink "/robotics/" }}
-            <link rel="stylesheet" href="{{ $cssLightbox.RelPermalink }}">
+            <style>{{ $cssLightbox.Content | safeCSS }}</style>
         {{ else }}
-            <link rel="stylesheet" href="{{ $cssMain.RelPermalink }}">
+            <style>{{ $cssMain.Content | safeCSS }}</style>
         {{ end }}
 
         <!-- generics -->
