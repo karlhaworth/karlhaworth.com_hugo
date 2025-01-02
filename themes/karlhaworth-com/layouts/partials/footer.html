@@ -11,28 +11,28 @@
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="cloudflare"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="cloudflare" loading="lazy"/>
             </div>
             <div>
                 {{ $image := resources.Get "technologies/github.png" }}
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="github"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="github" loading="lazy"/>
             </div>
             <div>
                 {{ $image := resources.Get "technologies/hugo.png" }}
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="hugo"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="hugo" loading="lazy"/>
             </div>
             <div>
                 {{ $image := resources.Get "technologies/tailwind.png" }}
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="tailwind"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="tailwind" loading="lazy"/>
             </div>
             <div id="copyright" class="col-span-2 text-xs">
                 Created by KARLHAWORTH<br/>
