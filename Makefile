@@ -16,8 +16,7 @@ build-site:
 	hugo --minify
 
 build-pdf:
-	PWD=$(pwd)
-	hugo --minify --destination pdf_public -b ${PWD}/pdf_public
+	hugo --minify --destination pdf_public -b $(pwd)/pdf_public
 	go install
 	go run main.go
 
