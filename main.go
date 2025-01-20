@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"github.com/go-rod/rod"
+    "github.com/go-rod/rod/lib/launcher"
 	"github.com/go-rod/rod/lib/proto"
 	"github.com/go-rod/rod/lib/utils"
 	"github.com/ysmood/gson"
@@ -23,7 +24,15 @@ func main() {
 
 	outfilePath := "./public/karl_haworth_resume.pdf"
 
-	page := rod.New().MustConnect().MustPage("file://" + filepath).MustWaitLoad()
+	l, _ := launcher.New().Set("disable-web-security").
+        Set("disable-setuid-sandbox").
+        Set("no-sandbox").
+        Set("no-first-run", "true").
+        Set("disable-gpu").
+        Headless(true).
+        Launch()
+
+	page := rod.New().ControlURL(l).MustConnect().MustPage("file://" + filepath).MustWaitLoad()
 	page.MustPDF(outfilePath)
 	// customized version
 	pdf, _ := page.PDF(&proto.PagePrintToPDF{
