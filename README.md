@@ -32,23 +32,15 @@ Bootstrap was used however many hacks were needed to make it appear the way I wa
 
 ### Local
 
-#### Prerequisites
+- Go - `brew install go`
+- Node - `brew install node`
+- Hugo - `brew install hugo`
+- Foreman - `brew install foreman`
 
-- GO_VERSION >= 1.19.2
-- NODE_VERSION >= 16.15.1
-- CHROME_VERSION >= 103.0
-- HUGO_VERSION >= 0.109.0
-
-#### Serve
+#### Serving Locally
 
 ```bash
-make serve
-```
-
-#### Build Local
-
-```bash
-hugo
+foreman start -f themes/karlhaworth-com/Procfile.dev
 ```
 
 #### Build PDF
@@ -57,26 +49,11 @@ hugo
 make build-pdf
 ```
 
-#### Build Tailwind
-
-```bash
-make build-tailwind
-```
-
-### Build for Publish
+### Building for Publishing
 
 ```bash
 make build-all
 ```
-
-#### ENV Vars for CloudFlare
-
-|Name|Value|Env|
-|---|---|---|
-|GO_VERSION|1.19.2|ALL|
-|NODE_VERSION|16.15.1|ALL|
-|CF_PAGES_URL|https://karlhaworth.com|PROD|
-|HUGO_VERSION|0.109.0|ALL|
 
 ### GitHub Actions
 

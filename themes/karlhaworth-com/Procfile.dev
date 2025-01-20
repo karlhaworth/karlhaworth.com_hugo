@@ -1,0 +1,2 @@
+css: npm run watch-tw
+hugo: cd ../.. && make serve
