@@ -7,7 +7,10 @@ install:
 	cd ./themes/karlhaworth-com && \
 	npm install
 
-build-all: install build-tailwind build-site build-pdf
+build-all: install build-tailwind build-pdf remove-extra-pdf-info build-site
+
+remove-extra-pdf-info:
+	sed -z -r -i 's#<div class="number[^<]*</div>\n##g' themes/karlhaworth-com/layouts/partials/header.html
 
 build-site:
 	hugo --minify
