@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /karl_haworth_resume.pdf
