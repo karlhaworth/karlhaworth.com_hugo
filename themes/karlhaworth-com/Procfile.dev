@@ -1,2 +1,2 @@
-css: npm run watch-tw
+css: tailwindcss -i ./assets/main.css -o ./assets/style.css --watch
 hugo: cd ../.. && make serve
