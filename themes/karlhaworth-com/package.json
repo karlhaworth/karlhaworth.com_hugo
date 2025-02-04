@@ -3,10 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build-tw": "tailwindcss -i ./assets/main.css -o ./assets/style.css",
-    "watch-tw": "tailwindcss -i ./assets/main.css -o ./assets/style.css --watch"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
