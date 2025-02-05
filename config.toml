@@ -24,7 +24,7 @@ disableKinds = ["taxonomy", "term"]
     target = 'static'
   [[module.mounts]]
     source = 'themes/karlhaworth-com/assets'
-    target = ''
+    target = 'assets'
   [[module.mounts]]
     source = 'static'
     target = 'static'
