@@ -8,17 +8,11 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [sitemap]
-  changefreq = 'monthly'
+  changefreq = 'weekly'
   filename = 'sitemap.xml'
   priority = 0.5
 
 [module]
-  [[module.mounts]]
-    source = 'themes/karlhaworth-com/node_modules/lightbox2/dist'
-    target = 'assets/lightbox2'
-  [[module.mounts]]
-    source = 'themes/karlhaworth-com/node_modules/lightbox2/dist/images'
-    target = 'static/images'
   [[module.mounts]]
     source = 'themes/karlhaworth-com/static'
     target = 'static'
