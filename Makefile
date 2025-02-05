@@ -3,11 +3,7 @@
 serve:
 	hugo serve
 
-install:
-	cd ./themes/karlhaworth-com && \
-	npm install
-
-build-all: install install-tailwind build-tailwind build-pdf remove-extra-pdf-info build-site
+build-all: install-tailwind build-tailwind build-pdf remove-extra-pdf-info build-site
 
 remove-extra-pdf-info:
 	sed -z -r -i 's#<div class="number[^<]*</div>\n##g' themes/karlhaworth-com/layouts/partials/header.html

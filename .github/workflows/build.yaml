@@ -9,7 +9,6 @@ on:
 env:
   PROJECT_NAME: karlhaworth-com-hugo
   HUGO_VERSION: 0.140.2
-  NODE_VERSION: 20
 
 jobs:
   build:
@@ -27,12 +26,6 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
-      
-      - uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
-          cache-dependency-path: themes/karlhaworth-com/package-lock.json
 
       - name: build
         run: make build-all

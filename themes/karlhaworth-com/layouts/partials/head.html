@@ -8,7 +8,7 @@
 
         {{ $mainStyle := resources.Get "style.css" }}
         {{ $fontsStyle := resources.Get "fonts.css" }}
-        {{ $lightboxStyle := resources.Get "lightbox2/css/lightbox.min.css" }}
+        {{ $lightboxStyle := resources.Get "lightbox.css" }}
         {{ $cssLightbox := slice $mainStyle $fontsStyle $lightboxStyle | resources.Concat "css/bundle.css" | resources.Minify }}
         {{ $cssMain := slice $mainStyle $fontsStyle | resources.Concat "css/bundle.css" | resources.Minify }}
         {{ if eq .RelPermalink "/robotics/" }}
