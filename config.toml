@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "term"]
     source = 'themes/karlhaworth-com/node_modules/lightbox2/dist/images'
     target = 'static/images'
   [[module.mounts]]
-    source = 'themes/karlhaworth-com/node_modules/jquery/dist'
-    target = 'assets/jquery'
+    source = 'themes/karlhaworth-com/static'
+    target = 'static'
   [[module.mounts]]
     source = 'static'
     target = 'static'
