@@ -43,9 +43,8 @@
 </footer>
 
 {{ if eq .RelPermalink "/robotics/" }}
-    {{ $lightbox := resources.Get "static/lightbox.js" }}
-    {{ $js := slice $lightbox | resources.Concat "js/bundle.js" | resources.Minify }}
-    <script src="{{ $js.Permalink }}"></script>
+    {{ $lightbox := resources.Get "static/lightbox.js" | resources.Minify }}
+    <script src="{{ $lightbox.Permalink }}"></script>
 {{ end }}
 
 </body>
