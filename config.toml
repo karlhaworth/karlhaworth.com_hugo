@@ -11,17 +11,3 @@ disableKinds = ["taxonomy", "term"]
   changefreq = 'weekly'
   filename = 'sitemap.xml'
   priority = 0.5
-
-[module]
-  [[module.mounts]]
-    source = 'themes/karlhaworth-com/static'
-    target = 'static'
-  [[module.mounts]]
-    source = 'themes/karlhaworth-com/assets'
-    target = 'assets'
-  [[module.mounts]]
-    source = 'static'
-    target = 'static'
-  [[module.mounts]]
-    source = 'assets'
-    target = 'assets'
