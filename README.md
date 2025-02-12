@@ -40,7 +40,7 @@ Bootstrap was used however many hacks were needed to make it appear the way I wa
 #### Serving Locally
 
 ```bash
-foreman start -f themes/karlhaworth-com/Procfile.dev
+make serve
 ```
 
 #### Build PDF
