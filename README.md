@@ -33,7 +33,6 @@ Bootstrap was used however many hacks were needed to make it appear the way I wa
 ### Local
 
 - Go - `brew install go`
-- Node - `brew install node`
 - Hugo - `brew install hugo`
 - Foreman - `brew install foreman`
 
