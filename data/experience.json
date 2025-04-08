@@ -1,5 +1,24 @@
 [
   {
+    "company": "Thrivent Financial",
+    "icon": "kh-font-thrivent",
+    "title": "Principal Engineer - Digital Advisor Experience",
+    "employment_date": "May 2025 - Present",
+    "description": "Led cross-functional technology initiatives and defined engineering strategy to deliver scalable, resilient, and innovative software solutions across diverse platforms.",
+    "bullets": [
+      "Designed and architected complex solutions across platforms including Java, React, SaaS, Mainframe, and vendor integrations.",
+      "Led technical strategy and influenced engineering direction across teams and business units.",
+      "Developed critical solution components and created frameworks that improved team effectiveness and collaboration.",
+      "Acted as a technical advisor in evaluating and selecting technologies, including vendor solutions.",
+      "Introduced and shared emerging best practices, patterns, and enterprise design standards.",
+      "Championed DevOps practices, driving improvements in CI/CD, stability, scalability, and incident resolution.",
+      "Provided hands-on coaching and mentorship to engineers across multiple product teams.",
+      "Led cross-team solution design and facilitated alignment with strategic enterprise priorities.",
+      "Played an active role in technical recruiting, talent development, and engineering community engagement.",
+      "Shaped and contributed to a strong engineering culture centered around continuous improvement and client outcomes."
+    ]
+  },
+  {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
     "title": "Principal Staff Engineer, Sr Principal Architect - Developer Accelerator Product Group (DevOps/DevEx), Product Agility",
