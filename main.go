@@ -42,10 +42,10 @@ func main() {
 	pdf, _ := page.PDF(&proto.PagePrintToPDF{
 		PaperWidth:      gson.Num(8.5),
 		PaperHeight:     gson.Num(11),
-		MarginTop:       gson.Num(0.15),
-		MarginBottom:    gson.Num(0.15),
-		MarginRight:     gson.Num(0.15),
-		MarginLeft:      gson.Num(0.15),
+		MarginTop:       gson.Num(0.2),
+		MarginBottom:    gson.Num(0.2),
+		MarginRight:     gson.Num(0.2),
+		MarginLeft:      gson.Num(0.2),
 		Scale:           gson.Num(0.95),
 		PrintBackground: true,
 	})
