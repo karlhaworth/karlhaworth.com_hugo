@@ -1,0 +1,26 @@
+{
+  "albion": {
+    "encodedCode": "\\ea01",
+    "prefix": "kh-font",
+    "className": "kh-font-albion",
+    "unicode": "&#59905;"
+  },
+  "american-airlines": {
+    "encodedCode": "\\ea02",
+    "prefix": "kh-font",
+    "className": "kh-font-american-airlines",
+    "unicode": "&#59906;"
+  },
+  "thrivent": {
+    "encodedCode": "\\ea03",
+    "prefix": "kh-font",
+    "className": "kh-font-thrivent",
+    "unicode": "&#59907;"
+  },
+  "us-airways": {
+    "encodedCode": "\\ea04",
+    "prefix": "kh-font",
+    "className": "kh-font-us-airways",
+    "unicode": "&#59908;"
+  }
+}

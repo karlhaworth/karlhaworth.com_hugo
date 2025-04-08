@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@import "../static/kh-font/kh-font.css";
+
 @source '../../../content/**/*.md';
 @source '../../../layouts/**/*.html';
 

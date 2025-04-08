@@ -1,7 +1,7 @@
 [
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Principal Staff Engineer, Sr Principal Architect - Developer Accelerator Product Group (DevOps/DevEx), Product Agility",
     "employment_date": "March 2023 - Present",
     "description": "Worked in the Product Agility organization supporting the solution, strategy, and planning of technical implementations",
@@ -30,7 +30,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, Product Agility",
     "employment_date": "June 2022 - March 2023",
     "description": "Worked in the Delivery Transformation organization creating architectural solutions for automation using DevOps methodologies",
@@ -50,7 +50,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Principal Programmer, Product Technical Lead, Developer Experience",
     "employment_date": "January 2021 - June 2022",
     "description": "Led architectural solutions for automation using DevOps methodologies within the Delivery Transformation organization",
@@ -66,7 +66,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Principal Engineer, Developer Experience",
     "employment_date": "June 2020 - January 2021",
     "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
@@ -84,7 +84,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 - June 2020",
     "print_description_only": true,
@@ -104,7 +104,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Senior IT Infrastructure Engineer, Networking",
     "employment_date": "January 2018 - June 2019",
     "print_description_only": true,
@@ -120,7 +120,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "IT Infrastructure Engineer, Networking",
     "employment_date": "June 2016 - January 2018",
     "print_description_only": true,
@@ -138,7 +138,7 @@
   },
   {
     "company": "American Airlines",
-    "icon": "american-airlines",
+    "icon": "kh-font-american-airlines",
     "title": "Associate IT Infrastructure Engineer (ADEPT)",
     "employment_date": "June 2014 - June 2016",
     "print_description_only": true,
@@ -154,7 +154,7 @@
   },
   {
     "company": "US Airways",
-    "icon": "us-airways",
+    "icon": "kh-font-us-airways",
     "title": "Statistical Analyst Intern",
     "print_description_only": true,
     "employment_date": "July 2012 - June 2014",
