@@ -21,7 +21,7 @@ process-svgs:
 
 create-font:
 	cd themes/karlhaworth-com
-	npx svgtofont --sources static/svgs --output assets/kh-font
+	npx svgtofont --sources static/svgs --output static/kh-font
 
 install-tailwind:
 	wget https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64 -O /usr/local/bin/tailwindcss
