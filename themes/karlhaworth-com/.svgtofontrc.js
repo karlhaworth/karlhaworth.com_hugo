@@ -4,7 +4,9 @@ import path from "path";
  */
 export default {
   fontName: "kh-font",
-  css: true,
+  css: {
+    cssPath: "/kh-font/"
+  },
   generateInfoData: true,
   output: "assets/kh-font",
   sources: "static/svgs",
