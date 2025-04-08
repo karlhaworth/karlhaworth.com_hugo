@@ -3,7 +3,7 @@
 serve:
 	foreman start -f themes/karlhaworth-com/Procfile.dev
 
-build-all: install-tailwind build-tailwind build-pdf remove-extra-pdf-info build-site
+build-all: install-tailwind build-tailwind create-font build-pdf remove-extra-pdf-info build-site
 
 remove-extra-pdf-info:
 	sed -z -r -i 's#<div class="number[^<]*</div>\n##g' themes/karlhaworth-com/layouts/partials/header.html
@@ -15,6 +15,13 @@ build-pdf:
 	hugo --minify --destination pdf_public -b $(pwd)/pdf_public
 	go install
 	go run main.go
+
+process-svgs:
+	npx -y svgo -f themes/karlhaworth-com/static/svgs
+
+create-font:
+	cd themes/karlhaworth-com
+	npx -y svgtofont --sources static/svgs --output static/kh-font
 
 install-tailwind:
 	wget https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64 -O /usr/local/bin/tailwindcss

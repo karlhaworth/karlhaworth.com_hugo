@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "kh-font";
+  src: url('kh-font.eot?t=1744077390030'); /* IE9*/
+  src: url('kh-font.eot?t=1744077390030#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('kh-font.woff2?t=1744077390030') format('woff2'),
+  url('kh-font.woff?t=1744077390030') format('woff'),
+  url('kh-font.ttf?t=1744077390030') format('truetype'),
+  url('kh-font.svg?t=1744077390030') format('svg');
+}
+
+[class^="kh-font-"], [class*=" kh-font-"] {
+  font-family: 'kh-font' !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.kh-font-albion::before { content: "\ea01"; }
+.kh-font-american-airlines::before { content: "\ea02"; }
+.kh-font-thrivent::before { content: "\ea03"; }
+.kh-font-us-airways::before { content: "\ea04"; }
+
+
+$kh-font-albion = '\ea01'
+$kh-font-american-airlines = '\ea02'
+$kh-font-thrivent = '\ea03'
+$kh-font-us-airways = '\ea04'
