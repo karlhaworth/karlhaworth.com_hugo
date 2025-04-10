@@ -5,7 +5,8 @@ import path from "path";
 export default {
   fontName: "kh-font",
   css: {
-    cssPath: "/kh-font/"
+    cssPath: "/kh-font/",
+    hasTimestamp: false
   },
   generateInfoData: true,
   output: "assets/kh-font",
