@@ -1,7 +1,10 @@
 .PHONY: all
 
 serve:
-	foreman start -f themes/karlhaworth-com/Procfile.dev
+	foreman start -f Procfile.dev
+
+hugo-serve:
+	hugo serve
 
 build-all: install-tailwind build-tailwind create-font build-pdf remove-extra-pdf-info build-site
 

@@ -1,0 +1,4 @@
+css: tailwindcss -i ./themes/karlhaworth-com/assets/main.css -o ./themes/karlhaworth-com/assets/style.css --watch
+hugo: make hugo-serve
+svgtofont: npx -y nodemon --verbose -e svg --watch themes/karlhaworth-com/static/svgs --exec "npx -y svgtofont --sources themes/karlhaworth-com/static/svgs --output themes/karlhaworth-com/static/kh-font"
+pdf: npx -y nodemon --verbose -e css,js,html,json,md --watch themes/karlhaworth-com --watch  layouts --watch data --watch content --exec "make build-pdf"
