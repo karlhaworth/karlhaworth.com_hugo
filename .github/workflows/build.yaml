@@ -8,7 +8,7 @@ on:
 
 env:
   PROJECT_NAME: karlhaworth-com-hugo
-  HUGO_VERSION: 0.140.2
+  HUGO_VERSION: 0.146.1
 
 jobs:
   build:
