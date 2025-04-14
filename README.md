@@ -38,17 +38,15 @@ Bootstrap was used however many hacks were needed to make it appear the way I wa
 
 #### Serving Locally
 
+The below will run foreman to serve Hugo, build CSS, build PDF, and convert SVGs to fonts while watching files for changes.
+
 ```bash
 make serve
 ```
 
-#### Build PDF
-
-```bash
-make build-pdf
-```
-
 ### Building for Publishing
+
+This is performed in the GitHub Workflow and builds CSS, a PDF, converts SVGs, and builds using Hugo
 
 ```bash
 make build-all
