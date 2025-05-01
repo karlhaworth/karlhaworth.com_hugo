@@ -22,12 +22,6 @@ For myself, this creates a marketable and favorable image during search results.
 
 The intent is to keep this simple to update and host as well as cheap to run.
 
-#### Move from 11ty
-
-Previously a static stie generator named [11ty](https://www.11ty.dev) was used. With 11ty, the image processing was extra, the scripts grew and were not friendly, and the freedom of choice with 11ty made things more complicated than they needed to be. Hugo seemed to provide a more opinionated route making for less scripts which resulted in what feels like a better project structure and less pieces to manage.
-
-Bootstrap was used however many hacks were needed to make it appear the way I wanted, while tailwind provided less opinionated defaults.
-
 ### Print styles produce PDF resume. Best printed in Chrome.
 
 ### Local
@@ -50,10 +44,4 @@ This is performed in the GitHub Workflow and builds CSS, a PDF, converts SVGs, a
 
 ```bash
 make build-all
-```
-
-### GitHub Actions
-
-```
-act -v --container-architecture linux/amd64 build.yml -j build -P ubuntu-latest=ghcr.io/catthehacker/ubuntu:full-latest
 ```
