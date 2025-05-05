@@ -16,18 +16,22 @@
                         <span class="bg-[#6c757d] text-white rounded_print rounded-md whitespace-nowrap leading-5">{{ .employment_date }}</span >
                     </div>
                 </div>
+                {{ if .description }}
                 <div class="grid grid-cols-1  {{ if .print_description_only }} print:hidden {{ end }}">
                     <div itemprop="description">
                         {{ .description | markdownify }}
                     </div>
                 </div>
+                {{ end }}
+                {{ if .bullets }}
                 <div class="grid grid-cols-1 {{ if .print_description_only }} print:hidden {{ end }}">
                     <ul>
                         {{ range .bullets }}
                             <li>{{ . | markdownify }}</li>
                         {{ end }}
                     </ul>
-                </div>
+                </div>  
+                {{ end }}
             </div>
         {{ end }}
     </div>
