@@ -37,22 +37,29 @@ jobs:
             const fs = require('fs')
 
             var content = ""
-            
+
             const data = fs.readFileSync("./data/experience.json", "utf8")
-            
+
             const experiences = JSON.parse(data)
-              
+
             experiences.forEach(function(experience, idx, array) {
               content += `${experience.title}\n\n`
-              content += `${experience.description.replace(/\*\*/g, "")}\n`
-              experience.bullets.forEach(bullet => {
-                content += `- ${bullet.replace(/\*\*/g, "")}\n`
-              })
-              if (idx !== array.length - 1){ 
+              
+              if (experience.description) {
+                content += `${experience.description.replace(/\*\*/g, "")}\n`
+              }
+              
+              if (experience.bullets && Array.isArray(experience.bullets)) {
+                experience.bullets.forEach(bullet => {
+                  content += `- ${bullet.replace(/\*\*/g, "")}\n`
+                })
+              }
+              
+              if (idx !== array.length - 1) { 
                 content += `\n\n`
               }
             })
-            
+
             fs.writeFileSync('./public/experience.txt', content)
 
       - name: Publish to Cloudflare
