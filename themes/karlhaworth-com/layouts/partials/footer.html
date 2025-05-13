@@ -1,40 +1,27 @@
 <footer class="print:hidden bg-[#222] py-4">
-    <div class="text-right text-white container  mx-auto">
-        <div class="grid sm:grid-cols-7 print:grid-cols-7 grid-cols-1">
-            <div>
+    <div class="text-white container mx-auto">
+        <div class="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+            <div class="text-center col-span-full sm:col-span-full md:col-span-full">
                 <svg width="25px" height="25px" viewbox="0 0 16 16" class="bi bi-heart-fill block" fill="#D5D5D5" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                 </svg>
             </div>
-            <div>
-                {{ $image := resources.Get "technologies/cloudflare.png" }}
+            {{ $technologies := slice "cloudflare" "github" "hugo" "tailwind" }}
+            {{ range $index, $tech := $technologies }}
+            <div class="flex lg:justify-center xl:justify-center 2xl:justify-center {{ if mod $index 2 }}justify-end{{ end }}">
+                {{ $image := resources.Get (printf "technologies/%s.png" $tech) }}
                 {{ $image1x := $image.Resize "x25" }}
                 {{ $image2x := $image.Resize "x50" }}
                 {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="cloudflare" loading="lazy"/>
+                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="{{ $tech }}" loading="lazy"/>
             </div>
-            <div>
-                {{ $image := resources.Get "technologies/github.png" }}
-                {{ $image1x := $image.Resize "x25" }}
-                {{ $image2x := $image.Resize "x50" }}
-                {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="github" loading="lazy"/>
+            {{ end }}
+        </div>
+        <div class="grid grid-cols-2 mt-5">
+            <div id="copyright" class="text-xs">
+                Created with </br> <a href="https://github.com/karlhaworth/karlhaworth.com_hugo" class="text-[#D5D5D5] hover:text-[#D5D5D5]">github.com/karlhaworth/karlhaworth.com_hugo</a>
             </div>
-            <div>
-                {{ $image := resources.Get "technologies/hugo.png" }}
-                {{ $image1x := $image.Resize "x25" }}
-                {{ $image2x := $image.Resize "x50" }}
-                {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="hugo" loading="lazy"/>
-            </div>
-            <div>
-                {{ $image := resources.Get "technologies/tailwind.png" }}
-                {{ $image1x := $image.Resize "x25" }}
-                {{ $image2x := $image.Resize "x50" }}
-                {{ $image3x := $image.Resize "x75" }}
-                <img srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x" src="{{ $image1x.RelPermalink }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" alt="tailwind" loading="lazy"/>
-            </div>
-            <div id="copyright" class="col-span-2 text-xs">
+            <div id="copyright" class="text-xs text-right">
                 Created by KARLHAWORTH<br/>
                 Copyright © {{ now.Year }}
             </div>
