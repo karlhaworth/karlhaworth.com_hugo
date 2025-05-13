@@ -26,7 +26,7 @@
       "**Contributed to open source** initiatives through updates, capability enhancements, security fixes, and improvements in Dockerfile security in helm charts and Backstage plugins",
       "Led multiple **proof of concepts (POC)** and beta programs to introduce various services and products to the enterprise",
       "Implemented **Automated Delivery Governance** utilizing the Sigstore framework to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
-      "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies",
+      "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies leading to a **reducing in defects**",
       "Identified and resolved areas of technical debt",
       "Actively participated in **Diversity, Inclusion, and Equity (DEI)** sessions and trainings to promote diverse perspectives",
       "Supported hiring processes, description creation, and candidate selection at various job levels",
@@ -66,7 +66,7 @@
       "Developed and executed strategic technical plans and architecture strategy for **shared Kubernetes clusters** for enterprise use",
       "Architected, built, and operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
       "Worked with teams to **troubleshoot application migrations** to Kubernetes and provide ongoing support",
-      "Decreased overall Enterprise time to deploy **meshed cross-region** Kubernetes clusters using internal networks using **GitHub Actions** and **Terraform**",
+      "Reduced deployment time for meshed, cross-region Kubernetes clusters by over **99%**, enabling delivery of **multiple clusters in under an hour versus the previous multi-month** timeline. Achieved using GitHub Actions and Terraform to automate infrastructure provisioning and configuration.",
       "Showcased expertise in automation architecture as a subject matter expert"
     ]
   },
