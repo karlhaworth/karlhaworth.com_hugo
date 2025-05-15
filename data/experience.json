@@ -15,23 +15,23 @@
       "Collaborated with enterprise architects in Technology and Transformation to shape the strategic direction of the Developer Accelerator, aligning architectural vision with business transformation goals.",
       "Facilitated technical planning sessions with Product Technical Leads and Technical Delivery Managers to assess capability needs, define strategic priorities, and drive platform adoption across multiple teams.",
       "Mapped product group initiatives to enterprise principles and architecture standards, promoting alignment across teams and reducing downstream integration conflicts.",
-      "Mentored engineers in architectural decision\u2011making, helping them evaluate tooling and patterns that aligned with both immediate needs and long\u2011term platform goals, mentoring **30+ engineers** across 12 teams.",
+      "Mentored engineers in architectural decision‑making, helping them evaluate tooling and patterns that aligned with both immediate needs and long‑term platform goals, mentoring **30+ engineers** across 12 teams.",
       "Integrated **networking design** considerations into application architecture by working with neighboring infrastructure teams, ensuring system resilience and compliance with enterprise networking policies.",
       "Led efforts to streamline major infrastructure provisioning and configuration workflows, resulting in a **300% increase** in redeployment efficiency and improved SLA and KPI attainment.",
-      "Curated and prioritized technical backlog items to ensure that solution delivery remained aligned with evolving architectural standards and product roadmaps, shortening feature lead\u2011time by **20%**.",
+      "Curated and prioritized technical backlog items to ensure that solution delivery remained aligned with evolving architectural standards and product roadmaps, shortening feature lead‑time by **20%**.",
       "Introduced and championed **FinOps practices** within the organization, resulting in measurable cost savings and more accurate forecasting of infrastructure spend.",
-      "Designed a layered security architecture in collaboration with the secrets management and platform teams, integrating **OIDC\u2011based authentication** for Kubernetes and **GitHub Actions** to secure ephemeral workloads.",
+      "Designed a layered security architecture in collaboration with the secrets management and platform teams, integrating **OIDC‑based authentication** for Kubernetes and **GitHub Actions** to secure ephemeral workloads.",
       "Standardized secure base image creation and implemented automated image scanning within **GitHub Actions**, proactively identifying and mitigating container vulnerabilities, achieving a **95% reduction** in critical and high CVEs.",
-      "Enhanced enterprise\u2011wide CI/CD workflows by partnering with platform and application teams to eliminate inefficiencies, significantly **reducing build and deployment times**.",
-      "Contributed to key **open source** tools by providing enhancements, security patches, and documentation improvements in Helm charts, Dockerfiles, and **Backstage** plugins, driving an estimated **10\u202fK downstream adoptions** within the community.",
-      "Spearheaded three high\u2011impact **proof\u2011of\u2011concept (POC)** efforts and beta programs to evaluate platform solutions and drive early feedback into enterprise readiness assessments.",
+      "Enhanced enterprise‑wide CI/CD workflows by partnering with platform and application teams to eliminate inefficiencies, significantly **reducing build and deployment times**.",
+      "Contributed to key **open source** tools by providing enhancements, security patches, and documentation improvements in Helm charts, Dockerfiles, and **Backstage** plugins, driving an estimated **10 K downstream adoptions** within the community.",
+      "Spearheaded three high‑impact **proof‑of‑concept (POC)** efforts and beta programs to evaluate platform solutions and drive early feedback into enterprise readiness assessments.",
       "Established **automated delivery governance** using the Sigstore framework and **SLSA provenance**, enabling cryptographic attestation of artifacts produced within CI/CD pipelines.",
       "Designed an internal testing framework for reusable **GitHub Actions** by implementing ephemeral repositories and synthetic workflows, resulting in a **25% reduction** in deployment defects.",
       "Audited legacy tooling and infrastructure, identifying and resolving areas of **technical debt** that impacted system reliability and team productivity.",
-      "Promoted diverse perspectives by participating in **Diversity, Equity, and Inclusion (DEI)** initiatives, helping embed inclusion into team discussions and decision\u2011making.",
+      "Promoted diverse perspectives by participating in **Diversity, Equity, and Inclusion (DEI)** initiatives, helping embed inclusion into team discussions and decision‑making.",
       "Participated in the talent lifecycle by supporting **hiring processes**, job description refinement, and candidate evaluations for engineering and leadership roles.",
       "Improved observability by developing a structured logging pipeline using **FluentBit**, enhancing troubleshooting and metric collection for distributed applications.",
-      "Eliminated long\u2011lived internal registry credentials by designing an **OIDC\u2011based secret distribution** solution on **Azure Kubernetes Service (AKS)**, boosting security and reducing operational risk."
+      "Eliminated long‑lived internal registry credentials by designing an **OIDC‑based secret distribution** solution on **Azure Kubernetes Service (AKS)**, boosting security and reducing operational risk."
     ]
   },
   {
@@ -42,15 +42,15 @@
     "description": "Worked in the Delivery Transformation organization creating architectural solutions for automation using DevOps methodologies",
     "bullets": [
       "Developed and executed the strategic architecture plan for shared **Kubernetes clusters**, enabling standardized and scalable enterprise deployments supporting **100 production clusters** across diverse product teams.",
-      "Mentored and coached developers across the organization, elevating team capabilities in **DevOps automation** and modern cloud\u2011native engineering practices, supporting **25+ engineers\u2019** skill growth.",
+      "Mentored and coached developers across the organization, elevating team capabilities in **DevOps automation** and modern cloud‑native engineering practices, supporting **25+ engineers’** skill growth.",
       "Architected and coordinated complex automation workflows across multiple teams, reducing manual intervention and improving deployment reliability, reducing deployment incidents by **30%**.",
-      "Served as a recognized subject matter expert in **automation architecture**, guiding cross\u2011functional teams to implement best practices in CI/CD and infrastructure management.",
+      "Served as a recognized subject matter expert in **automation architecture**, guiding cross‑functional teams to implement best practices in CI/CD and infrastructure management.",
       "Led the design and implementation of **Global Traffic Management (GTM)** automation enhancements for **Payment Card Industry (PCI)** workloads, strengthening security and availability.",
       "Conducted knowledge transfer workshops on **DNS**, **network routing**, and **GTM**, empowering teams to independently manage Kubernetes networking configurations.",
-      "Accelerated project delivery by applying parallel programming models and optimizing design strategies to improve scalability and reduce development cycles, cutting average delivery cycles from 4\u202fweeks to **2\u202fweeks**.",
-      "Improved infrastructure reliability and recovery capabilities by collaborating with the binary and artifact management team to enhance automation of vendor\u2011based systems.",
+      "Accelerated project delivery by applying parallel programming models and optimizing design strategies to improve scalability and reduce development cycles, cutting average delivery cycles from 4 weeks to **2 weeks**.",
+      "Improved infrastructure reliability and recovery capabilities by collaborating with the binary and artifact management team to enhance automation of vendor‑based systems.",
       "Contributed to the definition of product group strategies and roadmaps, ensuring alignment between architectural goals and business objectives.",
-      "Promoted a culture of open communication and transparency by leading knowledge\u2011sharing sessions and fostering cross\u2011team collaboration, doubling cross\u2011team design\u2011review participation.",
+      "Promoted a culture of open communication and transparency by leading knowledge‑sharing sessions and fostering cross‑team collaboration, doubling cross‑team design‑review participation.",
       "Actively supported recruitment efforts by participating in hiring panels and shaping job descriptions to attract top technical talent."
     ]
   },
@@ -61,15 +61,15 @@
     "employment_date": "January 2021 - June 2022",
     "description": "Led architectural solutions for automation using DevOps methodologies within the Delivery Transformation organization",
     "bullets": [
-      "Defined and executed the architecture strategy for an enterprise\u2011wide developer portal, enabling streamlined developer workflows and centralized service management, adopted across the entire IT organization.",
-      "Reduced application deployment time from **4\u202fmonths to 20\u202fminutes** by fully automating cross\u2011team release workflows.",
+      "Defined and executed the architecture strategy for an enterprise‑wide developer portal, enabling streamlined developer workflows and centralized service management, adopted across the entire IT organization.",
+      "Reduced application deployment time from **4 months to 20 minutes** by fully automating cross‑team release workflows.",
       "Mentored and guided engineers across the organization, fostering adoption of platform standards and best practices to improve engineering quality and velocity, supporting **40 engineers** spanning 10 product teams.",
       "Led the strategic planning and rollout of shared **Kubernetes** infrastructure, creating scalable environments that supported multiple product teams simultaneously.",
       "Designed, built, and operated a custom **Kubernetes Operator** that automated environment provisioning through integrations with **GTM providers** such as Akamai and Infoblox.",
-      "Collaborated with application teams to troubleshoot migrations to Kubernetes, providing hands\u2011on support and improving deployment success rates.",
-      "Reduced cluster deployment time by over **99%**\u2014from months to under an hour\u2014using **GitHub Actions** and **Terraform** to automate cross\u2011region cluster provisioning.",
+      "Collaborated with application teams to troubleshoot migrations to Kubernetes, providing hands‑on support and improving deployment success rates.",
+      "Reduced cluster deployment time by over **99%**—from months to under an hour—using **GitHub Actions** and **Terraform** to automate cross‑region cluster provisioning.",
       "Served as a subject matter expert in automation architecture, defining reusable patterns for CI/CD integration, infrastructure bootstrapping, and developer enablement, patterns adopted by **15 product teams**.",
-      "Enabled consolidation of duplicate platform teams enterprise\u2011wide by standardizing cluster deployment patterns, freeing resources for innovation."
+      "Enabled consolidation of duplicate platform teams enterprise‑wide by standardizing cluster deployment patterns, freeing resources for innovation."
     ]
   },
   {
@@ -81,12 +81,12 @@
     "bullets": [
       "Led the architecture, planning, and launch of an InnerSourced **Internal Developer Portal (IDP)** built on **Backstage.io**, streamlining service discovery and deployment workflows.",
       "Analyzed solution gaps and authored architecture proposals to address operational inefficiencies and accelerate developer productivity.",
-      "Resolved complex technical issues within the developer\u2011experience domain, contributing to strategic direction for the delivery transformation organization.",
-      "Implemented **Azure** services\u2014App Services, Functions, Redis, Postgres, Storage Accounts, and **AKS**\u2014through **Terraform IaC**, ensuring consistent, repeatable deployments.",
-      "Directed a high\u2011performing development team under **Agile** practices, fostering collaboration and rapid iteration, leading **8 developers** to achieve **95% sprint goal attainment**.",
-      "Simplified intricate system designs by delivering an intuitive portal UI backed by microservices, reducing cognitive load for developers, reducing new\u2011hire portal onboarding time by **30%**.",
-      "Engaged stakeholders and end users throughout the software lifecycle, ensuring portal features aligned with real\u2011world developer needs.",
-      "Cultivated an InnerSource culture by enabling company\u2011wide contribution to the portal codebase, promoting reuse and shared ownership, increasing external code contributions by **4\u00d7** within a quarter.",
+      "Resolved complex technical issues within the developer‑experience domain, contributing to strategic direction for the delivery transformation organization.",
+      "Implemented **Azure** services—App Services, Functions, Redis, Postgres, Storage Accounts, and **AKS**—through **Terraform IaC**, ensuring consistent, repeatable deployments.",
+      "Directed a high‑performing development team under **Agile** practices, fostering collaboration and rapid iteration, leading **8 developers** to achieve **95% sprint goal attainment**.",
+      "Simplified intricate system designs by delivering an intuitive portal UI backed by microservices, reducing cognitive load for developers, reducing new‑hire portal onboarding time by **30%**.",
+      "Engaged stakeholders and end users throughout the software lifecycle, ensuring portal features aligned with real‑world developer needs.",
+      "Cultivated an InnerSource culture by enabling company‑wide contribution to the portal codebase, promoting reuse and shared ownership, increasing external code contributions by **4×** within a quarter.",
       "Enhanced CI/CD pipelines by integrating **React**, **TypeScript**, and **GitHub Actions**, improving build reliability and deployment speed."
     ]
   },
@@ -100,13 +100,13 @@
     "bullets": [
       "Architected a Networking Automation portal leveraging **FastAPI**, **Kubernetes**, **Postgres**, **Redis**, **RabbitMQ**, and **Websockets**, expanding automation reach and platform scalability.",
       "Provided strategic guidance as the subject matter expert in Network Automation architecture, setting standards for infrastructure code quality.",
-      "Established local development parity with production by implementing workflows using **docker\u2011compose** and **Skaffold**, reducing environment\u2011drift incidents by **70%**.",
-      "Developed custom **Cisco Plug\u2011n\u2011Play** automation, streamlining network device onboarding and configuration processes, cutting device onboarding time by **60%**.",
-      "Led Agile project management activities, coordinating cross\u2011functional teams to deliver sprint objectives on schedule, maintaining **92% sprint predictability**.",
-      "Launched a self\u2011service network\u2011device onboarding portal covering **100\u202f% of network devices**, enabling proactive issue resolution and improving deployment communication.",
+      "Established local development parity with production by implementing workflows using **docker‑compose** and **Skaffold**, reducing environment‑drift incidents by **70%**.",
+      "Developed custom **Cisco Plug‑n‑Play** automation, streamlining network device onboarding and configuration processes, cutting device onboarding time by **60%**.",
+      "Led Agile project management activities, coordinating cross‑functional teams to deliver sprint objectives on schedule, maintaining **92% sprint predictability**.",
+      "Launched a self‑service network‑device onboarding portal covering **100 % of network devices**, enabling proactive issue resolution and improving deployment communication.",
       "Documented data models, configurations, and setup procedures within enterprise code repositories to ensure maintainability.",
       "Instituted repeatable, predictable release pipelines to guarantee platform deployability and operational stability.",
-      "Provided mentorship and support to engineers leveraging the Networking portal, fostering skill growth and best\u2011practice adoption.",
+      "Provided mentorship and support to engineers leveraging the Networking portal, fostering skill growth and best‑practice adoption.",
       "Enhanced observability and troubleshooting by integrating structured logging and monitoring into network automation workflows."
     ]
   },
@@ -119,10 +119,10 @@
     "description": "Deployed, optimized, and developed engineering toolsets in the Enterprise Network Services department",
     "bullets": [
       "Planned, created, and documented engineering workflows for new network platforms, standardizing deployment processes, lowering deployment effort by **25%**.",
-      "Evaluated and remediated system integrity issues, strengthening platform stability and resilience, reducing Sev\u20111 network incidents by **15%**.",
+      "Evaluated and remediated system integrity issues, strengthening platform stability and resilience, reducing Sev‑1 network incidents by **15%**.",
       "Administered enterprise network solutions from **Riverbed**, **CA Technologies**, **Infoblox**, and **Gigamon**, ensuring smooth operations.",
-      "Engineered complex data\u2011mapping solutions using **Gigamon** appliances to duplicate traffic for security and capture systems, increasing visibility.",
-      "Installed and maintained monitoring and data\u2011collection equipment aligned with architect\u2011designed run\u2011books, supporting performance analytics.",
+      "Engineered complex data‑mapping solutions using **Gigamon** appliances to duplicate traffic for security and capture systems, increasing visibility.",
+      "Installed and maintained monitoring and data‑collection equipment aligned with architect‑designed run‑books, supporting performance analytics.",
       "Extended platform compatibility by writing **Perl** scripts for unsupported **H3C** devices within **CA Spectrum**."
     ]
   },
@@ -134,12 +134,12 @@
     "print_description_only": true,
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
     "bullets": [
-      "Installed network monitoring and data\u2011collection gear per architect\u2011defined diagrams, ensuring comprehensive network visibility, expanding monitoring coverage by **40%**.",
+      "Installed network monitoring and data‑collection gear per architect‑defined diagrams, ensuring comprehensive network visibility, expanding monitoring coverage by **40%**.",
       "Developed and refined operational processes for existing platforms, contributing to increased uptime and efficiency.",
       "Managed enterprise solutions from **Riverbed** and **CA Technologies**, maintaining performance and reliability.",
       "Automated the categorization and summarization of **network routes and subnets**, accelerating troubleshooting workflows.",
       "Resolved critical routing and device issues, preserving network health and availability, improving MTTR by **30%**.",
-      "Designed an in\u2011sourcing automation for network devices via **SSH**, later transitioning to **SNMP** for enhanced reliability.",
+      "Designed an in‑sourcing automation for network devices via **SSH**, later transitioning to **SNMP** for enhanced reliability.",
       "Enhanced tooling to interact with unsupported **Comware H3C** devices, broadening network monitoring capabilities.",
       "Collaborated with administrators and engineers to validate solution designs and ensure seamless implementation."
     ]
@@ -168,9 +168,9 @@
     "employment_date": "July 2012 - June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
-      "Produced executive\u2011level performance reports using **SSRS** and **SSIS**, delivering actionable insights to senior leadership, utilized weekly by **10 executives**.",
-      "Conducted capacity planning and performance analysis to forecast infrastructure needs and prevent bottlenecks, avoiding an estimated **$150\u202fK** in hardware spend.",
-      "Documented and troubleshot intricate system processes, improving cross\u2011team understanding and resolution times.",
+      "Produced executive‑level performance reports using **SSRS** and **SSIS**, delivering actionable insights to senior leadership, utilized weekly by **10 executives**.",
+      "Conducted capacity planning and performance analysis to forecast infrastructure needs and prevent bottlenecks, avoiding an estimated **$150 K** in hardware spend.",
+      "Documented and troubleshot intricate system processes, improving cross‑team understanding and resolution times.",
       "Partnered with vendors and internal development teams to investigate and remediate system defects.",
       "Analyzed mainframe workloads to optimize capacity, reduce costs, and categorize usage by business unit."
     ]
