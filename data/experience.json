@@ -3,7 +3,15 @@
     "company": "Thrivent Financial",
     "icon": "kh-font-thrivent",
     "title": "Principal Engineer - Digital Advisor Experience",
-    "employment_date": "May 2025 - Present"
+    "employment_date": "May 2025 - Present",
+    "description": "Worked in the Digital Advisor Experience organization, focusing on enhancing engineering maturity, consistency, and standardization across multiple product groups.",
+    "bullets": [
+      "Acted as strategic technical coach for multiple product teams (Java, Salesforce, Mainframe, Informatica ETL), delivering targeted mentoring to elevate engineering skills and autonomy.",
+      "Established engineering best practices and developed reusable frameworks to streamline solutions, significantly improving consistency and maintainability.",
+      "Collaborated across teams and product groups, harmonizing architectural strategies to ensure alignment with broader organizational goals.",
+      "Led initiatives and proof-of-concepts to validate and integrate new technologies, enhancing technical innovation and operational efficiency.",
+      "Supported hiring and onboarding processes, strengthening organizational talent and promoting a culture of continuous improvement and excellence."
+    ]
   },
   {
     "company": "American Airlines",
