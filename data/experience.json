@@ -109,7 +109,6 @@
     "icon": "kh-font-american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 - June 2020",
-    "print_description_only": true,
     "description": "Worked in the Enterprise Network automation organization creating architectural solutions for automation using devops methodologies",
     "bullets": [
       "Created strategic technical plans and proposed architecture for a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, Redis, **RabbitMQ**, and **Websockets**",
