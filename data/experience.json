@@ -6,7 +6,7 @@
   "employment_date": "May 2025 - Present",
   "description": "Embedded within the Digital Advisor Experience portfolio spanning incentive compensation, practice development, and data teams, driving engineering maturity, developer experience, and cross-cutting technical standards across a diverse technology landscape including Java, Salesforce, Mainframe, and Informatica ETL.",
   "bullets": [
-    "Pioneered a mainframe modernization framework using Zowe, establishing the first automated testing infrastructure for mainframe job execution and DB2 operations at the enterprise level — earning recognition from veteran developers and gaining momentum with the core mainframe organization.",
+    "Pioneered a mainframe modernization framework using Zowe, establishing the first automated testing infrastructure for mainframe job execution and DB2 operations at the enterprise level - earning recognition from veteran developers and gaining momentum with the core mainframe organization.",
     "Introduced mutation testing as a standard CI pipeline practice, shifting quality focus beyond coverage metrics to actual test effectiveness; contributed reusable patterns adopted broadly across Thrivent engineering.",
     "Established dependency and vulnerability management practices embedded directly into team workflows, enabling the product group to resolve over 1,000 vulnerabilities in under a week.",
     "Restored full deployability across a large portfolio of applications spanning various runtime platforms through consistent hands-on engagement with each application.",
