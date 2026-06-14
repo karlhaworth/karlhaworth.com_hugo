@@ -5,3 +5,4 @@ style.css
 public
 .DS_Store
 pdf_public
+themes/**/static/*-font/vue
