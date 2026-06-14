@@ -1,0 +1,20 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["weekly"],
+  "regexManagers": [
+    {
+      "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
+      "matchStrings": ["HUGO_VERSION:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"] ,
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "gohugoio/hugo",
+      "versioningTemplate": "semver"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["peaceiris/actions-hugo"],
+      "enabled": true
+    }
+  ]
+}
