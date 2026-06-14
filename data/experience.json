@@ -1,107 +1,76 @@
 [
   {
-  "company": "Thrivent Financial",
-  "icon": "kh-font-thrivent",
-  "title": "Principal Engineer - Digital Advisor Experience",
-  "employment_date": "May 2025 - Present",
-  "description": "Embedded within the Digital Advisor Experience portfolio spanning incentive compensation, practice development, and data teams, driving engineering maturity, developer experience, and cross-cutting technical standards across a diverse technology landscape including Java, Salesforce, Mainframe, and Informatica ETL.",
-  "bullets": [
-    "Pioneered a mainframe modernization framework using Zowe, establishing the first automated testing infrastructure for mainframe job execution and DB2 operations at the enterprise level - earning recognition from veteran developers and gaining momentum with the core mainframe organization.",
-    "Introduced mutation testing as a standard CI pipeline practice, shifting quality focus beyond coverage metrics to actual test effectiveness; contributed reusable patterns adopted broadly across Thrivent engineering.",
-    "Established dependency and vulnerability management practices embedded directly into team workflows, enabling the product group to resolve over 1,000 vulnerabilities in under a week.",
-    "Restored full deployability across a large portfolio of applications spanning various runtime platforms through consistent hands-on engagement with each application.",
-    "Designed and delivered InnerSource solutions for semantic versioning, conventional commits, and mutation testing in an ecosystem-agnostic way, resulting in adoption by engineering teams well beyond the originating product group.",
-    "Led artifact management migration efforts, delivering the automation foundation that the broader Engineering Productivity organization adopted as its standard.",
-    "Redesigned CI/CD workflows with intentional break and resume points, reducing pipeline failures and improving retry success rates while contributing improvements back to enterprise shared workflows.",
-    "Collaborated on hardened base image POCs and advanced security integrations, improving the security posture of the product group and contributing to enterprise-level supply chain practices.",
-    "Established ratcheted testing standards to ensure test quality only improves over time, preventing regression in coverage and effectiveness.",
-    "Developed tooling for bulk repository changes based on configurable criteria, improving engineering efficiency for cross-repo maintenance tasks.",
-    "Coached and mentored engineers across levels; actively participated in InnerSource and community of practice initiatives, influencing principal-level peers through demonstrated patterns and shared tooling.",
-    "Supported hiring pipeline and candidate evaluation processes, contributing to building a stronger engineering organization."
-  ]
-}
-,
+    "company": "Thrivent Financial",
+    "icon": "kh-font-thrivent",
+    "title": "Principal Engineer - Digital Advisor Experience",
+    "employment_date": "May 2025 - Present",
+    "description": "Driving engineering maturity, developer experience, and cross-cutting technical standards across diverse platforms.",
+    "bullets": [
+      "Led an enterprise mainframe modernization initiative and delivered the first automated test framework for mainframe job execution and DB2 validation, increasing change velocity while reducing production risk.",
+      "Elevated test quality by introducing mutation testing and reusable testing patterns, improving defect detection and developer confidence beyond coverage metrics.",
+      "Embedded dependency and vulnerability management into team workflows, enabling remediation of thousands of vulnerabilities in under a short time frame and reducing release risk.",
+      "Designed InnerSource patterns (semantic versioning, conventional commits) and cross-repo automation that accelerated maintenance and adoption across multiple product teams.",
+      "Led artifact-management migration and delivered pipeline redesigns with intentional break/resume points, reducing pipeline failures and improving retry success rates across a heterogeneous portfolio.",
+      "Piloted hardened base images and security integrations that strengthened artifact integrity and enterprise supply-chain posture.",
+      "Defined observability patterns (structured logging, metrics, and tracing) to speed incident diagnosis, improve SRE handoffs, and reduce mean time to resolution.",
+      "Built tooling for bulk repository changes to scale organization-wide maintenance and coached engineering teams on standards, hiring, and InnerSource practices to raise capability.",
+      "Hands-on remediation and platform work restored deployability across a large application portfolio, shortening incident-to-deploy cycles."
+    ]
+  },
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "Principal Staff Engineer, Sr Principal Architect - Developer Accelerator Product Group (DevOps/DevEx), Product Agility",
+    "title": "Principal Staff Engineer / Sr Principal Architect — Developer Accelerator",
     "employment_date": "March 2023 - May 2025",
-    "description": "Worked in the Product Agility organization supporting the solution, strategy, and planning of technical implementations",
+    "description": "Led strategy and solutions for developer productivity and platform acceleration across the enterprise.",
     "bullets": [
-      "Collaborated with other Architects in Technology and Transformation to provide direction for Developer Accelerator",
-      "Led discussions with Product Technical Leads and Technical Delivery Managers to determine technical strategy and skills required",
-      "Aligned product group strategies with enterprise initiatives and principals",
-      "Assisted engineers in selecting solutions that met business requirements and long-term goals",
-      "Collaborated with neighboring organizations to incorporate **networking design** considerations",
-      "Partnered with Engineering team to streamline redeployment and configuration of major infrastructure, resulting in a **300% increase** in efficiency and enhanced SLAs and KPIs",
-      "Ensured backlog reflected appropriate technical solutions to achieve product objectives and priorities",
-      "Responsible for **finops** practices within an organization where financial savings were established and improvements to budget forecasting were made",
-      "Designed **layered security** solution in partnership with **secrets management** team and platform to ensure security in dynamic environments, including Kubernetes and GitHub actions utilizing **OpenID Connect (OIDC)**",
-      "Implemented secure base images and image scanning protocols for enterprise utilizing **GitHub Actions**, **enhancing security** measures",
-      "Improved Enterprise CI/CD pipelines and actions through collaboration with external teams to ensure success while **reducing time to complete**",
-      "**Contributed to open source** initiatives through updates, capability enhancements, security fixes, and improvements in Dockerfile security in helm charts and Backstage plugins",
-      "Led multiple **proof of concepts (POC)** and beta programs to introduce various services and products to the enterprise",
-      "Implemented **Automated Delivery Governance** utilizing the Sigstore framework to attest to artifacts produced in CI/CD processes along with **Supply-chain Levels for Software Artifacts (SLSA)** provenance and signing",
-      "Contributed to overall **GitHub Actions testing plan** for internally provided workflows and actions using test repositories, test workflows, and ephemeral repositories while applying Software Development methodologies leading to a **reduction in defects**",
-      "Identified and resolved areas of technical debt",
-      "Actively participated in **Diversity, Inclusion, and Equity (DEI)** sessions and trainings to promote diverse perspectives",
-      "Supported hiring processes, description creation, and candidate selection at various job levels",
-      "Contributed and worked on logging strategies utilizing **FluentBit** with structured logging",
-      "Created solution for distribution of pull secrets using Azure Kubernetes Service (AKS) with OpenID Connect (OIDC) to **remove all long lived tokens** related to internal registries"
+      "Orchestrated a platform reconfiguration that increased redeployment efficiency by 300%, improving SLA compliance and time-to-recovery for infrastructure changes.",
+      "Defined and implemented layered security and dynamic secrets patterns (OIDC-based) to remove long-lived credentials and reduce exposure in CI/CD and runtime environments.",
+      "Introduced artifact attestation and provenance practices (Sigstore/SLSA concepts) to strengthen software supply chain integrity and enable verifiable releases.",
+      "Standardized secure base-image and image-scanning practices across shared platforms, reducing vulnerable surface in production images.",
+      "Formalized CI/CD testing, ephemeral repo strategies, and governance for shared workflows, reducing defects and shortening feedback loops.",
+      "Drove FinOps controls and improved budget forecasting processes, recovering costs and prioritizing high-impact technical debt removal.",
+      "Led multiple POCs and beta programs to validate platform capabilities (developer portal integrations, secure registries, and logging/observability patterns) and accelerate enterprise adoption.",
+      "Collaborated on structured logging and observability patterns (FluentBit/structured logs) to improve incident diagnosis and SRE handoffs."
     ]
   },
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, Product Agility",
+    "title": "Senior Principal Developer — Developer Experience",
     "employment_date": "June 2022 - March 2023",
-    "description": "Worked in the Delivery Transformation organization creating architectural solutions for automation using DevOps methodologies",
+    "description": "Defined automation strategy and scalable platform architectures to accelerate delivery.",
     "bullets": [
-      "Developed overall strategic technical plans and crafted architecture strategy for shared Kubernetes clusters for enterprise use",
-      "Mentored, guided, and supported developers across American Airlines IT",
-      "Developed the overall automation strategy and managed complex integrations between multiple teams",
-      "Acted as a subject matter expert in automation architecture",
-      "Architected and worked with team to implement additional Global Traffic Management (GTM) automation capabilities for **Payment Card Industry (PCI)** workloads",
-      "Facilitated knowledge transfer sessions on Network Routing, Domain Name System (DNS), and Global Traffic Management (GTM) to support Kubernetes automation",
-      "Led team in parallel programming and design strategies to **expedite** project completion",
-      "Enhanced **reliability and recoverability** of vendor-based infrastructure implementations through skill enhancement in binary and artifact management team",
-      "Contributed to product group strategy and roadmaps",
-      "Directed knowledge transfer sessions to foster transparent knowledge sharing",
-      "Supported hiring panels, description creation, and candidate selection at multiple job levels"
+      "Authored enterprise strategy for shared container platforms and automation, enabling multi-region reliability and improved recoverability for vendor services.",
+      "Designed and delivered Global Traffic Management automation for high-compliance (PCI) workloads, enabling secure, automated routing and failover across providers.",
+      "Led knowledge-transfer sessions on GTM, DNS, and networking for platform teams to accelerate secure automation adoption.",
+      "Improved binary and artifact management processes to enhance reliability of vendor integrations and reduce manual handoffs during deployments.",
+      "Mentored engineers and led cross-team integrations that reduced end-to-end delivery time and improved runbook completeness for production operations."
     ]
   },
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "Principal Programmer, Product Technical Lead, Developer Experience",
+    "title": "Principal Programmer — Developer Experience",
     "employment_date": "January 2021 - June 2022",
-    "description": "Led architectural solutions for automation using DevOps methodologies within the Delivery Transformation organization",
+    "description": "Led the design and delivery of the company-wide developer portal and ephemeral environment automation.",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
-      "Mentored, guided, and supported developers across American Airlines IT department",
-      "Developed and executed strategic technical plans and architecture strategy for **shared Kubernetes clusters** for enterprise use",
-      "Architected, built, and operated a **Kubernetes Operator** to reduce the native Kubernetes manifest, communicate with **Global Traffic Management** (GTM) providers (Akamai and Infoblox), and create ephemeral environments based on Pull Requests",
-      "Worked with teams to **troubleshoot application migrations** to Kubernetes and provide ongoing support",
-      "Reduced deployment time for meshed, cross-region Kubernetes clusters by over **99%**, enabling delivery of **multiple clusters in under an hour versus the previous multi-month** timeline. Achieved using GitHub Actions and Terraform to automate infrastructure provisioning and configuration.",
-      "Showcased expertise in automation architecture as a subject matter expert"
+      "Architected and launched an InnerSourced developer portal that centralized service discovery, onboarding, and platform integration—reducing mean time to onboard and increasing reuse of platform services.",
+      "Built a Kubernetes Operator and automation pipeline to create ephemeral environments from pull requests, reducing cross-region cluster delivery time from months to under an hour (99%+ reduction).",
+      "Integrated platform IaC (Terraform) and CI automation (GitHub Actions patterns) to enforce repeatable, policy-driven provisioning and reduce configuration drift.",
+      "Guided application teams through migration to container platforms, troubleshooting issues and improving production readiness and deployment success rates."
     ]
   },
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "Principal Engineer, Developer Experience",
+    "title": "Principal Engineer — Developer Experience",
     "employment_date": "June 2020 - January 2021",
-    "description": "Worked in the Delivery Transformation organization contributing to the creation of solutions for automation using devops methodologies",
+    "description": "Contributed to Delivery Transformation by architecting automation solutions and a developer platform.",
     "bullets": [
-      "Orchestrated the planning, architecture, implementation, and management of an InnerSourced **Internal Developer Portal** (IDP) utilizing **Backstage.io**",
-      "Formulated architecture proposals based on identified solution gaps",
-      "Managed complex issues within functional area of expertise and contributed to overall strategic direction",
-      "Leveraged multiple Azure Services such as App Services, Functions, Redis, Postgres, Storage Accounts, and Azure Kubernetes Service (AKS) though **Infrastructure as Code** (IAC) mainly using Terraform",
-      "Directed a team of developers as the technical lead, ensuring adherence to **Agile** best practices",
-      "**Simplified** complex designs and implementations through a user-friendly developer portal supported by various backend services",
-      "Collaborated with stakeholders and end users throughout the software development lifecycle",
-      "Worked with developers across the company to implement their solutions into an **InnerSource** framework",
-      "Developed functionality using **React**, **Typescript**, and **GitHub Actions**"
+      "Led planning, architecture, and delivery of an Internal Developer Portal (Backstage-based) to simplify developer workflows and surface platform capabilities.",
+      "Specified backend integrations and supported multiple Azure services through IaC, enabling predictable platform deployments and service-level consistency.",
+      "Directed a cross-functional engineering team as technical lead, enforcing Agile practices and InnerSource contribution models to increase collaboration."
     ]
   },
   {
@@ -109,18 +78,11 @@
     "icon": "kh-font-american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 - June 2020",
-    "description": "Worked in the Enterprise Network automation organization creating architectural solutions for automation using devops methodologies",
+    "description": "Designed network automation systems to improve onboarding and operational repeatability.",
     "bullets": [
-      "Created strategic technical plans and proposed architecture for a Networking Automation portal utilizing **FastAPI**, Kubernetes, Postgres, Redis, **RabbitMQ**, and **Websockets**",
-      "Led complex issue management and contributed to overall strategy in **Networking Automation**",
-      "Positioned as a subject matter expert in Network Automation architecture",
-      "Implemented local development using tools such as **docker-compose** and **Skaffold** to ensure local development matched higher environments",
-      "Developed custom solutions for **Cisco Plug-n-Play** to streamline network device configuration",
-      "Executed project management and agile delivery methodologies in a leadership capacity",
-      "Automated network device onboarding through a self-service portal to enhance **proactive response** to network issues and improve communication success",
-      "Documented solutions through data models, configurations, and setup in enterprise code management platforms",
-      "Ensured deployability and operability of platforms and data solutions in a **highly repeatable and predictable** manner",
-      "Provided support to engineers and developers contributing to the Networking portal"
+      "Delivered a network automation portal and self-service onboarding that reduced device onboarding time and improved operational response during incidents.",
+      "Implemented local development parity and delivery tooling to mirror higher environments, reducing environment-related failures in CI/CD.",
+      "Documented data models, runbooks, and automation patterns to make network deployments highly repeatable and auditable."
     ]
   },
   {
@@ -134,9 +96,9 @@
       "Planned, created, and documented processes for new platforms",
       "Evaluated and rectified the integrity of existing systems",
       "Maintained and administered multiple platforms including products from Riverbed, CA Technologies, Infoblox, and Gigamon",
-      "Managed intricate **network data mapping** through Gigamon appliances to duplicate data to network capture and security appliances",
+      "Managed intricate network data mapping through Gigamon appliances to duplicate data to network capture and security appliances",
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
-      "Created new network device collection scripts using **Perl** for H3C, an unsupported vendor, within **CA Spectrum**"
+      "Created new network device collection scripts using Perl for H3C, an unsupported vendor, within CA Spectrum"
     ]
   },
   {
@@ -150,9 +112,9 @@
       "Installed data monitoring and collection equipment according to diagrams and run-books provided by architect",
       "Developed and documented processes for existing platforms",
       "Managed and oversaw multiple platforms, including Riverbed and CA Technologies products",
-      "Automated categorization and summarization of **network routes and subnets** for troubleshooting solutions",
+      "Automated categorization and summarization of network routes and subnets for troubleshooting solutions",
       "Resolved network and network device issues related to routing and administration",
-      "Designed and implemented an extensive solution for device in-sourcing using SSH and later transitioned to **SNMP for increased reliability**",
+      "Designed and implemented an extensive solution for device in-sourcing using SSH and later transitioned to SNMP for increased reliability",
       "Enhanced existing tooling to communicate with unsupported Comware H3C devices",
       "Collaborated with platform administrators and engineering teams to implement and validate solutions."
     ]
@@ -163,14 +125,14 @@
     "title": "Associate IT Infrastructure Engineer (ADEPT)",
     "employment_date": "June 2014 - June 2016",
     "print_description_only": true,
-    "description": "The **American Airlines Development Program for Technology (ADEPT)** is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
+    "description": "The ADEPT college recruiting program to develop technical talent for IT.",
     "bullets": [
       "Configured, installed, and deployed a variety of network devices and services to ensure optimal network functionality",
       "Maintained comprehensive technical documentation to track network configurations and changes",
       "Resolved escalated networking issues in a timely and efficient manner",
       "Conducted regular network maintenance and performed system upgrades as needed",
       "Led the planning and integration of legacy carrier networks",
-      "Achieved **Cisco Certified Network Associate (CCNA)** certification through participation in Cisco Bootcamp training"
+      "Achieved Cisco Certified Network Associate (CCNA) certification through participation in Cisco Bootcamp training"
     ]
   },
   {
@@ -181,7 +143,7 @@
     "employment_date": "July 2012 - June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
-      "Crafted of performance metric reports using **SQL Server Reporting Services** (SSRS) and **SQL Server Integration Services** (SSIS) for executive staff",
+      "Crafted performance metric reports using SQL Server Reporting Services and SQL Server Integration Services for executive staff",
       "Conducted system performance and capacity planning analysis",
       "Documented and troubleshooted complex processes within the system",
       "Collaborated with software vendors and internal development staff to address and resolve issues",
