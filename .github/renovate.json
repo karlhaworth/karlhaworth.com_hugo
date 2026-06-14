@@ -1,6 +1,5 @@
 {
   "extends": ["config:base"],
-  "schedule": ["weekly"],
   "regexManagers": [
     {
       "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
