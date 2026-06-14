@@ -1,5 +1,6 @@
 {
   "extends": ["config:base"],
+  "enabledManagers": ["gomod", "npm", "github-actions"],
   "regexManagers": [
     {
       "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
@@ -14,6 +15,16 @@
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["peaceiris/actions-hugo"],
       "enabled": true
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchPaths": ["^go.mod$"],
+      "schedule": ["daily"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPaths": ["^package.json$", "^themes/karlhaworth-com/package.json$"],
+      "schedule": ["daily"]
     }
   ]
 }
