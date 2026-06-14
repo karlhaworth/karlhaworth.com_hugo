@@ -17,7 +17,11 @@
     },
     {
       "matchManagers": ["gomod"],
-      "matchPaths": ["^go.mod$"]
+      "matchPaths": ["**/go.mod"],
+      "postUpgradeTasks": {
+        "commands": ["go mod tidy"],
+        "fileFilters": ["**/go.mod"]
+      }
     }
   ]
 }
