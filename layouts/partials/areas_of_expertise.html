@@ -1,0 +1,26 @@
+{{ $areasOfExpertise := hugo.Data.areas_of_expertise }}
+
+<section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1">
+    <h5 id="areas_of_expertise">Areas of Expertise</h5>
+    <div class="col-span-5 areas_of_expertise_bullets print:text-[11px]">
+        {{ $n := len $areasOfExpertise }}
+        {{ $mid := div (add $n 1) 2 }}
+        {{ $left := first $mid $areasOfExpertise }}
+        {{ $right := after $mid $areasOfExpertise }}
+
+        <div class="grid grid-cols-2 gap-x-6 gap-y-2">
+            <ul class="list-disc pl-5 mb-0">
+                {{- range $left }}
+                    <li class="mb-1">{{ . }}</li>
+                {{- end }}
+            </ul>
+            <ul class="list-disc pl-5 mb-0">
+                {{- range $right }}
+                    <li class="mb-1">{{ . }}</li>
+                {{- end }}
+            </ul>
+        </div>
+    </div>
+</section>
+
+<hr />
