@@ -13,7 +13,6 @@
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
-      "matchPackageNames": ["peaceiris/actions-hugo"],
       "enabled": true
     },
     {
