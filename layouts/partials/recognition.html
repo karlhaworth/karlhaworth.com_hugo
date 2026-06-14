@@ -1,55 +1,57 @@
 {{ $recognition := hugo.Data.notable_recognition }}
 
-<section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1 print:text-[11px]">
-    <h5 id="notableRecognition">Recognition</h5>
-    <div class="col-span-5">
-        {{ range $index, $element := $recognition }}
-            {{ if eq (add $index 1) (4) }}
-                <div class="hidden">
-            {{end}}
-                <div class="block">
-                    <div class="grid">
-                        <div class="col-md-12">
-                            {{ $element.comments }}
+<div class="print:hidden">
+    <section class="grid md:grid-cols-6 print:grid-cols-6 grid-cols-1 print:text-[11px]">
+        <h5 id="notableRecognition">Recognition</h5>
+        <div class="col-span-5">
+            {{ range $index, $element := $recognition }}
+                {{ if eq (add $index 1) (4) }}
+                    <div class="hidden">
+                {{end}}
+                    <div class="block">
+                        <div class="grid">
+                            <div class="col-md-12">
+                                {{ $element.comments }}
+                            </div>
+                        </div>
+                        <div class="grid sm:grid-cols-4 print:grid-cols-4 grid-cols-1 pb-2">
+                            <div class="col-span-3">
+                                <i>
+                                    -
+                                    {{ $element.role }}</i>
+                            </div>
+                            <div class="text-right">
+                                <span class="bg-[#6c757d] text-white rounded_print rounded-md whitespace-nowrap">{{ $element.date }}</span >
+                            </div>
                         </div>
                     </div>
-                    <div class="grid sm:grid-cols-4 print:grid-cols-4 grid-cols-1 pb-2">
-                        <div class="col-span-3">
-                            <i>
-                                -
-                                {{ $element.role }}</i>
-                        </div>
-                        <div class="text-right">
-                            <span class="bg-[#6c757d] text-white rounded_print rounded-md whitespace-nowrap">{{ $element.date }}</span >
-                        </div>
+                {{ if eq (add $index 1) (len $recognition) }}
                     </div>
-                </div>
-            {{ if eq (add $index 1) (len $recognition) }}
-                </div>
+                {{ end }}
             {{ end }}
-        {{ end }}
-        <button type="button" class="collapsible print:hidden">Show More +</button>
-    </div>
-</section>
+            <button type="button" class="collapsible print:hidden">Show More +</button>
+        </div>
+    </section>
 
-<hr />
+    <hr />
 
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.previousElementSibling
-        console.log(content)
-        if (content.style.display === "block") {
-          content.style.display = "none";
-          coll[0].innerHTML = "Show More +"
-        } else {
-          content.style.display = "block";
-          coll[0].innerHTML = "Show Less -"
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.previousElementSibling
+            console.log(content)
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            coll[0].innerHTML = "Show More +"
+            } else {
+            content.style.display = "block";
+            coll[0].innerHTML = "Show Less -"
+            }
+        });
         }
-      });
-    }
-</script>
+    </script>
+</div>
