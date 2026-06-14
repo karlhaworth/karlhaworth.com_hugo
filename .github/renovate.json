@@ -18,13 +18,7 @@
     },
     {
       "matchManagers": ["gomod"],
-      "matchPaths": ["^go.mod$"],
-      "schedule": ["daily"]
-    },
-    {
-      "matchManagers": ["npm"],
-      "matchPaths": ["^package.json$", "^themes/karlhaworth-com/package.json$"],
-      "schedule": ["daily"]
+      "matchPaths": ["^go.mod$"]
     }
   ]
 }
