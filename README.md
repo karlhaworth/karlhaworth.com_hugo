@@ -1,47 +1,49 @@
 # Project Overview
 
-This project allows a user to generate/build a resume (CV) PDF from website content and host a resume website put together from json files using Hugo. This reduces the duplication needed to keep a separate resume from website content updated. Sections can be hidden using certain key-value pairs. 
+A Hugo-based resume website that generates a printable PDF from site content using Go + go-rod. The site keeps resume data in JSON and reuses it for both the website and a PDF resume to avoid duplication.
 
-The resume PDF rebuilds each time there is a change and can used on a wide array of free static hosting providers such as GitHub Pages, CloudFlare Pages, Netlify, and more!
+Quick links:
+- Local serve: `make serve` (uses Procfile.dev)
+- Build for publish: `make build-all` (used by GitHub Actions)
 
-This project shifted from using provider runners for build to github actions as the software stack is a little more reliable and predictable. Using headless Chromium for resume pdf generation seemed to cause issues with CloudFlare runners. 
+Prerequisites
+- Go (>= 1.21): `brew install go` or from https://golang.org
+- Hugo: `brew install hugo` (ensure the version supports SCSS if using it)
+- Node.js (>=18) + npm or pnpm: for tailwind, svgo, svgtofont
+- Chrome/Chromium: required by go-rod for PDF generation
+- Foreman or goreman: used to run Procfile.dev (gem: `gem install foreman` or Go port: `go install github.com/mattn/goreman@latest`)
 
-There was a decision to keep the website as light as possible, therefore frameworks such as React were not utilized. Lightbox and jQuery only load on the pages they are utilized. 
+Recommended local setup
+1. Install system deps (example macOS):
+   brew install go hugo node
+   go install github.com/mattn/goreman@latest
+2. Install Node tooling (project-optional):
+   npm install -g svgo svgtofont  # or use npx as in Makefile
 
-## Resume Website for Karl Haworth using Hugo
+Serving locally
+- Use the Makefile (recommended):
+  make serve
+- Or run Procfile.dev directly with goreman/foreman:
+  goreman start -f Procfile.dev
+- To run Hugo-only server:
+  make hugo-serve
 
-Resume website for Karl Haworth using [Hugo](http://gohugo.io) as a static site generator (SSG) with [Tailwind](http://tailwindcss.com) and [Sass](https://sass-lang.com) for styling. [Go-Rod](http://go-rod.github.io) is used to create a PDF from the generated content which serves as a resume using print media styling. A makefile is used to simplify the commands needed to generate the content.
+Building for publishing
+- CI (GitHub Actions) runs the same steps as `make build-all` which:
+  - builds Tailwind CSS
+  - converts SVGs to fonts
+  - generates the site via Hugo
+  - produces a PDF via go-rod
 
-Using GitHub as a code repository and [CloudFlare Pages](https://pages.cloudflare.com) to build and host this website. ($0)
-Using [CloudFlare DNS](https://www.cloudflare.com/dns/). ($0)
-Using [CloudFlare Domains](https://www.cloudflare.com/products/registrar/) to purchase domain at cost. (~$8/yr)
+Notes & tips
+- PDF generation requires Chrome/Chromium available in CI or local machine — GitHub Actions is used to avoid flaky third-party runners.
+- Tailwind is built by the Makefile; you can also manage it via npm if you prefer (add package.json and devDependencies).
 
-### Intent
+Hosting (cheap)
+- Primary: Cloudflare Pages (free) — connect the GitHub repo and use the existing GitHub Actions or Pages' native build. Cloudflare Pages + Cloudflare DNS keeps hosting costs at $0.
+- Alternatives: GitHub Pages and Netlify both offer free static hosting and are compatible with this Hugo site.
+- Domain: Use Cloudflare Registrar (~$8/yr) or any registrar; point DNS to Cloudflare for free DNS management.
 
-For myself, this creates a marketable and favorable image during search results. The generation allows resume content to be intermingled with other content that might not be found elsewhere, while offering an easy print layout that serves as a resume.
+Cost summary: Hosting and DNS = $0 (Pages + Cloudflare DNS), Domain ≈ $8/yr (optional).
 
-The intent is to keep this simple to update and host as well as cheap to run.
-
-### Print styles produce PDF resume. Best printed in Chrome.
-
-### Local
-
-- Go - `brew install go`
-- Hugo - `brew install hugo`
-- Foreman - `brew install foreman`
-
-#### Serving Locally
-
-The below will run foreman to serve Hugo, build CSS, build PDF, and convert SVGs to fonts while watching files for changes.
-
-```bash
-make serve
-```
-
-### Building for Publishing
-
-This is performed in the GitHub Workflow and builds CSS, a PDF, converts SVGs, and builds using Hugo
-
-```bash
-make build-all
-```
+If any tooling preference should be added (npm/pnpm, goreman vs foreman), say which and the README will be adjusted.
