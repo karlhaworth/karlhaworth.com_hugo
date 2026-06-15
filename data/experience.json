@@ -76,7 +76,7 @@
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "Network Automation Engineer",
+    "title": "Automation Engineer — Networking",
     "employment_date": "June 2019 - June 2020",
     "description": "Designed network automation systems to improve onboarding and operational repeatability.",
     "bullets": [
@@ -88,7 +88,7 @@
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "Senior IT Infrastructure Engineer, Networking",
+    "title": "Senior IT Infrastructure Engineer — Networking",
     "employment_date": "January 2018 - June 2019",
     "print_description_only": true,
     "description": "Deployed, optimized, and developed engineering toolsets in the Enterprise Network Services department",
@@ -104,7 +104,7 @@
   {
     "company": "American Airlines",
     "icon": "kh-font-american-airlines",
-    "title": "IT Infrastructure Engineer, Networking",
+    "title": "IT Infrastructure Engineer — Networking",
     "employment_date": "June 2016 - January 2018",
     "print_description_only": true,
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
@@ -138,7 +138,7 @@
   {
     "company": "US Airways",
     "icon": "kh-font-us-airways",
-    "title": "Statistical Analyst Intern",
+    "title": "Statistical Analyst — Intern",
     "print_description_only": true,
     "employment_date": "July 2012 - June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
