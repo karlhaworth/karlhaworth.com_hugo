@@ -10,6 +10,9 @@
       "versioningTemplate": "semver"
     }
   ],
+  "allowedCommands": [
+    "^go mod tidy$"
+  ],
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
