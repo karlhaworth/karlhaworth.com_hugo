@@ -2,7 +2,7 @@ module karlhaworth.com/m
 
 go 1.21
 
-toolchain go1.27.1
+toolchain go1.27.2
 
 require (
 	github.com/go-rod/rod v0.116.2
