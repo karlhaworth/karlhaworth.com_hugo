@@ -15,6 +15,7 @@ jobs:
         uses: renovatebot/github-action@v46.3.8
         env:
           RENOVATE_REPOSITORIES: ${{ github.repository }}
+          RENOVATE_ALLOWED_COMMANDS: '["^go mod tidy$"]'
           LOG_LEVEL: 'debug'
         with:
           token: ${{ secrets.RENOVATE }}
